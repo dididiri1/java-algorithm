@@ -20,9 +20,14 @@ public class Ex01 {
         str = str.toLowerCase();
         t = Character.toLowerCase(t);
 
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == t) {
-                answer ++;
+//        for (int i = 0; i < str.length(); i++) {
+//            if (str.charAt(i) == t) {
+//                answer ++;
+//            }
+//        }
+        for (char c : str.toCharArray()) {
+            if (c == t) {
+                answer++;
             }
         }
 
