@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Main {
+class Ex03 {
 
     /*
       3. 문장 속 단어
@@ -26,12 +26,12 @@ class Main {
         String answer= "";
 
         String[] strArray = str.split("\\s");
-
         int m = Integer.MAX_VALUE;
         for (String s : strArray) {
             System.out.println("s = " + s);
 
             int len = s.length();
+
             if (len > m) {
                 m = len;
                 answer = s;
@@ -68,7 +68,7 @@ class Main {
 //    }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex03 T = new Ex03();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine(); //우선 next의 경우 공백문자를 받아들일 수가 없다.
         System.out.println(T.solution(str));
