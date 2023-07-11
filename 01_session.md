@@ -14,7 +14,7 @@ char c = kb.next().charAt(0);
 ``` 
 
 ### 향상된 for문 & toCharArray
-- String(문자열)을 char형 배열로 바꾼다.
+- String(문자열)을 char(문자)형 배열로 바꾼다.
 ``` java
 for (char c : str.toCharArray()) {
     if (c == t) {
@@ -34,3 +34,22 @@ System.out.println("str.toLowerCase() = " + str.toLowerCase());
 System.out.println("str.toUpperCase() = " + str.toUpperCase());
 
 ```
+
+## 2. 대소문자 변환
+
+### 대소문자 구분 클래스
+``` java
+public String solution(String str) {
+    String answer= "";
+    
+    for (char c : str.toCharArray()) {
+        if (Character.isUpperCase(c)) { // 대문자이면.
+            answer += Character.toLowerCase(c);
+        } else {
+            answer += Character.toUpperCase(c);
+        }
+    }
+    
+    return answer;
+}
+``` 
