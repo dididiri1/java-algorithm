@@ -113,6 +113,45 @@ public String solution(String str) {
 ### Character.isAlphabetic() (이즈 알파 베틱)
 - isAlphabetic()은 char 값이 문자 인지 여부를 판단 boolean 값 리턴
 ``` java
+class Main {
+
+    public String solution(String str) {
+        String answer = "";
+        char[] s = str.toCharArray();
+        int lt = 0, rt = s.length - 1;
+
+        while (lt < rt) {
+            if (!Character.isAlphabetic(s[lt])) {
+                lt++;
+            } else if(!Character.isAlphabetic(s[rt])) {
+                rt--;
+            } else {
+                char tmp = s[lt];
+                s[lt] = s[rt];
+                s[rt] = tmp;
+                lt ++;
+                rt --;
+            }
+        }
+
+        answer = String.valueOf(s);
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+
+        System.out.println(T.solution(str));
+    }
+}
+
+```
+
+#### 예시
+``` java
 public static void main(String[] args) {
 
     System.out.println(Character.isAlphabetic('a'));  // true
@@ -125,3 +164,106 @@ public static void main(String[] args) {
 }
 ``` 
 
+## 6. 중복문자제거
+
+### indexOf()
+- 특정 문자나 문자열이 앞에서부터 처음 부터 발견괴는 인덱스를 반환함.
+- 찾지 못햇을 경우 -1 
+``` java
+class Main {
+
+    public String solution(String str) {
+        String answer = "";
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.indexOf(str.charAt(i)) == i) {
+                answer += str.charAt(i);
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.println(T.solution(str));
+    }
+}
+``` 
+
+
+#### 예시
+``` java
+public static void main(String[] args) {
+
+    String str = "Hello world";
+    
+    System.out.println(str.indexOf("o")); //4
+    System.out.println(str.indexOf("a")); //-1
+    System.out.println(str.indexOf("w")); //6
+    
+}
+``` 
+
+## 7. 회문문자열
+
+### StringBuilder reverse()
+- 문자열 뒤집어서 원래 문자열과 비교
+``` java
+class Main {
+    
+    public String solution(String str) {
+        String answer = "YES";
+        String tmp = new StringBuilder(str).reverse().toString();
+        if (str.equalsIgnoreCase(tmp)) { // equalsIgnoreCase() 사용 대소문자 구분 안함.
+            answer = "NO";
+        }
+
+        return answer;
+    }
+    
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.println(T.solution(str));
+
+    }
+}
+``` 
+
+### 좌우 대칭 Index 계산
+``` java
+class Main2 {
+    
+    public String solution(String str) {
+        String answer = "YES";
+
+        str = str.toUpperCase();
+        int len = str.length();
+
+        for (int i = 0; i < len; i++) {
+            if (str.charAt(i) != str.charAt(len-i-1)) {
+                answer = "NO";
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main2 T = new Main2();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.println(T.solution(str));
+
+    }
+}
+```
+#### 결과
+``` java
+gooG
+YES
+```
