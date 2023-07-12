@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="대소문자 구분 클래스 학습 추가 2번 문제">
-      <change afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex03.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_session.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_session.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" afterDir="false" />
@@ -41,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kangmin/study/java-algorithm&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/kangmin/study/java-algorithm",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -68,7 +69,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex03">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex01" />
       <module name="ex01" />
@@ -99,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex03" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ex03" />
         <item itemvalue="Application.Ex02" />
         <item itemvalue="Application.Ex01" />
       </list>
@@ -116,7 +117,8 @@
       <updated>1688969355192</updated>
       <workItem from="1688969356264" duration="2297000" />
       <workItem from="1689041621388" duration="274000" />
-      <workItem from="1689041912012" duration="6817000" />
+      <workItem from="1689041912012" duration="10925000" />
+      <workItem from="1689127526876" duration="4000000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689045452271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가">
+      <created>1689050169152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689050169152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +158,11 @@
     <MESSAGE value="1. 문차 찾기 알고리즘 문제 추가" />
     <MESSAGE value="1. Scanner 클래스의 특징, 향상된 for문 &amp; toCharArray, 대소문자 변환 추가" />
     <MESSAGE value="대소문자 구분 클래스 학습 추가 2번 문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="대소문자 구분 클래스 학습 추가 2번 문제" />
+    <MESSAGE value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

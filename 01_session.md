@@ -92,3 +92,36 @@ s = time
 s = to
 s = study
 ```
+
+## 4. 단어 뒤집기(StringBuilder이용법 또는 직접뒤집기)
+
+### reverse()
+- java.lang.StringBuffer 클래스의 reverse() 메소드를 사용할 수 있다.
+``` java
+public String solution(String str) {
+
+    String answer = "";
+    StringBuffer stringBuffer = new StringBuffer(str);
+    answer = stringBuffer.reverse().toString();
+    
+    return answer;
+}
+``` 
+
+## 5. 특정 문자 뒤집기(toCharArray())
+
+### Character.isAlphabetic() (이즈 알파 베틱)
+- isAlphabetic()은 char 값이 문자 인지 여부를 판단 boolean 값 리턴
+``` java
+public static void main(String[] args) {
+
+    System.out.println(Character.isAlphabetic('a'));  // true
+    System.out.println(Character.isAlphabetic('!'));  // false
+    System.out.println(Character.isAlphabetic('ㄱ'));  // true
+    System.out.println(Character.isAlphabetic('가')); // true
+    System.out.println(Character.isAlphabetic('7')); // false
+    System.out.println(Character.isAlphabetic('B')); // true
+    
+}
+``` 
+
