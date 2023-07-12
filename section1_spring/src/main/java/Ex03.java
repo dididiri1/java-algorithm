@@ -25,7 +25,7 @@ class Ex03 {
     public String solution(String str) {
         String answer= "";
 
-        String[] strArray = str.split("\\s");
+        String[] strArray = str.split(" ");
         int m = Integer.MAX_VALUE;
         for (String s : strArray) {
             System.out.println("s = " + s);

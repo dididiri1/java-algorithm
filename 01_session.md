@@ -2,15 +2,35 @@
 
 ## 1. 문자 찾기
 
-![](https://github.com/dididiri1/data-jpa/blob/main/study/images/01_01.png?raw=true)
-
 ### Scanner 문자 입력받기
 - Scanner를 이용하여 char형 변수를 직접 입력받을 수 없다.
 - char c = kb.next().charAt(0);
 ``` java
-Scanner kb = new Scanner(System.in);
-String str = kb.next();
-char c = kb.next().charAt(0);
+public class Main {
+
+    public int solution(String str, char t) {
+        int answer = 0;
+        str = str.toLowerCase();
+        t = Character.toLowerCase(t);
+
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == t) {
+               answer ++;
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        char c = kb.next().charAt(0);
+        System.out.println(T.solution(str, c));
+    }
+}
+
 ``` 
 
 ### 향상된 for문 & toCharArray
@@ -27,31 +47,47 @@ for (char c : str.toCharArray()) {
 - toLowerCase() 소문자 변환
 - toUpperCase() 대문자 변환
 ``` java
-
 String str = "computercooler"
 
-System.out.println("str.toLowerCase() = " + str.toLowerCase());
-System.out.println("str.toUpperCase() = " + str.toUpperCase());
+System.out.println("str.toLowerCase() = " + str.toLowerCase()); // computercooler
+System.out.println("str.toUpperCase() = " + str.toUpperCase()); // COMPUTERCOOLER
 
 ```
 
 ## 2. 대소문자 변환
 
-### 대소문자 구분 클래스
+### Character.toUpperCase(), Character.isUpperCase()
+- 입력 받은 인자가 영문 대문자 인지 소문자 인지 여부를 판단하여 **true** 또는 **false**값을 리턴 한다.
 ``` java
-public String solution(String str) {
-    String answer= "";
+public class Main {
+    public String solution(String str) {
+            String answer= "";
     
-    for (char c : str.toCharArray()) {
-        if (Character.isUpperCase(c)) { // 대문자이면.
-            answer += Character.toLowerCase(c);
-        } else {
-            answer += Character.toUpperCase(c);
+            for (char c : str.toCharArray()) {
+                if (Character.isUpperCase(c)) { 
+                    answer += Character.toLowerCase(c);
+                } else {
+                    answer += Character.toUpperCase(c);
+                }
+            }
+    
+            return answer;
+        }
+    
+        public static void main(String[] args) {
+            Main T = new Main();
+            Scanner kb = new Scanner(System.in);
+            String str = kb.next();
+            System.out.println(T.solution(str));
         }
     }
-    
-    return answer;
 }
+``` 
+
+- ASCII
+``` log
+대문자(A-Z) : 65 - 90
+소문자(a-z) : 97 - 122
 ``` 
 
 ## 3. 문장 속 단어(indexOf(), substring())
@@ -60,49 +96,114 @@ public String solution(String str) {
 - next의 경우 공백문자를 받아들일 수가 없다.
 - 공백 포함 한줄 입력 받기
 ``` java
-public static void main(String[] args) {
-    Ex03 T = new Ex03();
-    Scanner kb = new Scanner(System.in);
-    String str = kb.nextLine(); 
-    System.out.println(T.solution(str));
-}
+Scanner kb = new Scanner(System.in);
+String str = kb.nextLine(); 
 ``` 
+
+### substring()
+- 문자열을 자르는 함수.
+
+
 ### indexOf() 
 - 특정 문자 위치 찾기 
 - indexOf() 는 특정 문자나 문자열이 앞에서부터 처음 발견되는 인덱스를 반환하며 만약 찾지 못했을 경우 "-1"을 반환 함.
-
-### indexOf() 
-- 문자열을 특정 구분자를 기준으로 나누어 배열로 리턴해줌.
-
 ``` java
-String str = "it is time to study"
-String[] strArray = str.split("\\s");
+public String solution(String str) { // indexOf
+    String answer = "";
+    int m = Integer.MAX_VALUE, pos;
+    
+    while ((pos = str.indexOf(' ')) != -1) {
+        String tmp = str.substring(0, pos);
+        int len = tmp.length();
+        if (len > m) {
+            m = len;
+            answer = tmp;
+        }       
+        str = str.substring(pos+1);
+    }
+    
+    if(str.length() > m) {
+        answer = str;
+    }
 
-for (String s : strArray) {
-    System.out.println("s = " + s);
+    return answer;
 }
-
 ``` 
 
-#### 결과
+### split() 
+- 문자열을 특정 구분자를 기준으로 나누어 String 배열로 리턴해줌.
 ``` java
-s = it
-s = is
-s = time
-s = to
-s = study
+public String solution(String str) {
+    String answer= "";
+    String[] strArray = str.split(" ");
+    int m = Integer.MAX_VALUE;
+    
+    for (String s : strArray) {
+        int len = s.length();
+        if (len > m) {
+            m = len;
+            answer = s;
+        }
+    }
+    
+    return answer;
+}
 ```
 
 ## 4. 단어 뒤집기(StringBuilder이용법 또는 직접뒤집기)
 
-### reverse()
+### reverse() - 문자 뒤집기
 - java.lang.StringBuffer 클래스의 reverse() 메소드를 사용할 수 있다.
 ``` java
-public String solution(String str) {
 
-    String answer = "";
-    StringBuffer stringBuffer = new StringBuffer(str);
-    answer = stringBuffer.reverse().toString();
+class Main {
+
+    public ArrayList<String> solution(int n, String[] str) {
+        ArrayList<String> answer = new ArrayList<>();
+        for (String s : str) {
+            String tmp = new StringBuilder(s).reverse().toString();
+            answer.add(tmp);
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+
+        String[] str = new String[n];
+        for (int i = 0; i < n; i++) {
+            str[i] = kb.next();
+        }
+
+        for (String x : T.solution(n, str)) {
+            System.out.println(x);
+        }
+    }
+}
+
+``` 
+### 리버스 직접 구
+``` java
+public ArrayList<String> solution(int n, String[] str) {
+    ArrayList<String> answer = new ArrayList<>();
+    
+    for (String x : str) {
+        char[] s = x.toCharArray();
+        
+        int lt = 0, rt = s.length - 1;
+        while (lt < rt) {
+            char tmp = s[lt];
+            s[lt] = s[rt];
+            s[rt] = tmp;
+            lt ++;
+            rt --;
+        }
+        String tmp = String.valueOf(s);
+        answer.add(tmp);
+    }
     
     return answer;
 }
@@ -162,7 +263,7 @@ public static void main(String[] args) {
     System.out.println(Character.isAlphabetic('B')); // true
     
 }
-``` 
+```
 
 ## 6. 중복문자제거
 
@@ -197,7 +298,6 @@ class Main {
 #### 예시
 ``` java
 public static void main(String[] args) {
-
     String str = "Hello world";
     
     System.out.println(str.indexOf("o")); //4
@@ -236,7 +336,7 @@ class Main {
 
 ### 좌우 대칭 Index 계산
 ``` java
-class Main2 {
+class Main {
     
     public String solution(String str) {
         String answer = "YES";
@@ -244,7 +344,7 @@ class Main2 {
         str = str.toUpperCase();
         int len = str.length();
 
-        for (int i = 0; i < len; i++) {
+        for (int i = 0; i < len/2; i++) {
             if (str.charAt(i) != str.charAt(len-i-1)) {
                 answer = "NO";
             }
@@ -254,7 +354,7 @@ class Main2 {
     }
 
     public static void main(String[] args) {
-        Main2 T = new Main2();
+        Main T = new Main();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
