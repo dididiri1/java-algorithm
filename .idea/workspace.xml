@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="7. 회문문자열 문제 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_session.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_session.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex07.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex07.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가">
       <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +126,7 @@
       <workItem from="1689127526876" duration="9281000" />
       <workItem from="1689140596242" duration="10000" />
       <workItem from="1689145671504" duration="1357000" />
-      <workItem from="1689239207555" duration="2068000" />
+      <workItem from="1689239207555" duration="2412000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -176,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689137976158</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가">
+      <created>1689241285440</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689241285440</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +190,8 @@
     <MESSAGE value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
     <MESSAGE value="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가" />
     <MESSAGE value="7. 회문문자열 문제 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. 회문문자열 문제 풀이 추가" />
+    <MESSAGE value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
