@@ -367,3 +367,37 @@ class Main {
 gooG
 YES
 ```
+
+## 8. 팰린드롬(replaceAll 정규식이용)
+### replace와 replaceAll 차이 
+- 대상 문자열을 원하는 문자 값으로 변환하는 함수이다.
+- 첫번쩨 매개변수는 변환하고자 하는 대상이 될 문자열
+- 두번째 매개변수는 변활할 문자 값
+- replaceAll는 replace의 기능 외에 + 졍규표현식을 사용할 수 있다.
+``` java
+class Main {
+
+    public String solution(String str) {
+        
+        String answer = "YES";
+        str = str.toUpperCase().replaceAll("[^A-Z]", "");
+
+        int len = str.length();
+
+        for (int i = 0; i < len/2; i++) {
+            if(str.charAt(i) != str.charAt(len-i-1)) {
+                answer = "NO";
+            }
+        }
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.nextLine();
+        System.out.println(T.solution(str));
+
+    }
+}
+``` 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Ex08 {
 
     /*
       8. 유효한 팰린드롬
@@ -45,7 +45,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex08 T = new Ex08();
         Scanner kb = new Scanner(System.in);
         String str = kb.nextLine();
         System.out.println(T.solution(str));
