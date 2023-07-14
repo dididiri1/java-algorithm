@@ -401,3 +401,52 @@ class Main {
     }
 }
 ``` 
+
+## 9. 숫자만 추출
+
+### 1) 아스키 코드 풀이
+- 0~9 는 ASCII 코드로 48~57 이다.
+``` java
+class Main {
+
+    public int solution(String str) {
+        int answer = 0;
+
+        for (char x : str.toCharArray()) {
+            if (x >= 48 && x <= 57) {
+                answer = answer * 10 + (x - 48);
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.nextLine();
+        System.out.println(T.solution(str));
+
+    }
+}
+
+``` 
+
+### 2) Character.isDitigt(), Integer.parseInt() 사용
+- isDitigt() 함수는 명시된 char 값이 숫자 인지 여부를 판단하여 **true** 또는 false 값으로 리턴 한다.
+``` java
+public int solution(String str) {
+    int answer = 0;
+    for (char x : str.toCharArray()) {
+        if (Character.isDigit(x)) {
+            answer += x;
+        }
+    }
+    return Integer.valueOf(answer);
+}
+``` 
+
+> 참고: valueOf() 와 parseInt() 의 차이점
+> Integer.valueOf("10") 은 Integer 타입으로 반환한하고,
+> Integer.parseInt("10") 은 int 타입으로 반환한다.
+
