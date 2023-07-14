@@ -251,7 +251,7 @@ class Main {
 
 ```
 
-#### 예시
+#### 사용 예시
 ``` java
 public static void main(String[] args) {
 
