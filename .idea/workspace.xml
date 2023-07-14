@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="9. 숫자만 추출 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex09.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Ex10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_session.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_session.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" afterDir="false" />
@@ -75,13 +77,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex01" />
-      <module name="ex01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex02" />
       <module name="ex01" />
@@ -103,6 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex10" />
+      <module name="ex01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ex01" />
@@ -113,10 +115,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ex10" />
         <item itemvalue="Application.Ex06" />
         <item itemvalue="Application.Ex03" />
         <item itemvalue="Application.Ex02" />
-        <item itemvalue="Application.Ex01" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689241285440</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="9. 숫자만 추출 알고리즘 풀이 추가">
+      <created>1689301492925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1689301492925</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +208,8 @@
     <MESSAGE value="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가" />
     <MESSAGE value="7. 회문문자열 문제 풀이 추가" />
     <MESSAGE value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
+    <MESSAGE value="9. 숫자만 추출 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. 숫자만 추출 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

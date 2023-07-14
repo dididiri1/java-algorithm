@@ -6,6 +6,8 @@
 - Scanner를 이용하여 char형 변수를 직접 입력받을 수 없다.
 - char c = kb.next().charAt(0);
 ``` java
+import java.util.Scanner;
+
 public class Main {
 
     public int solution(String str, char t) {
@@ -59,6 +61,8 @@ System.out.println("str.toUpperCase() = " + str.toUpperCase()); // COMPUTERCOOLE
 ### Character.toUpperCase(), Character.isUpperCase()
 - 입력 받은 인자가 영문 대문자 인지 소문자 인지 여부를 판단하여 **true** 또는 **false**값을 리턴 한다.
 ``` java
+import java.util.Scanner;
+
 public class Main {
     public String solution(String str) {
             String answer= "";
@@ -155,6 +159,7 @@ public String solution(String str) {
 ### reverse() - 문자 뒤집기
 - java.lang.StringBuffer 클래스의 reverse() 메소드를 사용할 수 있다.
 ``` java
+import java.util.Scanner;
 
 class Main {
 
@@ -214,6 +219,8 @@ public ArrayList<String> solution(int n, String[] str) {
 ### Character.isAlphabetic() (이즈 알파 베틱)
 - isAlphabetic()은 char 값이 문자 인지 여부를 판단 boolean 값 리턴
 ``` java
+import java.util.Scanner;
+
 class Main {
 
     public String solution(String str) {
@@ -271,6 +278,8 @@ public static void main(String[] args) {
 - 특정 문자나 문자열이 앞에서부터 처음 부터 발견괴는 인덱스를 반환함.
 - 찾지 못햇을 경우 -1 
 ``` java
+import java.util.Scanner;
+
 class Main {
 
     public String solution(String str) {
@@ -312,6 +321,8 @@ public static void main(String[] args) {
 ### StringBuilder reverse()
 - 문자열 뒤집어서 원래 문자열과 비교
 ``` java
+import java.util.Scanner;
+
 class Main {
     
     public String solution(String str) {
@@ -336,6 +347,8 @@ class Main {
 
 ### 좌우 대칭 Index 계산
 ``` java
+import java.util.Scanner;
+
 class Main {
     
     public String solution(String str) {
@@ -375,6 +388,8 @@ YES
 - 두번째 매개변수는 변활할 문자 값
 - replaceAll는 replace의 기능 외에 + 졍규표현식을 사용할 수 있다.
 ``` java
+import java.util.Scanner;
+
 class Main {
 
     public String solution(String str) {
@@ -407,6 +422,8 @@ class Main {
 ### 1) 아스키 코드 풀이
 - 0~9 는 ASCII 코드로 48~57 이다.
 ``` java
+import java.util.Scanner;
+
 class Main {
 
     public int solution(String str) {
@@ -450,3 +467,134 @@ public int solution(String str) {
 > Integer.valueOf("10") 은 Integer 타입으로 반환한하고,
 > Integer.parseInt("10") 은 int 타입으로 반환한다.
 
+## 10. 가장 짧은 문자거리
+> **설명**  
+> 한 개의 문자열 s와 문자 t가 주어지면 문자열 s의 각 문자가 문자 t와 떨어진 최소거리를 출력하는 프로그램을 작성하세요.
+> 
+> **입력**      
+> 첫 번째 줄에 문자열 s와 문자 t가 주어진다. 문자열과 문자는 소문자로만 주어집니다.
+> 
+> 문자열의 길이는 100을 넘지 않는다.
+> 
+> **출력**  
+> 첫 번째 줄에 각 문자열 s의 각 문자가 문자 t와 떨어진 거리를 순서대로 출력한다.
+
+#### 예시 입력 1
+```
+teachermode e
+```
+#### 예시 출력 1
+```
+1 0 1 2 1 0 1 2 2 1 0
+```
+### 풀이
+``` java
+import java.util.Scanner;
+
+class Main {
+
+    public int[] solution(String s, char t) {
+        int[] answer = new int[s.length()];
+        
+        int p = 1000;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == t) {
+                p = 0;
+                answer[i] = p;
+            } else {
+                p ++;
+                answer[i] = p;
+            }
+        }
+
+        for (int i = s.length()-1; i >= 0; i--) {
+            if (s.charAt(i) == t) {
+                p = 0;
+            } else {
+                p ++;
+                answer[i] = Math.min(answer[i], p);
+            }
+        }
+
+        return answer;
+    }
+
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        char c = kb.next().charAt(0);
+        for (int x : T.solution(str, c)) {
+            System.out.println(x+" ");
+        }
+
+    }
+}
+```
+
+## 11. 문자열 압축
+### 설명
+알파벳 대문자로 이루어진 문자열을 입력받아 같은 문자가 연속으로 반복되는 경우 반복되는
+
+문자 바로 오른쪽에 반복 횟수를 표기하는 방법으로 문자열을 압축하는 프로그램을 작성하시오.
+
+단 반복횟수가 1인 경우 생략합니다.
+
+### 입력
+첫 줄에 문자열이 주어진다. 문자열의 길이는 100을 넘지 않는다.
+
+### 출력
+첫 줄에 압축된 문자열을 출력한다.
+
+#### 예시 입력 1
+```
+KKHSSSSSSSE
+```
+#### 예시 출력 1
+```
+K2HS7E
+```  
+
+#### 예시 입력 2
+```
+KSTTTSEEKFKKKDJJGG
+```
+#### 예시 출력 2
+```
+KST3SE2KFK3DJ2G2
+```  
+
+### 풀이
+``` java
+import java.util.Scanner;
+
+class Main {
+
+    public String solution(String s) {
+        String answer = "";
+        s = s + " ";
+        int cnt = 1;
+        for (int i = 0; i < s.length()-1; i++) {
+            if (s.charAt(i) == s.charAt(i+1)) {
+                cnt ++;
+            } else {
+                answer += s.charAt(i);
+                if (cnt > 1) {
+                    answer += String.valueOf(cnt);
+                }
+                cnt = 1;
+            }
+        }
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.println(T.solution(str));
+    }
+}
+
+``` 
