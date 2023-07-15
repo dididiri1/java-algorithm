@@ -1,9 +1,9 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 class Main {
-    public int solution(int n, int[] arr) {
-        int answer = 1, max = arr[0];
-
+    public ArrayList<Integer> solution(int n, int[] arr) {
+        ArrayList<Integer> answer = new ArrayList<>();
 
         return answer;
     }
