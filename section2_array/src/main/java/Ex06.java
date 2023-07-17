@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-class Main {
+class Ex06 {
 
     public boolean isPrime(int num) {
         for (int i = 2; i < num; i++) {
@@ -35,7 +35,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex06 T = new Ex06();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];

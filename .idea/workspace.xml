@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 가위바위보 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex05.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
     </list>
@@ -80,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main3">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex04" />
       <module name="section2_array" />
@@ -118,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Main" />
       </list>
@@ -145,7 +142,7 @@
       <workItem from="1689317907654" duration="2863000" />
       <workItem from="1689387929188" duration="3312000" />
       <workItem from="1689391288594" duration="10504000" />
-      <workItem from="1689559028450" duration="1863000" />
+      <workItem from="1689559028450" duration="6107000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -245,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689393024068</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가">
+      <created>1689560940370</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689560940370</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +269,8 @@
     <MESSAGE value="1. 큰 수 출력하기 알고리즘 풀이 추가" />
     <MESSAGE value="2. 보이는 학생 알고리즘 풀이 추가" />
     <MESSAGE value="3. 가위바위보 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. 가위바위보 알고리즘 풀이 추가" />
+    <MESSAGE value="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
