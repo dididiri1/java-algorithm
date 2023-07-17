@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 큰 수 출력하기 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section2_array/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 가위바위보 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/01_spring.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/02_array.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +54,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kangmin/study/java-algorithm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kangmin/study/java-algorithm/study/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -73,40 +69,28 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$/section1_spring/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex02" />
-      <module name="ex01" />
+  <component name="RunManager" selected="Application.Main3">
+    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex04" />
+      <module name="section2_array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex03" />
-      <module name="ex01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex06" />
-      <module name="ex01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ex10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex10" />
-      <module name="ex01" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="section2_array" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,13 +102,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="section2_array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main3" />
+      <module name="section2_array" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Ex10" />
-        <item itemvalue="Application.Ex06" />
-        <item itemvalue="Application.Ex03" />
-        <item itemvalue="Application.Ex02" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +144,8 @@
       <workItem from="1689310607613" duration="706000" />
       <workItem from="1689317907654" duration="2863000" />
       <workItem from="1689387929188" duration="3312000" />
-      <workItem from="1689391288594" duration="1326000" />
+      <workItem from="1689391288594" duration="10504000" />
+      <workItem from="1689559028450" duration="1863000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -232,7 +231,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689390853183</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2. 보이는 학생 알고리즘 풀이 추가">
+      <created>1689392622901</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689392622901</updated>
+    </task>
+    <task id="LOCAL-00014" summary="3. 가위바위보 알고리즘 풀이 추가">
+      <created>1689393024068</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689393024068</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +263,9 @@
     <MESSAGE value="10. 문자거리, 11. 문자열 압축 알고리즘 풀이 추가" />
     <MESSAGE value="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가" />
     <MESSAGE value="1. 큰 수 출력하기 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 큰 수 출력하기 알고리즘 풀이 추가" />
+    <MESSAGE value="2. 보이는 학생 알고리즘 풀이 추가" />
+    <MESSAGE value="3. 가위바위보 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 가위바위보 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

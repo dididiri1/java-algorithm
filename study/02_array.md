@@ -123,7 +123,7 @@ A, B 두 사람이 가위바위보 게임을 합니다. 총 N번의 게임을 �
 
 예를 들어 N=5이면
 
-![](https://github.com/dididiri1/jpabook/blob/main/images/02_01.png?raw=true)
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/02_01.png?raw=true)
 
 
 두 사람의 각 회의 가위, 바위, 보 정보가 주어지면 각 회를 누가 이겼는지 출력하는 프로그램을 작성하세요.
@@ -151,4 +151,275 @@ B
 A
 B
 D
+```
+
+### 풀이
+``` java
+import java.util.Scanner;
+
+class Main {
+    public String solution(int n, int[] a, int[] b) {
+        String answer = "";
+
+        for (int i = 0; i < n; i++) {
+            if (a[i] == b[i]) {
+                answer += "D";
+            } else if(a[i] == 1 && b[i] == 3) {
+                answer += "A";
+            } else if(a[i] == 2 && b[i] == 1) {
+                answer += "A";
+            } else if(a[i] == 3 && b[i] == 2) {
+                answer += "A";
+            } else {
+                answer += "B";
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] a = new int[n];
+        int[] b = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            a[i] = kb.nextInt();
+        }
+        
+        for (int i = 0; i < n; i++) {
+            b[i] = kb.nextInt();
+        }
+
+        for(char x : T.solution(n, a, b).toCharArray()) {
+            System.out.println(x+" ");
+        }
+
+    }
+}
 ``` 
+
+## 4. 피보나치 수열
+### 설명
+1) 피보나키 수열을 출력한다. 피보나치 수열이란 앞의 2개의 수를 합하여 다음 숫자가 되는 수열이다.
+
+2) 입력은 피보나치 수열의 총 항의 수 이다. 만약 7이 입력되면 1 1 2 3 5 8 13을 출력하면 된다.
+
+### 입력
+첫 줄에 총 항수 N(3<=N<=45)이 입력된다.
+
+### 출력
+첫 줄에 피보나치 수열을 출력합니다.
+
+### 예시 입력 1
+``` 
+10
+``` 
+### 예시 출력 1
+``` 
+1 1 2 3 5 8 13 21 34 55
+``` 
+
+### 풀이
+``` java
+import java.util.Scanner;
+
+class Main {
+
+    public int[] solution(int n) {
+        int[] answer = new int[n];
+        answer[0] = 1;
+        answer[1] = 1;
+        for (int i = 2; i < n; i++) {
+            answer[i] = answer[i-2] + answer[i-1];
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+
+        for (int x : T.solution(n)) {
+            System.out.println(x+" ");
+        }
+    }
+}
+
+```
+
+### 풀이
+- 변수를 이용한 방법 
+``` java
+    public int[] solution(int n) {
+        int[] answer = new int[n];
+        int a= 1, b = 1, c;
+
+        for (int i = 0; i < n; i++) {
+            answer[i] = a;
+            c = a + b;
+            a = b;
+            a = c;
+        }
+
+        return answer;
+    }
+``` 
+
+## 5. 소수(에라토스테네스 체)
+- 에라토스체네스의 체는 가장 대표적인 **소수(Prime Number 판별 알고리즘**이다.
+
+### 설명
+자연수 N이 입력되면 1부터 N까지의 소수의 개수를 출력하는 프로그램을 작성하세요.
+
+만약 20이 입력되면 1부터 20까지의 소수는 2, 3, 5, 7, 11, 13, 17, 19로 총 8개입니다.
+
+### 입력
+첫 줄에 자연수의 개수 N(2<=N<=200,000)이 주어집니다.
+
+
+### 출력
+첫 줄에 소수의 개수를 출력합니다.
+
+### 예시 입력 1
+```
+20
+``` 
+### 예시 출력 1
+``` 
+8
+```
+
+### 1. 모든 경우의 수를 돌면 약수 검증  
+- 시간복잡도 O(N)
+
+```java
+import java.util.Scanner;
+
+class Main {
+
+    public int solution(int n) {
+        int answer = 0;
+
+        for (int i = 2; i < n; i++) {
+            if (isPrimeNumber(i)) {
+                answer ++;
+            }
+        }
+
+        return answer;
+    }
+    
+    private boolean isPrimeNumber(int x) {
+        for (int i = 2; i < x; i++) {
+            if (x % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        System.out.println(T.solution(n));
+    }
+}
+
+```
+
+### 2. 제곱근 까지만 약수 검증
+- 시간복잡도 O(N^(1/2))
+``` java
+private boolean isPrimeNumber(int x) {
+    int end = (int) Math.sqrt(x);
+    for (int i = 2; i <= end; i++) {
+        if (x % i == 0) {
+            return false;
+        }
+    }
+    
+    return true;
+}
+```
+
+### 3. 에라토스테네스의 체
+``` java
+import java.util.Scanner;
+
+class Main {
+
+    public int solution(int n) {
+        int answer = 0;
+        int[] ch = new int[n+1];
+
+        for (int i = 2; i <= n; i++) {
+            if (ch[i] == 0) {
+                answer ++;
+                for (int j = i; j <= n; j = j + i) {
+                    ch[j] = 1;
+                }
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        System.out.println(T.solution(n));
+    }
+}
+
+```
+
+### 4. 에라토스테네스의 체
+``` java
+import java.util.Scanner;
+
+class Main {
+    
+    public int solution(int n) {
+        int answer = 0;
+        int[] a = new int[n];
+
+        for (int i = 2; i < n; i++) {
+            a[i] = i;
+        }
+
+        for (int i = 2; i < n; i++) {
+
+            if (a[i] == 0) {
+                continue;
+            }
+
+            for (int j = i + i; j < n; j = j + i) {
+                a[j] = 0;
+            }
+        }
+        
+        for (int i = 2; i < n; i++) {
+            if (a[i] != 0) {
+                answer ++;
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        System.out.println(T.solution(n));
+    }
+}
+
+```
