@@ -1,10 +1,9 @@
 import java.util.Scanner;
 
-class Main {
+class Ex09 {
 
     public int solution(int n, int[][] arr) {
         int answer = Integer.MIN_VALUE;
-
         int sum1, sum2;
 
         for (int i = 0; i < n; i++) {
@@ -13,7 +12,6 @@ class Main {
                 sum1 += arr[i][j];
                 sum2 += arr[j][i];
             }
-
             answer = Math.max(answer, sum1);
             answer = Math.max(answer, sum2);
         }
@@ -30,10 +28,12 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex09 T = new Ex09();
         Scanner kb = new Scanner(System.in);
+
         int n = kb.nextInt();
         int[][] arr = new int[n][n];
+
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 arr[i][j] = kb.nextInt();
