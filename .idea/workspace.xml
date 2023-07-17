@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 뒤집은 소수 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/02_02.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="7. 점수계산 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
@@ -143,7 +141,7 @@
       <workItem from="1689317907654" duration="2863000" />
       <workItem from="1689387929188" duration="3312000" />
       <workItem from="1689391288594" duration="10504000" />
-      <workItem from="1689559028450" duration="7219000" />
+      <workItem from="1689559028450" duration="10025000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -257,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689566603942</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="7. 점수계산 알고리즘 풀이 추가">
+      <created>1689567601961</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689567601961</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +284,8 @@
     <MESSAGE value="3. 가위바위보 알고리즘 풀이 추가" />
     <MESSAGE value="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가" />
     <MESSAGE value="6. 뒤집은 소수 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. 뒤집은 소수 알고리즘 풀이 추가" />
+    <MESSAGE value="7. 점수계산 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. 점수계산 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
