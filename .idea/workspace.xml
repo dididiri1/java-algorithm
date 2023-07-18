@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="8. 등수구하기 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="문제정리 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/01_spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/01_spring.md" afterDir="false" />
     </list>
@@ -141,7 +141,7 @@
       <workItem from="1689387929188" duration="3312000" />
       <workItem from="1689391288594" duration="10504000" />
       <workItem from="1689559028450" duration="13445000" />
-      <workItem from="1689670617434" duration="1409000" />
+      <workItem from="1689670617434" duration="2640000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689570809783</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="문제정리 추가">
+      <created>1689672131027</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689672131027</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +300,8 @@
     <MESSAGE value="6. 뒤집은 소수 알고리즘 풀이 추가" />
     <MESSAGE value="7. 점수계산 알고리즘 풀이 추가" />
     <MESSAGE value="8. 등수구하기 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. 등수구하기 알고리즘 풀이 추가" />
+    <MESSAGE value="문제정리 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="문제정리 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
