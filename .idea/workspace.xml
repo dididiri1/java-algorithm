@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="문제정리 추가">
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/02_04.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 봉우리 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/02_05.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main2.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main2">
     <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex04" />
       <module name="section2_array" />
@@ -117,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Main" />
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689672131027</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="10. 봉우리 알고리즘 풀이 추가">
+      <created>1689734951587</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689734951587</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,7 +311,8 @@
     <MESSAGE value="7. 점수계산 알고리즘 풀이 추가" />
     <MESSAGE value="8. 등수구하기 알고리즘 풀이 추가" />
     <MESSAGE value="문제정리 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="문제정리 추가" />
+    <MESSAGE value="10. 봉우리 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. 봉우리 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
