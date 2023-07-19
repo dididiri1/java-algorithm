@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Ex10 {
 
     int[] dx = {-1, 0, 1, 0};
     int[] dy = {0, 1, 0, -1};
@@ -30,7 +30,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex10 T = new Ex10();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[][] arr = new int[n][n];
