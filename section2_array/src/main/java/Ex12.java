@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Main {
+class Ex12 {
 
     public int solution(int n, int m, int[][] arr) {
         int answer = 0;
@@ -33,7 +33,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex12 T = new Ex12();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();

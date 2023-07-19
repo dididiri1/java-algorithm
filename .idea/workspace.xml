@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 봉우리 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/02_05.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="11. 임시반장 정하기 알고리즘 풀이 추">
+      <change afterPath="$PROJECT_DIR$/section2_array/src/main/java/Ex12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
@@ -78,7 +77,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex04" />
       <module name="section2_array" />
@@ -116,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Main" />
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689734951587</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="11. 임시반장 정하기 알고리즘 풀이 추">
+      <created>1689747086617</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1689747086617</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,7 +318,8 @@
     <MESSAGE value="8. 등수구하기 알고리즘 풀이 추가" />
     <MESSAGE value="문제정리 추가" />
     <MESSAGE value="10. 봉우리 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. 봉우리 알고리즘 풀이 추가" />
+    <MESSAGE value="11. 임시반장 정하기 알고리즘 풀이 추" />
+    <option name="LAST_COMMIT_MESSAGE" value="11. 임시반장 정하기 알고리즘 풀이 추" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
