@@ -221,6 +221,9 @@ class Main {
 ## Sliding Window
 - 즉 하나의 특정 범위를 정해 놓고 그 윈도우를 이동시키면서 범위 내에 있는 원소들을 계산하는 법
 
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/03_02.png?raw=true)
+
+
 ## 풀이 1 
 ```
 import java.util.Scanner;
