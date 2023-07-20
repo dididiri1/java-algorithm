@@ -4,49 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="12. 멘토링 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/02_two_pointers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex04_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/03_01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/section1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex06.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex07.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex08.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex09.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex10.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex11.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Ex12.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Ex12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1_spring/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section1/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex03.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex04.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex06.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex07.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex08.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex09.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex10.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex11.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Ex12.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Ex12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2_array/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section2/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/src/main/java/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/02_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_two_pointers.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints>
+      <file url="file://$PROJECT_DIR$/study/02_two_pointers.md" />
+    </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -177,7 +153,7 @@
       <workItem from="1689391288594" duration="10504000" />
       <workItem from="1689559028450" duration="13445000" />
       <workItem from="1689670617434" duration="2640000" />
-      <workItem from="1689817383870" duration="1625000" />
+      <workItem from="1689817383870" duration="14049000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -333,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689752083648</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가">
+      <created>1689819025992</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1689819025992</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,7 +344,8 @@
     <MESSAGE value="10. 봉우리 알고리즘 풀이 추가" />
     <MESSAGE value="11. 임시반장 정하기 알고리즘 풀이 추" />
     <MESSAGE value="12. 멘토링 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="12. 멘토링 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,39 +1,32 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
-class Ex01 {
+class Ex02 {
 
     public ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
         ArrayList<Integer> answer = new ArrayList<>();
-        int p1 = 0;
-        int p2 = 0;
 
-        while (p1 < n && p2 < m) {
-            if (a[p1] <= b[p2]) {
+        Arrays.sort(a);
+        Arrays.sort(b);
+
+        int p1 = 0, p2 = 0;
+        while (p1 < n && p2 < n) {
+            if (a[p1] == b[p2]) {
                 answer.add(a[p1++]);
+                p2++;
+            } else if(a[p1] < b[p2]) {
+                p1++;
             } else {
-                answer.add(b[p2++]);
+                p2++;
             }
         }
-
-        while (p1 < n) {
-            answer.add(a[p1++]); // a 배열에 값이 남아 있을 때
-        }
-        while (p2 < m) {
-            answer.add(b[p2++]); // b 배열에 값이 남아 있을 때
-        }
-
-        System.out.println("size = " + answer.size());
-        for (int i = 0; i < answer.size(); i++) {
-            System.out.println("answer = " + answer.get(i));
-        }
-
 
         return answer;
     }
 
     public static void main(String[] args) {
-        Ex01 T = new Ex01();
+        Ex02 T = new Ex02();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] a = new int[n];
