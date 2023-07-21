@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="4. 연속 부분수열 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. 연속된 자연수의 합 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/03_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/03_04.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section3/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/02_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_two_pointers.md" afterDir="false" />
@@ -149,7 +152,7 @@
       <workItem from="1689559028450" duration="13445000" />
       <workItem from="1689670617434" duration="2640000" />
       <workItem from="1689817383870" duration="15740000" />
-      <workItem from="1689903453173" duration="5152000" />
+      <workItem from="1689903453173" duration="10553000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -333,14 +336,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689907899370</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="5. 연속된 자연수의 합 알고리즘 풀이 추가">
+      <created>1689908983927</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1689908983927</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1. 문차 찾기 알고리즘 문제 추가" />
     <MESSAGE value="1. Scanner 클래스의 특징, 향상된 for문 &amp; toCharArray, 대소문자 변환 추가" />
     <MESSAGE value="대소문자 구분 클래스 학습 추가 2번 문제" />
     <MESSAGE value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
@@ -365,7 +374,8 @@
     <MESSAGE value="2. 공통원소구하기 알고리즘 풀이 추가" />
     <MESSAGE value="3. 최대 매출 알고리즘 풀이 추가" />
     <MESSAGE value="4. 연속 부분수열 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. 연속 부분수열 알고리즘 풀이 추가" />
+    <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
