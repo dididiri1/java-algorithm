@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. 연속된 자연수의 합 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/03_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/03_04.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 최대 길이 연속부분수열 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section3/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/02_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_two_pointers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/02_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/03_two_pointers.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +25,7 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints>
-      <file url="file://$PROJECT_DIR$/study/02_two_pointers.md" />
+      <file url="file://$PROJECT_DIR$/study/03_two_pointers.md" />
     </disable_hints>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -84,17 +90,10 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex04" />
-      <module name="section2_array" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section2_array" />
+      <module name="section2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,27 +105,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="section4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
-      <module name="section2_array" />
+      <module name="section2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main3" />
-      <module name="section2_array" />
+      <module name="section2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.Ex04" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +158,8 @@
       <workItem from="1689559028450" duration="13445000" />
       <workItem from="1689670617434" duration="2640000" />
       <workItem from="1689817383870" duration="15740000" />
-      <workItem from="1689903453173" duration="10553000" />
+      <workItem from="1689903453173" duration="14959000" />
+      <workItem from="1689925248077" duration="443000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -343,14 +350,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689908983927</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="6. 최대 길이 연속부분수열 알고리즘 풀이 추가">
+      <created>1689920576077</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1689920576077</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1. Scanner 클래스의 특징, 향상된 for문 &amp; toCharArray, 대소문자 변환 추가" />
     <MESSAGE value="대소문자 구분 클래스 학습 추가 2번 문제" />
     <MESSAGE value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
     <MESSAGE value="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가" />
@@ -375,7 +388,8 @@
     <MESSAGE value="3. 최대 매출 알고리즘 풀이 추가" />
     <MESSAGE value="4. 연속 부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
