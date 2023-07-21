@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Ex04_01 {
+class Ex04 {
 
     public int solution(int n, int k, int[] arr) {
         int answer = 0;
@@ -21,7 +21,7 @@ class Ex04_01 {
     }
 
     public static void main(String[] args) {
-        Ex04_01 T = new Ex04_01();
+        Ex04 T = new Ex04();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int k = kb.nextInt();

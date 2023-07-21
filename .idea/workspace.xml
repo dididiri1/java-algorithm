@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex04_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/03_01.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 최대 매출 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section3/src/main/java/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section3/src/main/java/Ex04_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Ex04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section3/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section3/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/02_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_two_pointers.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +148,8 @@
       <workItem from="1689391288594" duration="10504000" />
       <workItem from="1689559028450" duration="13445000" />
       <workItem from="1689670617434" duration="2640000" />
-      <workItem from="1689817383870" duration="14049000" />
+      <workItem from="1689817383870" duration="15740000" />
+      <workItem from="1689903453173" duration="4324000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -316,7 +312,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689819025992</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="2. 공통원소구하기 알고리즘 풀이 추가">
+      <created>1689837072066</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1689837072066</updated>
+    </task>
+    <task id="LOCAL-00025" summary="3. 최대 매출 알고리즘 풀이 추가">
+      <created>1689839459007</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1689839459007</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,7 +355,9 @@
     <MESSAGE value="11. 임시반장 정하기 알고리즘 풀이 추" />
     <MESSAGE value="12. 멘토링 알고리즘 풀이 추가" />
     <MESSAGE value="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가" />
+    <MESSAGE value="2. 공통원소구하기 알고리즘 풀이 추가" />
+    <MESSAGE value="3. 최대 매출 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 최대 매출 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
