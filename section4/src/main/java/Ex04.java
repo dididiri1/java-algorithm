@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Main {
+public class Ex04 {
 
     public int solution(String a, String b) {
         int answer = 0;
@@ -37,7 +37,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex04 T = new Ex04();
         Scanner kb = new Scanner(System.in);
         String a = kb.next();
         String b = kb.next();

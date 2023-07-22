@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 최대 길이 연속부분수열 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section3/src/main/java/Ex06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 학급 회장(해쉬) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex02_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/section2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/02_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/03_two_pointers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section4/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +85,17 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section2" />
+  <component name="RunManager" selected="Application.Main2 (1)">
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex01" />
+      <module name="section4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex02_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex02_1" />
+      <module name="section4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,27 +114,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
-      <module name="section2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main3" />
-      <module name="section2" />
+      <module name="section4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ex02_1" />
+        <item itemvalue="Application.Ex01" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +154,8 @@
       <workItem from="1689670617434" duration="2640000" />
       <workItem from="1689817383870" duration="15740000" />
       <workItem from="1689903453173" duration="14959000" />
-      <workItem from="1689925248077" duration="443000" />
+      <workItem from="1689925248077" duration="520000" />
+      <workItem from="1689988020138" duration="10997000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -357,14 +353,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689920576077</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="1. 학급 회장(해쉬) 알고리즘 풀이 추가">
+      <created>1689925701052</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1689925701052</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="대소문자 구분 클래스 학습 추가 2번 문제" />
     <MESSAGE value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
     <MESSAGE value="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가" />
     <MESSAGE value="7. 회문문자열 문제 풀이 추가" />
@@ -389,7 +391,8 @@
     <MESSAGE value="4. 연속 부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
     <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
