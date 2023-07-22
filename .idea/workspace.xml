@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 학급 회장(해쉬) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex02_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Main2.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section4/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" afterDir="false" />
@@ -52,32 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kangmin/study/java-algorithm/study/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/kangmin/study/java-algorithm/study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$/section1_spring/src/main/java" />
     </key>
@@ -85,7 +83,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2 (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex01" />
       <module name="section4" />
@@ -100,9 +98,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section3" />
+    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex04" />
+      <module name="section4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ex04" />
+        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Ex02_1" />
         <item itemvalue="Application.Ex01" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +153,7 @@
       <workItem from="1689817383870" duration="15740000" />
       <workItem from="1689903453173" duration="14959000" />
       <workItem from="1689925248077" duration="520000" />
-      <workItem from="1689988020138" duration="10997000" />
+      <workItem from="1689988020138" duration="16863000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -360,14 +358,20 @@
       <option name="project" value="LOCAL" />
       <updated>1689925701052</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가">
+      <created>1690003254020</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1690003254020</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가" />
     <MESSAGE value="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가" />
     <MESSAGE value="7. 회문문자열 문제 풀이 추가" />
     <MESSAGE value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
@@ -392,7 +396,8 @@
     <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
     <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
+    <MESSAGE value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

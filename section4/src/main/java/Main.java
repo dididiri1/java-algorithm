@@ -1,36 +1,25 @@
-import java.util.HashMap;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
-    public int solution(String a, String b) {
+    public int solution(int n, int k, int[] arr) {
         int answer = 0;
+        TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
 
-        HashMap<Character, Integer> am = new HashMap<>();
-        HashMap<Character, Integer> bm = new HashMap<>();
-
-        for (char x : b.toCharArray()) {
-            bm.put(x, bm.getOrDefault(x, 0)+1);
+        for (int i = 0; i < n; i++) {
+            for (int j = i+1; j < n; j++) {
+                for (int l = j+1; l < n; l++) {
+                    Tset.add(arr[i] + arr[j] + arr[l]);
+                }
+            }
         }
 
-        int L = b.length()-1;
-        for (int i = 0; i < L; i++) {
-            am.put(a.charAt(i), am.getOrDefault(a.charAt(i), 0)+1);
-        }
-
-        int lt = 0;
-        for (int rt = L; rt < a.length(); rt++) {
-            am.put(a.charAt(rt), am.getOrDefault(a.charAt(rt), 0)+1);
-
-            if (am.equals(bm)) {
-                answer ++;
+        int cnt = 1;
+        for (Integer x : Tset) {
+            if (cnt == k) {
+                answer = x;
             }
-
-            am.put(a.charAt(lt), am.get(a.charAt(lt))-1);
-            if (am.get(a.charAt(lt)) == 0) {
-                am.remove(a.charAt(lt));
-            }
-            lt ++;
+            cnt ++;
         }
 
         return answer;
@@ -39,8 +28,12 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String a = kb.next();
-        String b = kb.next();
-        System.out.println(T.solution(a, b));
+        int n = kb.nextInt();
+        int k = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+        System.out.println(T.solution(n, k, arr));
     }
 }
