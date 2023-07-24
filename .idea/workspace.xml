@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 아나그램(해쉬) 복습 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="4. 모든 아나그램 찾기 복습 풀이 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section4/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +154,7 @@
       <workItem from="1689925248077" duration="520000" />
       <workItem from="1689988020138" duration="16897000" />
       <workItem from="1690012646733" duration="3000" />
-      <workItem from="1690170232549" duration="1359000" />
+      <workItem from="1690170232549" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -379,14 +380,20 @@
       <option name="project" value="LOCAL" />
       <updated>1690171200213</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="4. 모든 아나그램 찾기 복습 풀이 추가">
+      <created>1690171814651</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1690171814651</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
     <MESSAGE value="9. 숫자만 추출 알고리즘 풀이 추가" />
     <MESSAGE value="10. 문자거리, 11. 문자열 압축 알고리즘 풀이 추가" />
     <MESSAGE value="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가" />
@@ -411,7 +418,8 @@
     <MESSAGE value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
     <MESSAGE value="5. K번째 큰 수(TreeSet) 풀이 추가" />
     <MESSAGE value="2. 아나그램(해쉬) 복습 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 아나그램(해쉬) 복습 풀이 추가" />
+    <MESSAGE value="4. 모든 아나그램 찾기 복습 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. 모든 아나그램 찾기 복습 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
