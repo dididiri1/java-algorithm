@@ -2,25 +2,28 @@ import java.util.*;
 
 public class Main {
 
-    public int solution(int n, int k, int[] arr) {
-        int answer = 0;
-        TreeSet<Integer> Tset = new TreeSet<>(Collections.reverseOrder());
+    public String solution(String str1, String str2) {
+        String answer = "YES";
+        HashMap<Character, Integer> map = new HashMap<>();
 
-        for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++) {
-                for (int l = j+1; l < n; l++) {
-                    Tset.add(arr[i] + arr[j] + arr[l]);
-                }
-            }
+        for (char x : str1.toCharArray()) {
+            System.out.println("c = "+x);
+            map.put(x, map.getOrDefault(x, 0)+1);
         }
 
-        int cnt = 1;
-        for (Integer x : Tset) {
-            if (cnt == k) {
-                answer = x;
-            }
-            cnt ++;
+        for (Character key : map.keySet()) {
+            System.out.println("key = " + key + " "+ map.get(key));
         }
+
+        for (char x : str2.toCharArray()) {
+            if (!map.containsKey(x) || map.get(x) == 0) {
+                return "NO";
+            } else {
+                map.put(x, map.get(x)-1);
+            }
+
+        }
+
 
         return answer;
     }
@@ -28,12 +31,9 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        int n = kb.nextInt();
-        int k = kb.nextInt();
-        int[] arr = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = kb.nextInt();
-        }
-        System.out.println(T.solution(n, k, arr));
+        String a = kb.next();
+        String b = kb.next();
+
+        System.out.println(T.solution(a, b));
     }
 }

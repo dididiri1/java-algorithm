@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. K번째 큰 수(TreeSet) 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section4/src/main/java/Ex05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section4/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section4/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/04_hashMap_and_treeSet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section4/src/main/java/Main2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,26 +49,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/kangmin/study/java-algorithm/study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kangmin/study/java-algorithm/study&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/study" />
@@ -84,8 +85,8 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex01" />
+    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex02" />
       <module name="section4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Ex02" />
         <item itemvalue="Application.Ex04" />
         <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Ex02_1" />
-        <item itemvalue="Application.Ex01" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +154,9 @@
       <workItem from="1689817383870" duration="15740000" />
       <workItem from="1689903453173" duration="14959000" />
       <workItem from="1689925248077" duration="520000" />
-      <workItem from="1689988020138" duration="16863000" />
+      <workItem from="1689988020138" duration="16897000" />
+      <workItem from="1690012646733" duration="3000" />
+      <workItem from="1690170232549" duration="803000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -365,14 +368,20 @@
       <option name="project" value="LOCAL" />
       <updated>1690003254020</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="5. K번째 큰 수(TreeSet) 풀이 추가">
+      <created>1690012600906</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1690012600906</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가" />
     <MESSAGE value="7. 회문문자열 문제 풀이 추가" />
     <MESSAGE value="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가" />
     <MESSAGE value="9. 숫자만 추출 알고리즘 풀이 추가" />
@@ -397,7 +406,8 @@
     <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
     <MESSAGE value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
+    <MESSAGE value="5. K번째 큰 수(TreeSet) 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. K번째 큰 수(TreeSet) 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
