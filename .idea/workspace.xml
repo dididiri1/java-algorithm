@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/section5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section5/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/05_stack_and_queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 올바른 괄호 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section5/src/main/java/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section5/src/main/java/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section5/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section5/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/05_stack_and_queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/05_stack_and_queue.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,16 +88,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
-    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex02" />
-      <module name="section4" />
+  <component name="RunManager" selected="Application.Ex01">
+    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex01" />
+      <module name="section5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ex04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex04" />
+    <configuration name="Ex02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex02" />
       <module name="section4" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,20 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
-      <module name="section4" />
+      <module name="section5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex01" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex02" />
-        <item itemvalue="Application.Ex04" />
-        <item itemvalue="Application.Main2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -395,14 +393,20 @@
       <option name="project" value="LOCAL" />
       <updated>1690171814651</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="1. 올바른 괄호 알고리즘 풀이 추가">
+      <created>1690360432504</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1690360432504</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="9. 숫자만 추출 알고리즘 풀이 추가" />
     <MESSAGE value="10. 문자거리, 11. 문자열 압축 알고리즘 풀이 추가" />
     <MESSAGE value="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가" />
     <MESSAGE value="1. 큰 수 출력하기 알고리즘 풀이 추가" />
@@ -427,7 +431,8 @@
     <MESSAGE value="5. K번째 큰 수(TreeSet) 풀이 추가" />
     <MESSAGE value="2. 아나그램(해쉬) 복습 풀이 추가" />
     <MESSAGE value="4. 모든 아나그램 찾기 복습 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. 모든 아나그램 찾기 복습 풀이 추가" />
+    <MESSAGE value="1. 올바른 괄호 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 올바른 괄호 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

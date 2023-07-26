@@ -1,25 +1,32 @@
 import java.util.*;
 
-public class Main {
+public class Ex01 {
 
     public String solution(String str) {
-        String answer = "";
+        String answer = "YES";
 
         Stack<Character> stack = new Stack<>();
         for (char x : str.toCharArray()) {
-            stack.push(x);
+            if (x == '(') {
+                stack.push(x);
+            } else {
+                if (stack.isEmpty()) {
+                    return "NO";
+                } else {
+                    stack.pop();
+                }
+            }
         }
 
-        for (char x : stack) {
-
+        if (!stack.isEmpty()) {
+            return "NO";
         }
-
 
         return answer;
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex01 T = new Ex01();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
 
