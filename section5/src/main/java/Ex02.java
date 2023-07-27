@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Ex02 {
 
     public String solution(String str) {
         String answer = "";
@@ -22,7 +22,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex02 T = new Ex02();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         System.out.println(T.solution(str));
