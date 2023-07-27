@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/section5/src/main/java/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/05_01.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 괄호문자제거 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section5/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section5/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/05_stack_and_queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/05_stack_and_queue.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -400,14 +397,20 @@
       <option name="project" value="LOCAL" />
       <updated>1690360432504</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2. 괄호문자제거 알고리즘 풀이 추가">
+      <created>1690431222181</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1690431222181</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. 문자거리, 11. 문자열 압축 알고리즘 풀이 추가" />
     <MESSAGE value="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가" />
     <MESSAGE value="1. 큰 수 출력하기 알고리즘 풀이 추가" />
     <MESSAGE value="2. 보이는 학생 알고리즘 풀이 추가" />
@@ -432,7 +435,24 @@
     <MESSAGE value="2. 아나그램(해쉬) 복습 풀이 추가" />
     <MESSAGE value="4. 모든 아나그램 찾기 복습 풀이 추가" />
     <MESSAGE value="1. 올바른 괄호 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 올바른 괄호 알고리즘 풀이 추가" />
+    <MESSAGE value="2. 괄호문자제거 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. 괄호문자제거 알고리즘 풀이 추가" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/section5/src/main/java/Main.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/section5/src/main/java/Main.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

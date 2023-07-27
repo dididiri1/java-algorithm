@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Ex03 {
 
     public int solution(int[][] board, int[] moves) {
         int answer = 0;
@@ -16,6 +16,7 @@ public class Main {
                     } else {
                         stack.push(tmp);
                     }
+
                     break;
                 }
             }
@@ -25,11 +26,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex03 T = new Ex03();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[][] board = new int[n][n];
-
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
                 board[i][j] = kb.nextInt();
@@ -38,7 +38,6 @@ public class Main {
 
         int m = kb.nextInt();
         int[] moves = new int[m];
-
         for (int i = 0; i < m; i++) {
             moves[i] = kb.nextInt();
         }
