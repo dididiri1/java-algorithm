@@ -233,5 +233,119 @@ moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크�
 
 ## 풀이 
 ```
+import java.util.*;
 
+public class Ex03 {
+
+    public int solution(int[][] board, int[] moves) {
+        int answer = 0;
+        Stack<Integer> stack = new Stack<>();
+        for (int pos : moves) {
+            for (int i = 0; i < board.length; i++) {
+                if (board[i][pos-1] != 0) {
+                    int tmp = board[i][pos-1];
+                    board[i][pos-1] = 0;
+                    if (!stack.isEmpty() && stack.peek() == tmp) {
+                        stack.pop();
+                        answer += 2;
+                    } else {
+                        stack.push(tmp);
+                    }
+
+                    break;
+                }
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Ex03 T = new Ex03();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[][] board = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                board[i][j] = kb.nextInt();
+            }
+        }
+
+        int m = kb.nextInt();
+        int[] moves = new int[m];
+        for (int i = 0; i < m; i++) {
+            moves[i] = kb.nextInt();
+        }
+        System.out.println(T.solution(board, moves));
+    }
+}
+```
+
+## 4. 후위식 연산(postfix)
+
+### 설명
+후위연산식이 주어지면 연산한 결과를 출력하는 프로그램을 작성하세요.
+
+만약 3*(5+2)-9 을 후위연산식으로 표현하면 352+*9- 로 표현되며 그 결과는 12입니다.
+
+
+### 입력
+첫 줄에 후위연산식이 주어집니다. 연산식의 길이는 50을 넘지 않습니다.
+
+식은 1~9의 숫자와 +, -, *, / 연산자로만 이루어진다.
+
+### 출력
+연산한 결과를 출력합니다.
+
+
+### 예시 입력 1
+```
+352+*9-
+```
+### 예시 출력 1
+```
+12
+```
+
+### 플이
+``` java
+ import java.util.*;
+
+public class Main {
+
+    public int solution(String str) {
+        int answer = 0;
+        Stack<Integer> stack = new Stack<>();
+        for (char x : str.toCharArray()) {
+            if (Character.isDigit(x)) {
+                stack.push(x - 48);
+                // stack.push(Character.getNumericValue(x)); char를 int로 변경
+            } else {
+                int rt = stack.pop();
+                int lt = stack.pop();
+
+                if (x == '+') {
+                    stack.push(lt+rt);
+                } else if (x == '-') {
+                    stack.push(lt-rt);
+                } else if (x == '*') {
+                    stack.push(lt*rt);
+                } else if (x == '/') {
+                    stack.push(lt/rt);
+                }
+            }
+        }
+
+        answer = stack.get(0);
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        String str = kb.next();
+        System.out.println(T.solution(str));
+    }
+}
 ```
