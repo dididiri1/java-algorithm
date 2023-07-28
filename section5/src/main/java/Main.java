@@ -4,28 +4,19 @@ public class Main {
 
     public int solution(String str) {
         int answer = 0;
-        Stack<Integer> stack = new Stack<>();
-        for (char x : str.toCharArray()) {
-            if (Character.isDigit(x)) {
-                stack.push(x - 48);
-                // stack.push(Character.getNumericValue(x)); char를 int로 변경
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < str.length(); i++) {
+            if (str.charAt(i) == '(') {
+                stack.push(str.charAt(i));
             } else {
-                int rt = stack.pop();
-                int lt = stack.pop();
-
-                if (x == '+') {
-                    stack.push(lt+rt);
-                } else if (x == '-') {
-                    stack.push(lt-rt);
-                } else if (x == '*') {
-                    stack.push(lt*rt);
-                } else if (x == '/') {
-                    stack.push(lt/rt);
+                stack.pop();
+                if (str.charAt(i-1) == '(') {
+                    answer += stack.size();
+                } else {
+                    answer ++;
                 }
             }
         }
-
-        answer = stack.get(0);
 
         return answer;
     }
