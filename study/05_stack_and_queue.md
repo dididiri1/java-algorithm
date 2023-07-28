@@ -1,4 +1,5 @@
-# Stack, Queue(자료구조)
+# 
+, Queue(자료구조)
 
 ## Stack 이란?
 
