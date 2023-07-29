@@ -2,24 +2,24 @@ import java.util.*;
 
 public class Main {
 
-    public int solution(int n, int k) {
-        int answer = 0;
-        Queue<Integer> queue = new LinkedList<>();
+    public String solution(String need, String plan) {
+        String answer = "YES";
+        Queue<Character> Q = new LinkedList<>();
 
-        for (int i = 1; i <= n; i++) {
-            queue.offer(i);
+        for (char x : need.toCharArray()) {
+            Q.offer(x);
         }
 
-        while (!queue.isEmpty()) {
-            for (int i = 1; i < k; i++) {
-                queue.offer(queue.poll());
+        for (char x : plan.toCharArray()) {
+            if (Q.contains(x)) {
+                if (x != Q.poll()) {
+                    return "NO";
+                }
             }
+        }
 
-            queue.poll();
-
-            if (queue.size() == 1) {
-                answer = queue.peek();
-            }
+        if (!Q.isEmpty()) {
+            return  "NO";
         }
 
         return answer;
@@ -28,8 +28,8 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        int n = kb.nextInt();
-        int k = kb.nextInt();
-        System.out.println(T.solution(n, k));
+        String a = kb.next();
+        String b = kb.next();
+        System.out.println(T.solution(a, b));
     }
 }
