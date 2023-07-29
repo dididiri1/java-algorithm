@@ -2,19 +2,23 @@ import java.util.*;
 
 public class Main {
 
-    public int solution(String str) {
+    public int solution(int n, int k) {
         int answer = 0;
-        Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == '(') {
-                stack.push(str.charAt(i));
-            } else {
-                stack.pop();
-                if (str.charAt(i-1) == '(') {
-                    answer += stack.size();
-                } else {
-                    answer ++;
-                }
+        Queue<Integer> queue = new LinkedList<>();
+
+        for (int i = 1; i <= n; i++) {
+            queue.offer(i);
+        }
+
+        while (!queue.isEmpty()) {
+            for (int i = 1; i < k; i++) {
+                queue.offer(queue.poll());
+            }
+
+            queue.poll();
+
+            if (queue.size() == 1) {
+                answer = queue.peek();
             }
         }
 
@@ -24,7 +28,8 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String str = kb.next();
-        System.out.println(T.solution(str));
+        int n = kb.nextInt();
+        int k = kb.nextInt();
+        System.out.println(T.solution(n, k));
     }
 }
