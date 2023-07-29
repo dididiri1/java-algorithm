@@ -34,7 +34,47 @@ stack.peek() = 5
 stack.isEmpty() = false
 ```
 
+## Queue
+- 먼저 들어간 자료가 먼저 나오는 FIFO 구조
+- 그래프의 넒이 우선 탐색(BFS)에서 사용
 
+### Queue 값 추가
+#### 1. add()
+- 해당 큐 맨뒤에 값 삽입
+- 큐 꽉 찬 경우 IllegalStateException 예외 발생
+#### 2. offer()
+- 해당 큐 맨뒤에 값 삽입
+- 값 추가 실패 시 false 반환
+```
+Queue<Integer> queue = new LinkedList<>();
+
+queue.add(1);
+queue.offer(2);
+```
+ 
+### Queue 값 제거
+#### 1. poll()
+- 첫번째 값 반환 후 제거 비어있으면 null 반환
+#### 2. remove()
+- 첫번째 값 제거
+#### 3. clear()
+- 초기화
+```
+Queue<Integer> queue = new LinkedList<>();
+
+queue.poll(); 
+queue.remove(); 
+queue.clear(); 
+```
+
+### Queue 값 확인
+#### 1. peek()
+- 첫번째 값 반환 비어있으면 null 반환
+- 비어있을 경우 null 반환
+```
+Queue<Integer> queue = new LinkedList<>();
+queue.peek(); 
+```
 
 ## 1. 올바른 괄호
 ### 설명
