@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="자료구조 Queue 정리 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="7. 교육과정설계 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section5/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section5/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section5/src/main/java/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/section5/src/main/java/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/05_stack_and_queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/05_stack_and_queue.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +160,8 @@
       <workItem from="1689988020138" duration="16897000" />
       <workItem from="1690012646733" duration="3000" />
       <workItem from="1690170232549" duration="2106000" />
-      <workItem from="1690620086777" duration="5286000" />
+      <workItem from="1690620086777" duration="5642000" />
+      <workItem from="1690965898221" duration="2237000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -436,14 +436,20 @@
       <option name="project" value="LOCAL" />
       <updated>1690623475357</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="7. 교육과정설계 알고리즘 풀이 추가">
+      <created>1690625683991</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1690625683991</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가" />
     <MESSAGE value="6. 뒤집은 소수 알고리즘 풀이 추가" />
     <MESSAGE value="7. 점수계산 알고리즘 풀이 추가" />
     <MESSAGE value="8. 등수구하기 알고리즘 풀이 추가" />
@@ -468,7 +474,8 @@
     <MESSAGE value="5. 쇠막대기 알고리즘 풀이 추가" />
     <MESSAGE value="6. 공주 구하기 알고리즘 풀이 추가" />
     <MESSAGE value="자료구조 Queue 정리 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="자료구조 Queue 정리 추가" />
+    <MESSAGE value="7. 교육과정설계 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. 교육과정설계 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
