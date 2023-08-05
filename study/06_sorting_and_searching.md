@@ -1,13 +1,24 @@
 
+## 정렬 알고리즘 시간 복잡도 정리
+| 정렬                   | 최선        | 평균       |
+|----------------------|-----------|----------|
+| 선택정렬(Selection Sort) | O(n^2)    | O(n^2)   |
+| 버블정렬(Bubble Sort)    | O(n^2)    | O(n^2)   |
+| 삽입정렬(Insert Sort)    | O(n)      | O(n^2)   |
+| 퀵정렬(Quick Sort)      | O(nlogn)  | O(nlogn) |
+| 병합정렬(Merge Sort)     | O(nlogn)  | O(nlogn) |
+| 힙정렬(Heap Sort)       | O(nlogn)  | O(nlogn) |
+
 ## 선택 정렬이란?
 - 값들 중에서 가장 최솟값을 찾아서 맨 왼쪽으로 채워가면서 정렬하는 방법
 
-## 특징
+### 특징
 - 장점
   - 구현이 간단하다
 - 단점
   - 데이터가 클수록 느려짐
 
+### 예시
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/06_01.png?raw=true)
 
 ## 1. 선택 정렬
@@ -34,3 +45,42 @@ N개이 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프�
 ```
 5 7 11 13 15 23
 ```
+
+### 풀이 1
+``` java
+import java.util.Scanner;
+
+public class Main {
+
+    public int[] solution(int n, int[] arr) {
+        for (int i = 0; i < n-1; i++) {
+            int idx = i;
+            for (int j = i+1; j < n; j++) {
+                if (arr[j] < arr[idx]) {
+                    idx = j;
+                }
+            }
+           int tmp = arr[i];
+            arr[i] = arr[idx];
+            arr[idx] = tmp;
+        }
+        
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+        
+        for (int x : T.solution(n, arr)) {
+            System.out.println(x+ " ");
+        }
+    }
+}
+```
+
