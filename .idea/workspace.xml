@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="선택정렬 정리 추가">
-      <change afterPath="$PROJECT_DIR$/section6/src/main/java/Ex01.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 선택 정렬 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section6/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section6/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/06_sorting_and_searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/06_sorting_and_searching.md" afterDir="false" />
@@ -163,7 +162,7 @@
       <workItem from="1690170232549" duration="2106000" />
       <workItem from="1690620086777" duration="5642000" />
       <workItem from="1690965898221" duration="2237000" />
-      <workItem from="1691201940280" duration="4347000" />
+      <workItem from="1691201940280" duration="7076000" />
     </task>
     <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
       <created>1688971651168</created>
@@ -459,14 +458,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691204060523</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="1. 선택 정렬 알고리즘 풀이 추가">
+      <created>1691206600962</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1691206600962</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8. 등수구하기 알고리즘 풀이 추가" />
     <MESSAGE value="문제정리 추가" />
     <MESSAGE value="10. 봉우리 알고리즘 풀이 추가" />
     <MESSAGE value="11. 임시반장 정하기 알고리즘 풀이 추" />
@@ -491,7 +496,8 @@
     <MESSAGE value="7. 교육과정설계 알고리즘 풀이 추가" />
     <MESSAGE value="소스 리베이스 커밋" />
     <MESSAGE value="선택정렬 정리 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="선택정렬 정리 추가" />
+    <MESSAGE value="1. 선택 정렬 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 선택 정렬 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
