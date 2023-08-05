@@ -1,3 +1,15 @@
+
+## 선택 정렬이란?
+- 값들 중에서 가장 최솟값을 찾아서 맨 왼쪽으로 채워가면서 정렬하는 방법
+
+## 특징
+- 장점
+  - 구현이 간단하다
+- 단점
+  - 데이터가 클수록 느려짐
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/06_01.png?raw=true)
+
 ## 1. 선택 정렬
 
 ### 설명
