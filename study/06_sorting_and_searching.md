@@ -85,10 +85,13 @@ public class Main {
 ```
 
 ## 버블 정렬(Bubble Sort)
-- 버블 정렬(Bubble Sort)은 두 인접한 원소를 검사하여 정렬하는 방법이다.
+- **버블 정렬**은 주어진 **인접한 두개의 레코드 키 값을 비교하여** 그 크기에 따라 위치를 **서로 교환하는 정렬 방식**
+- 계속 정렬 여부를 플래그 비트 (f)로 결정함.
+- 평균과 최악 모두 수행 시간 복잡도는 O(n2)이다. 
+- 코드가 단순하기 때문에 자주 사용된다.
 - 시간 복잡도가 O(n2)로 상당히 느리지만, 코드가 단순하기 때문에 자주 사용된다.
 
-## 예시
+## 예제
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/06_02.png?raw=true)
 
 
@@ -121,7 +124,131 @@ N개이 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프�
 5 7 11 13 15 23
 ```
 
-### 풀이
+### 풀이 1
 ``` java
+import java.util.Scanner;
+
+public class Main {
+
+    public int[] solution(int n, int[] arr) {
+
+        int last = n-1;
+        while (last > 0) {
+            for (int i = 0; i < last; i++) {
+                if (arr[i] > arr[i+1]) {
+                    int tmp = arr[i+1];
+                    arr[i+1] = arr[i];
+                    arr[i] = tmp;
+                }
+            }
+            last --;
+        }
+
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        for (int x : T.solution(n, arr)) {
+            System.out.println(x + " ");
+        }
+    }
+}
 
 ```
+
+### 풀이 2
+``` java
+import java.util.Scanner;
+
+public class Main {
+
+    public int[] solution(int n, int[] arr) {
+
+        for (int i = 0; i < n-1; i++) { // n-1 4회전
+            for (int j = 0; j < n-i-1; j++) {
+                if (arr[j] > arr[j+1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = tmp;
+                }
+            }
+        }
+
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        for (int x : T.solution(n, arr)) {
+            System.out.println(x + " ");
+        }
+    }
+}
+``` 
+
+### 풀이 3
+``` java
+import java.util.Scanner;
+
+public class Main {
+
+    private static void bubbleSort(int[] arr) {
+        bubbleSort(arr, arr.length - 1);
+    }
+
+    private static void bubbleSort(int[] arr, int last) {
+        if (last > 0) {
+            for (int i = 1; i <= last; i++) {
+                if (arr[i - 1] > arr[i]) {
+                    swap(arr, i - 1, i);
+                }
+            }
+            bubbleSort(arr, last - 1);
+        }
+    }
+
+    private static void swap(int[] arr, int source, int target) {
+        int tmp = arr[source];
+        arr[source] = arr[target];
+        arr[target] = tmp;
+    }
+
+    private static void printArray(int[] arr) {
+        for (int x : arr) {
+            System.out.println(x + " ");
+        }
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        printArray(arr);
+        bubbleSort(arr);
+        printArray(arr);
+
+    }
+}
+``` 
