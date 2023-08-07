@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Ex05 {
 
     public String solution(int n, int[] arr) {
         String answer = "U";
@@ -15,7 +15,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex05 T = new Ex05();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int[] arr = new int[n];
