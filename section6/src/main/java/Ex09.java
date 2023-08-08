@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Ex09 {
 
     public int count(int[] arr, int capacity) {
         int cnt = 1, sum = 0;
@@ -34,7 +34,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex09 T = new Ex09();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();
