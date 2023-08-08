@@ -573,6 +573,7 @@ public class Main {
 
 ## 예시
 - m = 32 , mid = (lt + rt) / 2
+
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/06_05.png?raw=true)
 
 ## 8. 이분검색
