@@ -5,9 +5,9 @@
 
 ## DFS(Depth-First Search) - 깊이 우선 검색
 
+
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_01.png?raw=true)
-
-
+ 
 ## BFS(Breadth-First Search) - 넓이 우선 검색
 
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_02.png?raw=true)

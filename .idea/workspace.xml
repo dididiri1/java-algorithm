@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section6/src/main/java/Ex10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="DFS, BFS 이론 정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section6/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section6/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/07_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +164,7 @@
       <workItem from="1691201940280" duration="9886000" />
       <workItem from="1691373261169" duration="5963000" />
       <workItem from="1691455312038" duration="7657000" />
-      <workItem from="1691540011952" duration="2776000" />
-    </task>
-    <task id="LOCAL-00004" summary="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가">
-      <created>1689050169152</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1689050169152</updated>
+      <workItem from="1691540011952" duration="3601000" />
     </task>
     <task id="LOCAL-00005" summary="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가">
       <created>1689131639891</created>
@@ -516,14 +502,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691541284615</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="DFS, BFS 이론 정리">
+      <created>1691543033582</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1691543033582</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
     <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
     <MESSAGE value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
@@ -548,7 +540,8 @@
     <MESSAGE value="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가" />
     <MESSAGE value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가" />
+    <MESSAGE value="DFS, BFS 이론 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="DFS, BFS 이론 정리" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
