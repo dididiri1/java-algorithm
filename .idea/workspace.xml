@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section6/src/main/java/Ex10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section7/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section6/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section6/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/03_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/03_two_pointers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/06_sorting_and_searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/06_sorting_and_searching.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +171,7 @@
       <workItem from="1691201940280" duration="9886000" />
       <workItem from="1691373261169" duration="5963000" />
       <workItem from="1691455312038" duration="7657000" />
-      <workItem from="1691540011952" duration="963000" />
-    </task>
-    <task id="LOCAL-00003" summary="대소문자 구분 클래스 학습 추가 2번 문제">
-      <created>1689045452271</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1689045452271</updated>
+      <workItem from="1691540011952" duration="2776000" />
     </task>
     <task id="LOCAL-00004" summary="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가">
       <created>1689050169152</created>
@@ -511,14 +509,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691463440104</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가">
+      <created>1691541284615</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1691541284615</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. 연속 부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
     <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
@@ -543,7 +547,8 @@
     <MESSAGE value="7. 좌표 정렬 알고리즘 풀이 추가" />
     <MESSAGE value="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가" />
     <MESSAGE value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
+    <MESSAGE value="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
