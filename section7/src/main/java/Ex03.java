@@ -1,6 +1,4 @@
-import java.util.*;
-
-public class Main {
+public class Ex03 {
     public int DFS(int n) {
         if (n == 1) {
             return 1;
@@ -10,7 +8,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex03 T = new Ex03();
         System.out.println(T.DFS(5));
     }
 }
