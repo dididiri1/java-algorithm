@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="버블정렬 정리 추가">
-      <change afterPath="$PROJECT_DIR$/section6/src/main/java/Ex02.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section6/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section6/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/03_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/03_two_pointers.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/06_sorting_and_searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/06_sorting_and_searching.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/kangmin/IdeaProjects/java-algorithm/study/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/study/images" />
       <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
+      <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -110,9 +110,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section4" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <module name="section6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,10 +127,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main2 (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Ex01" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,20 +164,9 @@
       <workItem from="1690620086777" duration="5642000" />
       <workItem from="1690965898221" duration="2237000" />
       <workItem from="1691201940280" duration="9886000" />
-    </task>
-    <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
-      <created>1688971651168</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688971651168</updated>
-    </task>
-    <task id="LOCAL-00002" summary="1. Scanner 클래스의 특징, 향상된 for문 &amp; toCharArray, 대소문자 변환 추가">
-      <created>1689043215977</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1689043215977</updated>
+      <workItem from="1691373261169" duration="5963000" />
+      <workItem from="1691455312038" duration="7657000" />
+      <workItem from="1691540011952" duration="963000" />
     </task>
     <task id="LOCAL-00003" summary="대소문자 구분 클래스 학습 추가 2번 문제">
       <created>1689045452271</created>
@@ -473,19 +462,62 @@
       <option name="project" value="LOCAL" />
       <updated>1691210715873</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="4. Least Recently Used 알고리즘 풀이 추가">
+      <created>1691375919071</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1691375919071</updated>
+    </task>
+    <task id="LOCAL-00046" summary="5. 중복 확인 알고리즘 풀이 추가">
+      <created>1691376667128</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1691376667128</updated>
+    </task>
+    <task id="LOCAL-00047" summary="6. 장난꾸러기 알고리즘 풀이 추가">
+      <created>1691388949245</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1691388949245</updated>
+    </task>
+    <task id="LOCAL-00048" summary="7. 좌표 정렬 알고리즘 풀이 추가">
+      <created>1691390265265</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1691390265265</updated>
+    </task>
+    <task id="LOCAL-00049" summary="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가">
+      <created>1691460127520</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1691460127520</updated>
+    </task>
+    <task id="LOCAL-00050" summary="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가">
+      <created>1691460184321</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1691460184321</updated>
+    </task>
+    <task id="LOCAL-00051" summary="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가">
+      <created>1691463440104</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1691463440104</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. 봉우리 알고리즘 풀이 추가" />
-    <MESSAGE value="11. 임시반장 정하기 알고리즘 풀이 추" />
-    <MESSAGE value="12. 멘토링 알고리즘 풀이 추가" />
-    <MESSAGE value="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가" />
-    <MESSAGE value="2. 공통원소구하기 알고리즘 풀이 추가" />
-    <MESSAGE value="3. 최대 매출 알고리즘 풀이 추가" />
     <MESSAGE value="4. 연속 부분수열 알고리즘 풀이 추가" />
     <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
     <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
@@ -505,7 +537,13 @@
     <MESSAGE value="선택정렬 정리 추가" />
     <MESSAGE value="1. 선택 정렬 알고리즘 풀이 추가" />
     <MESSAGE value="버블정렬 정리 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="버블정렬 정리 추가" />
+    <MESSAGE value="4. Least Recently Used 알고리즘 풀이 추가" />
+    <MESSAGE value="5. 중복 확인 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 장난꾸러기 알고리즘 풀이 추가" />
+    <MESSAGE value="7. 좌표 정렬 알고리즘 풀이 추가" />
+    <MESSAGE value="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가" />
+    <MESSAGE value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
