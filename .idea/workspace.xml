@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 재귀함수(스택프레임) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Ex03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Main2.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/07_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/images/07_02.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/images/07_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/study/images/07_03.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,30 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "C:/Users/USER/IdeaProjects/java-algorithm/study",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study" />
       <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
+      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study" />
       <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$" />
@@ -171,14 +169,9 @@
       <workItem from="1691201940280" duration="9886000" />
       <workItem from="1691373261169" duration="5963000" />
       <workItem from="1691455312038" duration="7657000" />
-      <workItem from="1691540011952" duration="10306000" />
-    </task>
-    <task id="LOCAL-00007" summary="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가">
-      <created>1689241285440</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1689241285440</updated>
+      <workItem from="1691540011952" duration="10635000" />
+      <workItem from="1691560549930" duration="613000" />
+      <workItem from="1691717557108" duration="1392000" />
     </task>
     <task id="LOCAL-00008" summary="9. 숫자만 추출 알고리즘 풀이 추가">
       <created>1689301492925</created>
@@ -516,14 +509,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691545479956</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가">
+      <created>1691560288181</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1691560288181</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
     <MESSAGE value="5. K번째 큰 수(TreeSet) 풀이 추가" />
     <MESSAGE value="2. 아나그램(해쉬) 복습 풀이 추가" />
     <MESSAGE value="4. 모든 아나그램 찾기 복습 풀이 추가" />
@@ -548,7 +547,8 @@
     <MESSAGE value="DFS, BFS 이론 정리" />
     <MESSAGE value="DFS, BFS 이론 정리 #1" />
     <MESSAGE value="1. 재귀함수(스택프레임) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 재귀함수(스택프레임) 알고리즘 풀이 추가" />
+    <MESSAGE value="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -15,7 +15,6 @@
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_02.png?raw=true)
 
 
-
 ## 1. 재귀함수(스택프래임)
 
 ### 설명
@@ -39,6 +38,7 @@
 ### 풀이 
 ``` java
 public class Main {
+
     public void DFS(int n) {
         if (n == 0) {
             return;
@@ -80,6 +80,7 @@ public class Main {
 ### 풀이
 ``` java
 public class Main {
+
     public void DFS(int n) {
         if (n == 0) {
             return;
@@ -122,8 +123,9 @@ public class Main {
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_03.png?raw=true)
 
 ### 풀이
-```
+``` java
 public class Main {
+
     public int DFS(int n) {
         if (n == 1) {
             return 1;
@@ -138,3 +140,112 @@ public class Main {
     }
 }
 ```
+
+- 배열 vs 재귀함수
+ - 재귀함수는 스택을 이용해서 배열보다 무거움
+
+## 4. 피보나치 수열
+
+### 설명
+1) 피보나치 수열을 출력한다. 피보나치 수열이란 앞의 2개의 수를 합하여 다음 숫자가 되는 수열이다.
+
+2) 입력은 피보나치 수열의 총 항의 수 이다. 만약 7이 입력되면 1 1 2 3 5 8 13을 출력하면 된다.
+
+### 입력
+첫 줄에 총 항수 N(3<=N<=45)이 입렫된다.
+
+### 출력
+첫 줄에 피보나치 수열을 출력합니다.
+
+### 예시 입력 1
+```
+10
+```
+### 예시 출력 1
+```
+1 1 2 3 5 8 13 21 34 55
+```
+
+### 풀이 1
+``` java
+import java.util.*;
+
+public class Main {
+    public int DFS(int n) {
+
+        if (n == 1) {
+            return 1;
+        } else if (n == 2) {
+            return 1;
+        } else {
+            return DFS(n-2) + DFS(n-1);
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        int n = 10;
+        for (int i = 1; i <= n; i++) {
+            System.out.println(T.DFS(i)+ " ");
+        }
+    }
+}
+```
+
+### 풀이 2
+``` java
+import java.util.*;
+
+public class Main {
+
+    static int[] fibo;
+    
+    public int DFS(int n) {
+
+        if (n == 1) {
+            return fibo[n] = 1;
+        } else if (n == 2) {
+            return fibo[n] = 1;
+        } else {
+            return fibo[n] = DFS(n-2) + DFS(n-1);
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        int n = 45;
+        fibo = new int[n+1];
+        T.DFS(n);
+        for (int i = 1; i <= n; i++) {
+            System.out.println(fibo[i]+ " ");
+        }
+    }
+}
+```
+
+## 4. 피보나치 수열
+
+### 설명
+1) 피보나치 수열을 출력한다. 피보나치 수열이란 앞의 2개의 수를 합하여 다음 숫자가 되는 수열이다.
+
+2) 입력은 피보나치 수열의 총 항의 수 이다. 만약 7이 입력되면 1 1 2 3 5 8 13을 출력하면 된다.
+
+### 입력
+첫 줄에 총 항수 N(3<=N<=45)이 입렫된다.
+
+### 출력
+첫 줄에 피보나치 수열을 출력합니다.
+
+### 예시 입력 1
+```
+10
+```
+### 예시 출력 1
+```
+1 1 2 3 5 8 13 21 34 55
+```
+
+### 풀이 1
+``` java
