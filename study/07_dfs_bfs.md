@@ -225,12 +225,16 @@ public class Main {
 }
 ```
 
-## 4. 피보나치 수열
+## 5. 이진트리순회(DFS: Depth-Fist Search)
 
 ### 설명
-1) 피보나치 수열을 출력한다. 피보나치 수열이란 앞의 2개의 수를 합하여 다음 숫자가 되는 수열이다.
+아래 그림과 같은 이진트리를 전위순회와 후위순회를 연습해보세요.
 
-2) 입력은 피보나치 수열의 총 항의 수 이다. 만약 7이 입력되면 1 1 2 3 5 8 13을 출력하면 된다.
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_04.png?raw=true)
+
+전위순회 출력 : 1 2 4 5 3 6 7
+중위순회 출력 : 4 2 5 1 6 3 7
+후위순회 출력 : 4 5 2 6 7 3 1
 
 ### 입력
 첫 줄에 총 항수 N(3<=N<=45)이 입렫된다.
@@ -249,3 +253,55 @@ public class Main {
 
 ### 풀이 1
 ``` java
+import java.util.*;
+
+class Node {
+    int data;
+    Node lt, rt;
+
+    public Node (int val) {
+        data = val;
+        lt = rt = null;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "data=" + data +
+                ", lt=" + lt +
+                ", rt=" + rt +
+                '}';
+    }
+}
+
+public class Main {
+
+    Node root;
+
+    public void DFS(Node root) {
+        if (root == null) {
+            return;
+        } else {
+            //System.out.println(root.data); // 전위
+            DFS(root.lt);
+            System.out.println(root.data); // 중위
+            DFS(root.rt);
+            //System.out.println(root.data); // 후위
+        }
+    }
+
+    public static void main(String[] args) {
+        Main tree = new Main();
+        tree.root = new Node(1);
+        tree.root.lt = new Node(2);
+        tree.root.rt = new Node(3);
+        tree.root.lt.lt = new Node(4);
+        tree.root.lt.rt = new Node(5);
+        tree.root.rt.lt = new Node(6);
+        tree.root.rt.rt = new Node(7);
+        tree.DFS(tree.root);
+
+        System.out.println(tree.root.toString());
+    }
+}
+```
