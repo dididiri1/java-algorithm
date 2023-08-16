@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Main {
+public class Ex08 {
 
     int answer = 0;
     int[] dis = {1, -1, 5};
@@ -35,7 +35,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex08 T = new Ex08();
         Scanner kb = new Scanner(System.in);
         int s = kb.nextInt();
         int e = kb.nextInt();
