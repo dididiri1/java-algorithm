@@ -269,15 +269,6 @@ class Node {
         data = val;
         lt = rt = null;
     }
-
-    @Override
-    public String toString() {
-        return "Node{" +
-                "data=" + data +
-                ", lt=" + lt +
-                ", rt=" + rt +
-                '}';
-    }
 }
 
 public class Main {
@@ -375,6 +366,63 @@ public class Main {
         n = 3;
         ch = new int[n+1];
         T.DFS(1);
+    }
+}
+```
+
+## 7. 이진트리 레벨탐색(BFS)
+
+### 설명
+아래 그림과 같은 이진트리를 레벨탐색 연습하세요.
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_06.png?raw=true)
+
+레벨 탐색 순회 출력 : 1 2 3 4 5 6 7
+
+
+### 풀이
+```
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Main {
+
+    Node root;
+
+    public void BFS(Node root) {
+        Queue<Node> Q = new LinkedList<>();
+        Q.offer(root);
+        int L = 0;
+        while (!Q.isEmpty()) {
+            int len = Q.size();
+            System.out.println(L+" : ");
+            for (int i = 0; i < len; i++) {
+                Node cur = Q.poll();
+                System.out.println(cur.data+" ");
+                if (cur.lt != null) {
+                    Q.offer(cur.lt);
+                }
+
+                if (cur.rt != null){
+                    Q.offer(cur.rt);
+                }
+            }
+            L++;
+            System.out.println();
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Main tree = new Main();
+        tree.root = new Node(1);
+        tree.root.lt = new Node(2);
+        tree.root.rt = new Node(3);
+        tree.root.lt.lt = new Node(4);
+        tree.root.lt.rt = new Node(5);
+        tree.root.rt.lt = new Node(6);
+        tree.root.rt.rt = new Node(7);
+        tree.BFS(tree.root);
     }
 }
 ```

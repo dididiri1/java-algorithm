@@ -1,35 +1,43 @@
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Main {
 
-    static int n;
-    static int[] ch;
+    Node root;
 
-    public void DFS(int L) {
-        if (L == n+1) {
-            String tmp = "";
-            for (int i = 1; i <= n; i++) {
-                if (ch[i] == 1) {
-                    tmp += (i+" ");
+    public void BFS(Node root) {
+        Queue<Node> Q = new LinkedList<>();
+        Q.offer(root);
+        int L = 0;
+        while (!Q.isEmpty()) {
+            int len = Q.size();
+            System.out.println(L+" : ");
+            for (int i = 0; i < len; i++) {
+                Node cur = Q.poll();
+                System.out.println(cur.data+" ");
+                if (cur.lt != null) {
+                    Q.offer(cur.lt);
+                }
+
+                if (cur.rt != null){
+                    Q.offer(cur.rt);
                 }
             }
-
-            if (tmp.length() > 0) {
-                System.out.println(tmp);
-            }
-
-        } else {
-            ch[L] = 1;
-            DFS(L+1);
-            ch[L] = 0;
-            DFS(L+1);
+            L++;
+            System.out.println();
         }
+
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
-        n = 3;
-        ch = new int[n+1];
-        T.DFS(1);
+        Main tree = new Main();
+        tree.root = new Node(1);
+        tree.root.lt = new Node(2);
+        tree.root.rt = new Node(3);
+        tree.root.lt.lt = new Node(4);
+        tree.root.lt.rt = new Node(5);
+        tree.root.rt.lt = new Node(6);
+        tree.root.rt.rt = new Node(7);
+        tree.BFS(tree.root);
     }
 }
