@@ -503,15 +503,54 @@ public class Main {
 }
 ```
 
-## 7. 이진트리 레벨탐색(BFS)
+## 9. Tree 말단노드까지의 가장 짧은 경로(DFS)
 
 ### 설명
-아래 그림과 같은 이진트리를 레벨탐색 연습하세요.
+아래 그림과 같은 이진트리에서 노드 노드 1에서 말단노드까지의 길이 중 가장 짧은 길이를 구하는 프로그램을 작성하세요.
+각 경로의 길이는 루트노드에서 말단노드까지 가는데 이동하는 횟수를 즉 간선(에지)의 개수를 길이로 한다.
 
-![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_06.png?raw=true)
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_07.png?raw=true)
 
-레벨 탐색 순회 출력 : 1 2 3 4 5 6 7
-
+가장 짧은 길이는 3번 노드까지의 길이인 1이다.
 
 ### 풀이
+```
+public class Main {
+
+    Node root;
+
+    public int DFS(int L, Node root) {
+
+        if (root.lt == null && root.rt == null) {
+            return L;
+        } else {
+            return Math.min(DFS(L+1, root.lt), DFS(L+1, root.rt));
+        }
+    }
+
+    public static void main(String[] args) {
+        Main tree = new Main();
+        tree.root = new Node(1);
+        tree.root.lt = new Node(2);
+        tree.root.rt = new Node(3);
+        tree.root.lt.lt = new Node(4);
+        tree.root.lt.rt = new Node(5);
+        System.out.println(tree.DFS(0, tree.root));
+    }
+}
+```
+
+## 10. Tree 말단노드까지의 가장 짧은 경로(BFS)
+
+### 설명
+아래 그림과 같은 이진트리에서 노드 노드 1에서 말단노드까지의 길이 중 가장 짧은 길이를 구하는 프로그램을 작성하세요.
+각 경로의 길이는 루트노드에서 말단노드까지 가는데 이동하는 횟수를 즉 간선(에지)의 개수를 길이로 한다.
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_07.png?raw=true)
+
+가장 짧은 길이는 3번 노드까지의 길이인 1이다.
+
+### 풀이
+```
+
 ```
