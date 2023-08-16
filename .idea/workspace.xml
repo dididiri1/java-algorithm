@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Ex05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/07_05.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section7/src/main/java/Main2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/07_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/images/-7_+04.png" beforeDir="false" afterPath="$PROJECT_DIR$/study/images/07_04.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +167,7 @@
       <workItem from="1691455312038" duration="7657000" />
       <workItem from="1691540011952" duration="10635000" />
       <workItem from="1691560549930" duration="613000" />
-      <workItem from="1691717557108" duration="7445000" />
-    </task>
-    <task id="LOCAL-00010" summary="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가">
-      <created>1689320773754</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1689320773754</updated>
+      <workItem from="1691717557108" duration="8081000" />
     </task>
     <task id="LOCAL-00011" summary="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가">
       <created>1689387948234</created>
@@ -518,14 +505,20 @@
       <option name="project" value="LOCAL" />
       <updated>1691726633786</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
+      <created>1691735448721</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1691735448722</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. 모든 아나그램 찾기 복습 풀이 추가" />
     <MESSAGE value="1. 올바른 괄호 알고리즘 풀이 추가" />
     <MESSAGE value="2. 괄호문자제거 알고리즘 풀이 추가" />
     <MESSAGE value="4. 후위식 연산(postfix) 알고리즘 풀이 추가" />
@@ -550,7 +543,8 @@
     <MESSAGE value="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가" />
     <MESSAGE value="4. 피보나치수열(재귀함수) 알고리즘 풀이 추가" />
     <MESSAGE value="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
