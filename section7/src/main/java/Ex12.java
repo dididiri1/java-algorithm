@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Ex12 {
 
     static int n, m, answer = 0;
     static int[][] graph;
@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex12 T = new Ex12();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         m = kb.nextInt();

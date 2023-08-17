@@ -332,7 +332,7 @@ public class Main {
 ```
 
 ### 풀이
-```
+``` java
 import java.util.*;
 
 public class Main {
@@ -381,7 +381,7 @@ public class Main {
 
 
 ### 풀이
-```
+``` java
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -456,7 +456,7 @@ public class Main {
 ```
 
 ### 풀이
-```
+``` java
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -514,7 +514,7 @@ public class Main {
 가장 짧은 길이는 3번 노드까지의 길이인 1이다.
 
 ### 풀이
-```
+``` java
 public class Main {
 
     Node root;
@@ -551,7 +551,7 @@ public class Main {
 가장 짧은 길이는 3번 노드까지의 길이인 1이다.
 
 ### 풀이
-```
+``` java
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -596,8 +596,37 @@ public class Main {
 }
 ```
 
-## 11. 그래프와 인접행렬
+## 12. 경로 탐색(인접행렬)
 
 ### 설명
 
-![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_12.png?raw=true)
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_14.png?raw=true)
+
+### 입력
+첫째 줄에는 정점의 수 N(1<=N<=20)와 간선의 수 M가 주어진다. 그 다음부터 M줄에 걸쳐 연결정보가 주어진다.
+
+### 출력
+총 가지수를 출력한다
+
+### 예시 입력 1
+```
+5 9
+1 2
+1 3
+1 4
+2 1
+2 3
+2 5
+3 4
+4 2
+4 5
+```
+### 예시 출력 1
+```
+6
+```
+
+### 풀이
+``` java
+
+```

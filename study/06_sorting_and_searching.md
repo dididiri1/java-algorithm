@@ -771,7 +771,7 @@ C마리의 말을 N개의 마구간에 배치했을 때 가장 가까운 두 말
 ```
 
 ### 풀이
-```
+``` java
 import java.util.*;
 
 public class Main {

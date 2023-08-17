@@ -297,7 +297,7 @@ class Main {
 ### 1. 모든 경우의 수를 돌면 약수 검증  
 - 시간복잡도 O(N)
 
-```java
+``` java
 import java.util.Scanner;
 
 class Main {
@@ -452,7 +452,7 @@ N개의 자연수가 입력되면 각 자연수를 뒤집은 후 그 뒤집은 �
 ```
 
 ### 숫자 뒤집기
-```
+``` java
 for (int i = 0; i < n; i++) {
     int tmp = arr[i];
     int res = 0;
@@ -470,7 +470,7 @@ for (int i = 0; i < n; i++) {
 ```
 
 ### 풀이
-```
+``` java
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -567,7 +567,7 @@ OX 문제는 맞거나 틀린 두 경우의 답을 가지는 문제를 말한다
 ```
 
 ### 풀이
-```
+``` java
 import java.util.Scanner;
 
 class Main {

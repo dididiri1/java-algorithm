@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="11. 그래프와 인접행렬 추가">
-      <change beforePath="$PROJECT_DIR$/study/images/07_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/images/07_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/images/07_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/images/07_11.png" beforeDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="이미지 경로 수정">
+      <change afterPath="$PROJECT_DIR$/study/images/07_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/07_14.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/03_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/03_two_pointers.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/05_stack_and_queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/05_stack_and_queue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/06_sorting_and_searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/06_sorting_and_searching.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/07_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,21 +179,7 @@
       <workItem from="1691717557108" duration="8081000" />
       <workItem from="1692150685805" duration="3081000" />
       <workItem from="1692170417229" duration="1091000" />
-      <workItem from="1692239057629" duration="1016000" />
-    </task>
-    <task id="LOCAL-00018" summary="8. 등수구하기 알고리즘 풀이 추가">
-      <created>1689570809783</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1689570809783</updated>
-    </task>
-    <task id="LOCAL-00019" summary="문제정리 추가">
-      <created>1689672131027</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1689672131027</updated>
+      <workItem from="1692239057629" duration="2335000" />
     </task>
     <task id="LOCAL-00020" summary="10. 봉우리 알고리즘 풀이 추가">
       <created>1689734951587</created>
@@ -519,15 +510,27 @@
       <option name="project" value="LOCAL" />
       <updated>1692240742828</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="11. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가">
+      <created>1692240987428</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1692240987428</updated>
+    </task>
+    <task id="LOCAL-00068" summary="이미지 경로 수정">
+      <created>1692241049290</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1692241049290</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7. 교육과정설계 알고리즘 풀이 추가" />
-    <MESSAGE value="소스 리베이스 커밋" />
     <MESSAGE value="선택정렬 정리 추가" />
     <MESSAGE value="1. 선택 정렬 알고리즘 풀이 추가" />
     <MESSAGE value="버블정렬 정리 추가" />
@@ -551,7 +554,9 @@
     <MESSAGE value="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
     <MESSAGE value="그래프의 종류 학습 추가" />
     <MESSAGE value="11. 그래프와 인접행렬 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="11. 그래프와 인접행렬 추가" />
+    <MESSAGE value="11. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
+    <MESSAGE value="이미지 경로 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="이미지 경로 수정" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
