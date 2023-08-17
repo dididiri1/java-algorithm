@@ -595,3 +595,9 @@ public class Main {
     }
 }
 ```
+
+## 11. 그래프와 인접행렬
+
+### 설명
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_11.png?raw=true)
