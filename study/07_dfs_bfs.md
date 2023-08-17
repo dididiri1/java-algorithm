@@ -600,4 +600,4 @@ public class Main {
 
 ### 설명
 
-![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_11.png?raw=true)
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_08.png?raw=true)

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/study/images/07_08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/07_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/07_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/07_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="11. 그래프와 인접행렬 추가">
+      <change beforePath="$PROJECT_DIR$/study/images/07_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/images/07_09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/images/07_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/images/07_11.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,21 +174,7 @@
       <workItem from="1691717557108" duration="8081000" />
       <workItem from="1692150685805" duration="3081000" />
       <workItem from="1692170417229" duration="1091000" />
-      <workItem from="1692239057629" duration="653000" />
-    </task>
-    <task id="LOCAL-00016" summary="6. 뒤집은 소수 알고리즘 풀이 추가">
-      <created>1689566603942</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1689566603942</updated>
-    </task>
-    <task id="LOCAL-00017" summary="7. 점수계산 알고리즘 풀이 추가">
-      <created>1689567601961</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1689567601961</updated>
+      <workItem from="1692239057629" duration="1016000" />
     </task>
     <task id="LOCAL-00018" summary="8. 등수구하기 알고리즘 풀이 추가">
       <created>1689570809783</created>
@@ -520,15 +505,27 @@
       <option name="project" value="LOCAL" />
       <updated>1692171151209</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="그래프의 종류 학습 추가">
+      <created>1692240651679</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1692240651679</updated>
+    </task>
+    <task id="LOCAL-00066" summary="11. 그래프와 인접행렬 추가">
+      <created>1692240742828</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1692240742828</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6. 공주 구하기 알고리즘 풀이 추가" />
-    <MESSAGE value="자료구조 Queue 정리 추가" />
     <MESSAGE value="7. 교육과정설계 알고리즘 풀이 추가" />
     <MESSAGE value="소스 리베이스 커밋" />
     <MESSAGE value="선택정렬 정리 추가" />
@@ -552,7 +549,9 @@
     <MESSAGE value="8. 송아지 찾기1(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="9. Tree 가장 짧은경로 DFS 알고리즘 풀이 추가" />
     <MESSAGE value="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
+    <MESSAGE value="그래프의 종류 학습 추가" />
+    <MESSAGE value="11. 그래프와 인접행렬 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="11. 그래프와 인접행렬 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
