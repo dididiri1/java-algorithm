@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+public class Ex13 {
 
     static int n, m, answer = 0;
     static ArrayList<ArrayList<Integer>> graph;
@@ -23,7 +23,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex13 T = new Ex13();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         m = kb.nextInt();

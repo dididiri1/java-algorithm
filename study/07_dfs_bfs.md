@@ -596,7 +596,9 @@ public class Main {
 }
 ```
 
-## 12. 경로 탐색(인접행렬)
+## 12. 경로 탐색(인접행렬, DFS)
+
+- N이 100개 미만이면 괜찮음.
 
 ### 설명
 
@@ -628,5 +630,122 @@ public class Main {
 
 ### 풀이
 ``` java
+import java.util.Scanner;
 
+public class Main {
+
+    static int n, m, answer = 0;
+    static int[][] graph;
+    static int[] ch;
+
+    public void DFS(int v) {
+        if (v == n) {
+            answer ++;
+        } else {
+            for (int i = 1; i <= n; i++) {
+                if (graph[v][i] == 1 && ch[i] == 0) {
+                    ch[i] = 1;
+                    DFS(i);
+                    ch[i] = 0;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        n = kb.nextInt();
+        m = kb.nextInt();
+        graph = new int[n+1][n+1];
+        ch = new int[n+1];
+        for (int i = 0; i < m; i++) {
+            int a = kb.nextInt();
+            int b= kb.nextInt();;
+            graph[a][b] = 1;
+        }
+        ch[1] = 1;
+        T.DFS(1);
+        System.out.println(answer);
+    }
+}
+```
+
+## 13. 경로 탐색(인접리스트, ArrayList)
+
+### 설명
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/07_14.png?raw=true)
+
+### 입력
+첫째 줄에는 정점의 수 N(1<=N<=20)와 간선의 수 M가 주어진다. 그 다음부터 M줄에 걸쳐 연결정보가 주어진다.
+
+### 출력
+총 가지수를 출력한다
+
+### 예시 입력 1
+```
+5 9
+1 2
+1 3
+1 4
+2 1
+2 3
+2 5
+3 4
+4 2
+4 5
+```
+### 예시 출력 1
+```
+6
+```
+
+### 풀이
+``` java
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+    static int n, m, answer = 0;
+    static ArrayList<ArrayList<Integer>> graph;
+    static int[] ch;
+
+    public void DFS(int v) {
+        if (v == n) {
+            answer ++;
+        } else {
+            for (int nv : graph.get(v)) {
+                System.out.println("nv = " + nv);
+                if (ch[nv] == 0) {
+                    ch[nv] = 1;
+                    DFS(nv);
+                    ch[nv] = 0;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        n = kb.nextInt();
+        m = kb.nextInt();
+        graph = new ArrayList<ArrayList<Integer>>();
+        for (int i = 1; i <= n; i++) {
+            graph.add(new ArrayList<Integer>());
+        }
+
+        ch = new int[n+1];
+        for (int i = 0; i < m; i++) {
+            int a = kb.nextInt();
+            int b= kb.nextInt();;
+            graph.get(a).add(b);
+        }
+        ch[1] = 1;
+        T.DFS(1);
+        System.out.println(answer);
+    }
+}
 ```

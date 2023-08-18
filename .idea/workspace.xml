@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="이미지 경로 수정">
-      <change afterPath="$PROJECT_DIR$/study/images/07_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/07_14.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="12. 경로탐색(DFS) 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section7/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/02_array.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/02_array.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/03_two_pointers.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/03_two_pointers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/05_stack_and_queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/05_stack_and_queue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/06_sorting_and_searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/06_sorting_and_searching.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/07_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/07_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,14 +173,8 @@
       <workItem from="1691717557108" duration="8081000" />
       <workItem from="1692150685805" duration="3081000" />
       <workItem from="1692170417229" duration="1091000" />
-      <workItem from="1692239057629" duration="2335000" />
-    </task>
-    <task id="LOCAL-00020" summary="10. 봉우리 알고리즘 풀이 추가">
-      <created>1689734951587</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1689734951587</updated>
+      <workItem from="1692239057629" duration="3048000" />
+      <workItem from="1692336976734" duration="315000" />
     </task>
     <task id="LOCAL-00021" summary="11. 임시반장 정하기 알고리즘 풀이 추">
       <created>1689747086617</created>
@@ -524,14 +512,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692241049290</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="12. 경로탐색(DFS) 알고리즘 풀이 추가">
+      <created>1692255060470</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1692255060470</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="선택정렬 정리 추가" />
     <MESSAGE value="1. 선택 정렬 알고리즘 풀이 추가" />
     <MESSAGE value="버블정렬 정리 추가" />
     <MESSAGE value="4. Least Recently Used 알고리즘 풀이 추가" />
@@ -556,7 +550,8 @@
     <MESSAGE value="11. 그래프와 인접행렬 추가" />
     <MESSAGE value="11. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
     <MESSAGE value="이미지 경로 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="이미지 경로 수정" />
+    <MESSAGE value="12. 경로탐색(DFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="12. 경로탐색(DFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
