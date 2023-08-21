@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Ex05 {
 
     static int[] arr;
     static int n, m, answer = Integer.MAX_VALUE;
@@ -20,7 +20,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex05 T = new Ex05();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         arr = new int[n];

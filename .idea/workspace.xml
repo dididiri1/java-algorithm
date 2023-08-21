@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 바둑이 승차(DFS) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex03.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
@@ -178,14 +176,7 @@
       <workItem from="1692170417229" duration="1091000" />
       <workItem from="1692239057629" duration="3048000" />
       <workItem from="1692336976734" duration="760000" />
-      <workItem from="1692579792478" duration="5943000" />
-    </task>
-    <task id="LOCAL-00025" summary="3. 최대 매출 알고리즘 풀이 추가">
-      <created>1689839459007</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1689839459007</updated>
+      <workItem from="1692579792478" duration="8625000" />
     </task>
     <task id="LOCAL-00026" summary="4. 연속 부분수열 알고리즘 풀이 추가">
       <created>1689907899370</created>
@@ -523,14 +514,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692584332236</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가">
+      <created>1692591642830</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1692591642830</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6. 장난꾸러기 알고리즘 풀이 추가" />
     <MESSAGE value="7. 좌표 정렬 알고리즘 풀이 추가" />
     <MESSAGE value="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가" />
     <MESSAGE value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
@@ -555,7 +552,8 @@
     <MESSAGE value="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="1. 합이 같은 부분집합 알고리즘 풀이 추가" />
     <MESSAGE value="2. 바둑이 승차(DFS) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 바둑이 승차(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
