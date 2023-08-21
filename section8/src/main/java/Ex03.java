@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Ex03 {
 
     static int answer = Integer.MIN_VALUE, n, m;
 
@@ -18,7 +18,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex03 T = new Ex03();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         m = kb.nextInt();
