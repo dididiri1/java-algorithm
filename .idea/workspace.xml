@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section8/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 합이 같은 부분집합 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,14 +175,7 @@
       <workItem from="1692170417229" duration="1091000" />
       <workItem from="1692239057629" duration="3048000" />
       <workItem from="1692336976734" duration="760000" />
-      <workItem from="1692579792478" duration="3184000" />
-    </task>
-    <task id="LOCAL-00023" summary="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가">
-      <created>1689819025992</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1689819025992</updated>
+      <workItem from="1692579792478" duration="3965000" />
     </task>
     <task id="LOCAL-00024" summary="2. 공통원소구하기 알고리즘 풀이 추가">
       <created>1689837072066</created>
@@ -525,14 +513,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692580867907</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="1. 합이 같은 부분집합 알고리즘 풀이 추가">
+      <created>1692583342457</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1692583342457</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. Least Recently Used 알고리즘 풀이 추가" />
     <MESSAGE value="5. 중복 확인 알고리즘 풀이 추가" />
     <MESSAGE value="6. 장난꾸러기 알고리즘 풀이 추가" />
     <MESSAGE value="7. 좌표 정렬 알고리즘 풀이 추가" />
@@ -557,7 +551,8 @@
     <MESSAGE value="12. 경로탐색(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="13. 경로탐색(ArrayList) 알고리즘 풀이 추가" />
     <MESSAGE value="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 합이 같은 부분집합 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 합이 같은 부분집합 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
