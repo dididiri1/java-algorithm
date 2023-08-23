@@ -421,6 +421,12 @@ public class Main {
 ### 출력
 첫째 줄에 조합수를 출력합니다.
 
+### 문제 분석
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_03.png?raw=true)
+
+r = 0 또는 n = r 같으면 리턴 값은 1이다.
+DFS(3,3)은 3개중에서 3개를 뽑는 경우는 1가지 경우 밖에 없음.
+DFS(1,0)은 r이 0이기 떄문에 경우의 수는 1이다.
 
 ### 예시 입력 1
 ```
