@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="중복순열, 동전교환 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 순열구하기(DFS) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/08_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/08_02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section8/src/main/java/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Ex05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
     </list>
@@ -57,7 +59,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -72,8 +74,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study" />
       <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
+      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study" />
       <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$" />
@@ -177,14 +179,8 @@
       <workItem from="1692239057629" duration="3048000" />
       <workItem from="1692336976734" duration="760000" />
       <workItem from="1692579792478" duration="10357000" />
-      <workItem from="1692676663361" duration="1340000" />
-    </task>
-    <task id="LOCAL-00027" summary="5. 연속된 자연수의 합 알고리즘 풀이 추가">
-      <created>1689908983927</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1689908983927</updated>
+      <workItem from="1692676663361" duration="5868000" />
+      <workItem from="1692763731755" duration="814000" />
     </task>
     <task id="LOCAL-00028" summary="6. 최대 길이 연속부분수열 알고리즘 풀이 추가">
       <created>1689920576077</created>
@@ -522,14 +518,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692598110053</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="6. 순열구하기(DFS) 알고리즘 풀이 추가">
+      <created>1692678268012</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1692678268012</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가" />
     <MESSAGE value="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="DFS, BFS 이론 정리" />
@@ -554,7 +556,8 @@
     <MESSAGE value="2. 바둑이 승차(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="중복순열, 동전교환 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="중복순열, 동전교환 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 순열구하기(DFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. 순열구하기(DFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -31,6 +31,9 @@ N개의 원소로 구성된 자연수 집합이 주어지면, 이 집합을 두 
 YES
 ```
 
+### 문제 분석
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_01.png?raw=true)
+
 ### 풀이 
 ``` java
 import java.util.Scanner;
@@ -407,4 +410,87 @@ public class Main {
 }
 ```
 
+## 7. 조합의 경우수(메모이제이션)
 
+### 설명
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_02.png?raw=true)
+
+### 입력
+첫째 줄에 자연수 n(3<=n<=33)과 r(0<=r<=n)이 입력됩니다.
+
+### 출력
+첫째 줄에 조합수를 출력합니다.
+
+
+### 예시 입력 1
+```
+5 3
+```
+### 예시 출력 1
+```
+10
+```
+
+### 예시 입력 2
+```
+33 19
+```
+### 예시 출력 2
+```
+818809200
+```
+
+### 풀이 1
+``` java
+import java.util.Scanner;
+
+public class Main {
+
+    public int DFS(int n, int r) {
+        if (n == r || r == 0) {
+            return 1;
+        } else {
+            return DFS(n - 1, n -r) + DFS(n - 1, r);
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int r = kb.nextInt();
+        System.out.println(T.DFS(n, r));
+
+    }
+}
+```
+
+### 풀이 2
+``` java
+import java.util.Scanner;
+
+public class Main {
+
+    int[][] dy = new int[35][35];
+    public int DFS(int n, int r) {
+
+        if(dy[n][r] > 0) {
+            return dy[n][r];
+        }
+
+        if (n == r || r == 0) {
+            return 1;
+        } else {
+            return dy[n][r] = DFS(n - 1, n -r) + DFS(n - 1, r);
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int r = kb.nextInt();
+        System.out.println(T.DFS(n, r));
+    }
+}
+```

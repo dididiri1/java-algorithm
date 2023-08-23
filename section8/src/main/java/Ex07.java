@@ -1,7 +1,6 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Ex07 {
 
     int[][] dy = new int[35][35];
     public int DFS(int n, int r) {
@@ -18,7 +17,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex07 T = new Ex07();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int r = kb.nextInt();
