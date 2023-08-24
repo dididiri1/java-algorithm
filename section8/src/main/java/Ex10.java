@@ -17,8 +17,8 @@ public class Ex10 {
                 int ny = y + dy[i];
 
                 // 이동 가능한 범위
-                // nx>=1&&nx<=7&&ny>=1&&ny<=7 : 경계선 안쪽
-                // board[nx][ny]==0 : 통로
+                // nx>= 1 && nx<=7 && ny>=1 && ny<=7 : 경계선 안쪽
+                // board[nx][ny] == 0 : 통로
                 if (nx >= 1 && nx <= 7 && ny >= 1 && ny <= 7 && board[nx][ny] == 0) {
                     board[nx][ny] = 1;
                     DFS(nx, ny);
