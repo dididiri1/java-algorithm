@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="7. 조합수(메모이제이션) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/study/images/08_03.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="7. 조합수(메모이제이션) 문제분석 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,14 +177,8 @@
       <workItem from="1692336976734" duration="760000" />
       <workItem from="1692579792478" duration="10357000" />
       <workItem from="1692676663361" duration="5868000" />
-      <workItem from="1692763731755" duration="2072000" />
-    </task>
-    <task id="LOCAL-00029" summary="1. 학급 회장(해쉬) 알고리즘 풀이 추가">
-      <created>1689925701052</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1689925701052</updated>
+      <workItem from="1692763731755" duration="2731000" />
+      <workItem from="1692839874991" duration="1901000" />
     </task>
     <task id="LOCAL-00030" summary="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가">
       <created>1690003254020</created>
@@ -522,14 +516,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692764831101</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="7. 조합수(메모이제이션) 문제분석 추가">
+      <created>1692766555791</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1692766555791</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="DFS, BFS 이론 정리" />
     <MESSAGE value="DFS, BFS 이론 정리 #1" />
     <MESSAGE value="1. 재귀함수(스택프레임) 알고리즘 풀이 추가" />
@@ -554,7 +554,8 @@
     <MESSAGE value="중복순열, 동전교환 알고리즘 풀이 추가" />
     <MESSAGE value="6. 순열구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 조합수(메모이제이션) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. 조합수(메모이제이션) 알고리즘 풀이 추가" />
+    <MESSAGE value="7. 조합수(메모이제이션) 문제분석 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="7. 조합수(메모이제이션) 문제분석 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
