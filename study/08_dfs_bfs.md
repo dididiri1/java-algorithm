@@ -534,7 +534,7 @@ N과 가장 밑에 있는 숫자가 주어져 있을 때 가장 윗줄에 있는
 ```
 
 ### 문제 분석
-![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_08.png?raw=true)
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_04.png?raw=true)
 
 
 ### 풀이 
@@ -632,9 +632,116 @@ public class Main {
 
 ### 풀이
 ``` java
+import java.util.Arrays;
+import java.util.Scanner;
 
+public class Main {
+
+    static int[] combi;
+
+    static int n, m;
+
+    public void DFS(int L, int s) {
+        if (L == m) {
+            System.out.println(Arrays.toString(combi));
+        } else {
+            for (int i = s; i <= n; i++) {
+                combi[L] = i;
+                DFS(L + 1, i + 1);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        n = kb.nextInt();
+        m = kb.nextInt();
+        combi = new int[m];
+        T.DFS(0, 1);
+    }
+}
 ```
 
+## 10. 미로탐색(DFS)
+
+### 설명
+7*7 격자판 미로를 탈출하는 경로의 가지수를 출력하는 프로그램을 작성하세요.   
+출발점은 격자의 (1, 1) 좌표이고, 탈출 도착점은 (7, 7)좌표이다. 격자판의 1은 벽이고, 0은 통로이다.   
+격자판의 움직임은 상하좌우로만 움직인다. 미로가 다음과 같다면
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_05.png?raw=true)
+
+위의 지도에서 출발점에서 도착점까지 갈 수 있는 방법의 수는 8가지이다.
+
+### 입력
+7*7 격자판의 정보가 주어집니다.
+
+### 출력
+첫 번째 줄에 경로의 가지수를 출력한다.
+
+### 예시 입력 1
+```
+0 0 0 0 0 0 0
+0 1 1 1 1 1 0
+0 0 0 1 0 0 0
+1 1 0 1 0 1 1
+1 1 0 0 0 0 1
+1 1 0 1 1 0 0
+1 0 0 0 0 0 0
+```
+### 예시 출력 1
+```
+8
+```
+
+### 풀이
+``` java
+import java.util.Scanner;
+
+public class Main {
+
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, 1, 0, -1};
+    static int[][] board;
+    static int answer = 0;
+
+    public void DFS(int x, int y) {
+        if (x == 7 && y == 7) {
+            answer ++;
+        } else {
+            // 현재 칸(x,y)에서 네가지 방향을 탐색
+            for (int i = 0; i < 4; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+
+                // 이동 가능한 범위
+                // nx>=1&&nx<=7&&ny>=1&&ny<=7 : 경계선 안쪽
+                // board[nx][ny]==0 : 통로
+                if (nx >= 1 && nx <= 7 && ny >= 1 && ny <= 7 && board[nx][ny] == 0) { 
+                    board[nx][ny] = 1;
+                    DFS(nx, ny);
+                    board[nx][ny] = 0;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        board = new int[8][8];
+        for (int i = 1; i <= 7; i++) {
+            for (int j = 1; j <= 7; j++) {
+                board[i][j] = kb.nextInt();
+            }
+        }
+        board[1][1] = 1;
+        T.DFS(1, 1);
+        System.out.println(answer);
+    }
+}
+```
 
 
 

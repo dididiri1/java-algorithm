@@ -1,7 +1,6 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Ex10 {
 
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
@@ -30,7 +29,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex10 T = new Ex10();
         Scanner kb = new Scanner(System.in);
         board = new int[8][8];
         for (int i = 1; i <= 7; i++) {
