@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Ex15 {
 
     static int n, m, len, answer = Integer.MAX_VALUE;
     static int[] combi;
@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex15 T = new Ex15();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         m = kb.nextInt();
