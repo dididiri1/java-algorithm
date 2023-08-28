@@ -838,7 +838,152 @@ public class Main {
 }
 ```
 
+## 12. 토마토(BFS 활용)
 
+### 설명
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_07.png?raw=true)
+
+
+### 입력
+첫 줄에는 상자의 크기를 나타내는 두 정수 M, N이 주어진다. M은 상자의 가로 칸의 수, N  
+은 상자의 세로 칸의 수를 나타낸다. 단, 2 ≤ M, N ≤ 1,000 이다.  
+둘째 줄부터는 하나의 상자에 저장된 토마토들의 정보가 주어진다. 즉, 둘째 줄부터 N개의 줄  
+에는 상자에 담긴 토마토의 정보가 주어진다. 하나의 줄에는 상자 가로줄에 들어있는 토마토  
+의 상태가 M개의 정수로 주어진다. 정수 1은 익은 토마토, 정수 0은 익지 않은 토마토, 정수  
+-1은 토마토가 들어있지 않은 칸을 나타낸다.
+
+### 출력
+여러분은 토마토가 모두 익을 때까지의 최소 날짜를 출력해야 한다. 만약, 저장될 때부터 모든  
+토마토가 익어있는 상태이면 0을 출력해야 하고, 토마토가 모두 익지는 못하는 상황이면 -1을  
+출력해야 한다.
+
+### 예시 입력 1
+```
+6 4
+0 0 -1 0 0 0
+0 0 1 0 -1 0
+0 0 -1 0 0 0
+0 0 0 0 -1 1
+```
+### 예시 출력 1
+```
+4
+```
+
+### 풀이
+``` java
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Main {
+
+    static int[] dx = {-1, 0, 1, 0};
+    static int[] dy = {0, 1, 0, -1};
+    static int[][] board, dis;
+    static int n, m, answer = 0;
+
+    static Queue<Point> Q = new LinkedList<>();
+
+    public void BFS() {
+        while (!Q.isEmpty()) {
+            Point tmp = Q.poll();
+            for (int i = 0; i < 4; i++) {
+                int nx = tmp.x + dx[i];
+                int ny = tmp.y + dy[i];
+
+                if (nx >= 0 && nx < n && ny >= 0 && ny < m && board[nx][ny] == 0) {
+                    board[nx][ny] = 1;
+                    Q.offer(new Point(nx, ny));
+                    dis[nx][ny] = dis[tmp.x][tmp.y] + 1;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+
+        m = kb.nextInt();
+        n = kb.nextInt();
+
+        board = new int[n][m];
+        dis = new int[n][m];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                board[i][j] = kb.nextInt();
+                if (board[i][j] == 1) {
+                    Q.offer(new Point(i, j));
+                }
+            }
+        }
+        T.BFS();
+        boolean flag = true;
+        int answer = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (board[i][j] == 0) {
+                    flag = false;
+                }
+            }
+        }
+        if (flag) {
+            for (int i = 0; i < n; i++) {
+                for (int j = 0; j < m; j++) {
+                    answer = Math.max(answer, dis[i][j]);
+                }
+            }
+            System.out.println(answer);
+        } else {
+            System.out.println(-1);
+        }
+
+    }
+}
+```
+
+## 13. 섬나라 아일랜드(DFS)
+
+### 설명
+N*N의 섬나라 아일랜드의 지도가 격자판의 정보로 주어집니다. 각 섬은 1로 표시되어 상하좌우와  
+대각선으로 연결되어 있으며, 0은 바다입니다. 섬나라 아일랜드에 몇 개의 섬이 있는지  
+구하는 프로그램을 작성하세요.
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_08.png?raw=true)
+
+만약 위와 같다면 섬의 개수는 5개입니다.
+
+### 입력
+첫 번째 줄에 섬의 개수를 출력한다.
+
+### 출력
+여러분은 토마토가 모두 익을 때까지의 최소 날짜를 출력해야 한다. 만약, 저장될 때부터 모든  
+토마토가 익어있는 상태이면 0을 출력해야 하고, 토마토가 모두 익지는 못하는 상황이면 -1을  
+출력해야 한다.
+
+### 예시 입력 1
+```
+7
+1 1 0 0 0 1 0
+0 1 1 0 1 1 0
+0 1 0 0 0 0 0
+0 0 0 1 0 1 1
+1 1 0 1 1 0 0
+1 0 0 0 1 0 0
+1 0 1 0 1 0 0
+
+```
+### 예시 출력 1
+```
+5
+```
+
+### 풀이
+``` java
+
+```
 
 
 

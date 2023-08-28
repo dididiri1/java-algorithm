@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 미로탐색(DFS) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Point.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 미로탐색(BFS) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/08_07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/08_08.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section8/src/main/java/Ex10.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Ex10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
     </list>
@@ -180,14 +182,8 @@
       <workItem from="1692579792478" duration="10357000" />
       <workItem from="1692676663361" duration="5868000" />
       <workItem from="1692763731755" duration="2731000" />
-      <workItem from="1692839874991" duration="8457000" />
-    </task>
-    <task id="LOCAL-00033" summary="4. 모든 아나그램 찾기 복습 풀이 추가">
-      <created>1690171814651</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1690171814651</updated>
+      <workItem from="1692839874991" duration="8680000" />
+      <workItem from="1693182917577" duration="2051000" />
     </task>
     <task id="LOCAL-00034" summary="1. 올바른 괄호 알고리즘 풀이 추가">
       <created>1690360432504</created>
@@ -525,14 +521,20 @@
       <option name="project" value="LOCAL" />
       <updated>1692858443037</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="10. 미로탐색(BFS) 알고리즘 풀이 추가">
+      <created>1692861107338</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1692861107338</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가" />
     <MESSAGE value="4. 피보나치수열(재귀함수) 알고리즘 풀이 추가" />
     <MESSAGE value="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가" />
     <MESSAGE value="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가" />
@@ -557,7 +559,8 @@
     <MESSAGE value="8. 수열 추측하기 알고리즘 풀이 추가" />
     <MESSAGE value="9. 조합 구하기 알고리즘 풀이 추가" />
     <MESSAGE value="10. 미로탐색(DFS) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. 미로탐색(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
