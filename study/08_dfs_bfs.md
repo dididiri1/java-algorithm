@@ -1030,8 +1030,191 @@ public class Main {
 }
 ```
 
+## 14. 섬나라 아일랜드(BFS)
 
+### 설명
+N*N의 섬나라 아일랜드의 지도가 격자판의 정보로 주어집니다. 각 섬은 1로 표시되어 상하좌우와  
+대각선으로 연결되어 있으며, 0은 바다입니다. 섬나라 아일랜드에 몇 개의 섬이 있는지  
+구하는 프로그램을 작성하세요.
 
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_08.png?raw=true)
+
+만약 위와 같다면 섬의 개수는 5개입니다.
+
+### 입력
+첫 번째 줄에 섬의 개수를 출력한다.
+
+### 출력
+여러분은 토마토가 모두 익을 때까지의 최소 날짜를 출력해야 한다. 만약, 저장될 때부터 모든  
+토마토가 익어있는 상태이면 0을 출력해야 하고, 토마토가 모두 익지는 못하는 상황이면 -1을  
+출력해야 한다.
+
+### 예시 입력 1
+```
+7
+1 1 0 0 0 1 0
+0 1 1 0 1 1 0
+0 1 0 0 0 0 0
+0 0 0 1 0 1 1
+1 1 0 1 1 0 0
+1 0 0 0 1 0 0
+1 0 1 0 1 0 0
+
+```
+### 예시 출력 1
+```
+5
+```
+
+### 풀이
+``` java
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Main {
+
+    static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
+    static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
+    static int answer = 0, n;
+    Queue<Point> queue = new LinkedList<>();
+
+    public void BFS(int x, int y, int[][] board) {
+        queue.add(new Point(x , y));
+        while (!queue.isEmpty()) {
+            Point pos = queue.poll();
+            for (int i = 0; i < 8; i++) {
+                int nx = pos.x + dx[i];
+                int ny = pos.y + dy[i];
+                if (nx >= 0 && nx < n && ny >= 0 && ny < n  && board[nx][ny] == 1) {
+                    board[nx][ny] = 0;
+                    queue.add(new Point(nx , ny));
+                }
+            }
+        }
+
+    }
+
+    public void solution(int[][] board) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == 1) {
+                    answer ++;
+                    board[i][j] = 0;
+                    BFS(i, j, board);
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        n = kb.nextInt();
+        int[][] arr = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = kb.nextInt();
+            }
+        }
+        T.solution(arr);
+        System.out.println(answer);
+    }
+}
+```
+
+## 13. 섬나라 아일랜드(BFS)
+
+### 설명
+N*N의 섬나라 아일랜드의 지도가 격자판의 정보로 주어집니다. 각 섬은 1로 표시되어 상하좌우와  
+대각선으로 연결되어 있으며, 0은 바다입니다. 섬나라 아일랜드에 몇 개의 섬이 있는지  
+구하는 프로그램을 작성하세요.
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_08.png?raw=true)
+
+만약 위와 같다면 섬의 개수는 5개입니다.
+
+### 입력
+첫 번째 줄에 섬의 개수를 출력한다.
+
+### 출력
+여러분은 토마토가 모두 익을 때까지의 최소 날짜를 출력해야 한다. 만약, 저장될 때부터 모든  
+토마토가 익어있는 상태이면 0을 출력해야 하고, 토마토가 모두 익지는 못하는 상황이면 -1을  
+출력해야 한다.
+
+### 예시 입력 1
+```
+7
+1 1 0 0 0 1 0
+0 1 1 0 1 1 0
+0 1 0 0 0 0 0
+0 0 0 1 0 1 1
+1 1 0 1 1 0 0
+1 0 0 0 1 0 0
+1 0 1 0 1 0 0
+
+```
+### 예시 출력 1
+```
+5
+```
+
+### 풀이
+``` java
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Scanner;
+
+public class Main {
+
+    static int[] dx = {-1, -1, 0, 1, 1, 1, 0, -1};
+    static int[] dy = {0, 1, 1, 1, 0, -1, -1, -1};
+    static int answer = 0, n;
+    Queue<Point> queue = new LinkedList<>();
+
+    public void BFS(int x, int y, int[][] board) {
+        queue.add(new Point(x , y));
+        while (!queue.isEmpty()) {
+            Point pos = queue.poll();
+            for (int i = 0; i < 8; i++) {
+                int nx = pos.x + dx[i];
+                int ny = pos.y + dy[i];
+                if (nx >= 0 && nx < n && ny >= 0 && ny < n  && board[nx][ny] == 1) {
+                    board[nx][ny] = 0;
+                    queue.add(new Point(nx , ny));
+                }
+            }
+        }
+
+    }
+
+    public void solution(int[][] board) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == 1) {
+                    answer ++;
+                    board[i][j] = 0;
+                    BFS(i, j, board);
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        n = kb.nextInt();
+        int[][] arr = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                arr[i][j] = kb.nextInt();
+            }
+        }
+        T.solution(arr);
+        System.out.println(answer);
+    }
+}
+```
 
 
 

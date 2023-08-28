@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="10. 미로탐색(BFS) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section8/src/main/java/Ex12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/08_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/08_08.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
@@ -183,21 +179,7 @@
       <workItem from="1692676663361" duration="5868000" />
       <workItem from="1692763731755" duration="2731000" />
       <workItem from="1692839874991" duration="8680000" />
-      <workItem from="1693182917577" duration="2051000" />
-    </task>
-    <task id="LOCAL-00034" summary="1. 올바른 괄호 알고리즘 풀이 추가">
-      <created>1690360432504</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1690360432504</updated>
-    </task>
-    <task id="LOCAL-00035" summary="2. 괄호문자제거 알고리즘 풀이 추가">
-      <created>1690431222181</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1690431222181</updated>
+      <workItem from="1693182917577" duration="3032000" />
     </task>
     <task id="LOCAL-00036" summary="4. 후위식 연산(postfix) 알고리즘 풀이 추가">
       <created>1690534335740</created>
@@ -528,15 +510,27 @@
       <option name="project" value="LOCAL" />
       <updated>1692861107338</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="12. 토마토(BFS) 알고리즘 풀이 추가">
+      <created>1693185128715</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1693185128716</updated>
+    </task>
+    <task id="LOCAL-00084" summary="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가">
+      <created>1693185182500</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1693185182501</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="4. 피보나치수열(재귀함수) 알고리즘 풀이 추가" />
-    <MESSAGE value="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가" />
     <MESSAGE value="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 이진트리 레벨탐색(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="8. 송아지 찾기1(BFS) 알고리즘 풀이 추가" />
@@ -560,7 +554,9 @@
     <MESSAGE value="9. 조합 구하기 알고리즘 풀이 추가" />
     <MESSAGE value="10. 미로탐색(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="12. 토마토(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
