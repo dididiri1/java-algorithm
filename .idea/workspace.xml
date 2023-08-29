@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/study/images/08_09.png" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="15. 피자배달거리(DFS) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/09_greedy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section8/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section8/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,31 +54,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/USER/IdeaProjects/java-algorithm/study",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
       <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study" />
+      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
       <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$" />
@@ -91,7 +96,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Ex05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex05" />
       <module name="section8" />
@@ -99,9 +104,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section6" />
+      <module name="section9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Ex05" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main2 (2)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,14 +185,8 @@
       <workItem from="1692676663361" duration="5868000" />
       <workItem from="1692763731755" duration="2731000" />
       <workItem from="1692839874991" duration="8680000" />
-      <workItem from="1693182917577" duration="4399000" />
-    </task>
-    <task id="LOCAL-00037" summary="5. 쇠막대기 알고리즘 풀이 추가">
-      <created>1690536592660</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1690536592660</updated>
+      <workItem from="1693182917577" duration="4473000" />
+      <workItem from="1693273419272" duration="2086000" />
     </task>
     <task id="LOCAL-00038" summary="6. 공주 구하기 알고리즘 풀이 추가">
       <created>1690623442649</created>
@@ -525,14 +524,20 @@
       <option name="project" value="LOCAL" />
       <updated>1693186411877</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="15. 피자배달거리(DFS) 알고리즘 풀이 추가">
+      <created>1693187714321</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1693187714322</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7. 이진트리 레벨탐색(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="8. 송아지 찾기1(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="9. Tree 가장 짧은경로 DFS 알고리즘 풀이 추가" />
     <MESSAGE value="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
@@ -557,7 +562,8 @@
     <MESSAGE value="12. 토마토(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="15. 피자배달거리(DFS) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="15. 피자배달거리(DFS) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
