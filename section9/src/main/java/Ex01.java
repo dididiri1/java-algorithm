@@ -16,6 +16,7 @@ class Body implements Comparable<Body> {
         return o.h-this.h;
     }
 }
+
 public class Ex01 {
 
     public int solution(ArrayList<Body> arr, int n) {

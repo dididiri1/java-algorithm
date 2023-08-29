@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="15. 피자배달거리(DFS) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section9/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/09_greedy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 씨름선수 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section9/src/main/java/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/09_greedy.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/09_greedy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,14 +181,7 @@
       <workItem from="1692763731755" duration="2731000" />
       <workItem from="1692839874991" duration="8680000" />
       <workItem from="1693182917577" duration="4473000" />
-      <workItem from="1693273419272" duration="2086000" />
-    </task>
-    <task id="LOCAL-00038" summary="6. 공주 구하기 알고리즘 풀이 추가">
-      <created>1690623442649</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1690623442649</updated>
+      <workItem from="1693273419272" duration="3589000" />
     </task>
     <task id="LOCAL-00039" summary="자료구조 Queue 정리 추가">
       <created>1690623475357</created>
@@ -531,14 +519,31 @@
       <option name="project" value="LOCAL" />
       <updated>1693187714322</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="1. 씨름선수 알고리즘 풀이 추가">
+      <created>1693275620676</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1693275620677</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="8. 송아지 찾기1(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="9. Tree 가장 짧은경로 DFS 알고리즘 풀이 추가" />
     <MESSAGE value="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
     <MESSAGE value="그래프의 종류 학습 추가" />
@@ -563,7 +568,8 @@
     <MESSAGE value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="15. 피자배달거리(DFS) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="15. 피자배달거리(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 씨름선수 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 씨름선수 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
