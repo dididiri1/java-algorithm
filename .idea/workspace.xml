@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 회의실 배정 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 결혼식 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/09_greedy.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/09_greedy.md" afterDir="false" />
@@ -120,9 +121,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
-      <module name="section7" />
+      <module name="section9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,10 +131,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Ex05" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main2 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,13 +184,7 @@
       <workItem from="1693182917577" duration="4473000" />
       <workItem from="1693273419272" duration="4849000" />
       <workItem from="1693305458120" duration="2886000" />
-    </task>
-    <task id="LOCAL-00040" summary="7. 교육과정설계 알고리즘 풀이 추가">
-      <created>1690625683991</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1690625683991</updated>
+      <workItem from="1693357809957" duration="2909000" />
     </task>
     <task id="LOCAL-00041" summary="소스 리베이스 커밋">
       <created>1691202264510</created>
@@ -527,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693277059674</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="3. 결혼식 알고리즘 풀이 추가">
+      <created>1693358053360</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1693358053360</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +547,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
     <MESSAGE value="그래프의 종류 학습 추가" />
     <MESSAGE value="11. 그래프와 인접행렬 추가" />
     <MESSAGE value="11. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
@@ -570,7 +571,8 @@
     <MESSAGE value="15. 피자배달거리(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="1. 씨름선수 알고리즘 풀이 추가" />
     <MESSAGE value="2. 회의실 배정 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 회의실 배정 알고리즘 풀이 추가" />
+    <MESSAGE value="3. 결혼식 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="3. 결혼식 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
