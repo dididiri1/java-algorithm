@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. 다익스트라  알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/study/images/09_02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section9/src/main/java/Ex05.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Ex05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/09_greedy.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/09_greedy.md" afterDir="false" />
     </list>
@@ -184,14 +186,7 @@
       <workItem from="1693273419272" duration="4849000" />
       <workItem from="1693305458120" duration="2886000" />
       <workItem from="1693357809957" duration="5848000" />
-      <workItem from="1693456714776" duration="379000" />
-    </task>
-    <task id="LOCAL-00043" summary="1. 선택 정렬 알고리즘 풀이 추가">
-      <created>1691206600962</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1691206600962</updated>
+      <workItem from="1693456714776" duration="2374000" />
     </task>
     <task id="LOCAL-00044" summary="버블정렬 정리 추가">
       <created>1691210715873</created>
@@ -529,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693377324584</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가">
+      <created>1693457177887</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1693457177887</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +549,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가" />
     <MESSAGE value="이미지 경로 수정" />
     <MESSAGE value="12. 경로탐색(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="13. 경로탐색(ArrayList) 알고리즘 풀이 추가" />
@@ -572,7 +573,8 @@
     <MESSAGE value="3. 결혼식 알고리즘 풀이 추가" />
     <MESSAGE value="4. 최대 수입 스케쥴(PriorityQueue)  알고리즘 풀이 추가" />
     <MESSAGE value="5. 다익스트라  알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. 다익스트라  알고리즘 풀이 추가" />
+    <MESSAGE value="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

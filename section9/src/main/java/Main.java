@@ -1,5 +1,22 @@
 import java.util.*;
 
+class Edge implements Comparable<Edge> {
+    public int v1;
+    public int v2;
+    public int cost;
+
+    public Edge(int v1, int v2, int cost) {
+        this.v1 = v1;
+        this.v2 = v2;
+        this.cost = cost;
+    }
+
+    @Override
+    public int compareTo(Edge ob) {
+        return this.cost - ob.cost;
+    }
+}
+
 public class Main {
 
     static int[] unf;
@@ -26,22 +43,28 @@ public class Main {
         int n = kb.nextInt();
         int m = kb.nextInt();
         unf = new int[n+1];
-        for (int i = 1; i <= n; i++) {
+        ArrayList<Edge> arr = new ArrayList<Edge>();
+        for (int i = 1; i < n; i++) {
             unf[i] = i;
         }
-        for (int i = 1; i <= m; i++) {
+        for (int i = 0; i < m; i++) {
             int a = kb.nextInt();
             int b = kb.nextInt();
-            Union(a, b);
+            int c = kb.nextInt();
+            arr.add(new Edge(a, b, c));
         }
-        int a = kb.nextInt();
-        int b = kb.nextInt();
-        int fa = Find(a);
-        int fb = Find(b);
-        if (fa == fb) {
-            System.out.println("YES");
-        } else {
-            System.out.println("NO");
+        int answer = 0;
+        Collections.sort(arr);
+
+        for (Edge ob : arr) {
+            int fv1 = Find(ob.v1);
+            int fv2 = Find(ob.v2);
+            if (fv1 != fv2) {
+                answer += ob.cost;
+                Union(ob.v1, ob.v2);
+            }
         }
+
+        System.out.println(answer);
     }
 }

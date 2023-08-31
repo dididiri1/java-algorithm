@@ -434,7 +434,6 @@ public class Main {
 
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/09_01.png?raw=true)
 
-
 ### 입력
 첫째 줄에는 정점의 수 N(1<=N<=20)와 간선의 수 M가 주어진다. 그 다음부터 M줄에 걸쳐 연결정보와   
 거리비용이 주어진다.
@@ -470,18 +469,18 @@ public class Main {
 ``` java
 import java.util.*;
 
-class Edge implements Comparable<Edge>{
+class Edge2 implements Comparable<Edge2>{
 
     public int vex;
     public int cost;
 
-    Edge(int vex, int cost) {
+    Edge2(int vex, int cost) {
         this.vex = vex;
         this.cost = cost;
     }
 
     @Override
-    public int compareTo(Edge ob) {
+    public int compareTo(Edge2 ob) {
         return this.cost - ob.cost;
     }
 }
@@ -489,24 +488,24 @@ class Edge implements Comparable<Edge>{
 public class Main {
 
     static int n, m;
-    static ArrayList<ArrayList<Edge>> graph;
+    static ArrayList<ArrayList<Edge2>> graph;
     static int[] dis;
 
     public void solution(int v) {
-        PriorityQueue<Edge> pQ = new PriorityQueue<>();
-        pQ.offer(new Edge(v, 0));
+        PriorityQueue<Edge2> pQ = new PriorityQueue<>();
+        pQ.offer(new Edge2(v, 0));
         dis[v] = 0;
         while (!pQ.isEmpty()) {
-            Edge tmp = pQ.poll();
+            Edge2 tmp = pQ.poll();
             int now = tmp.vex;
             int nowCost = tmp.cost;
             if (nowCost > dis[now]) {
                 continue;
             }
-            for (Edge ob : graph.get(now)) {
+            for (Edge2 ob : graph.get(now)) {
                 if (dis[ob.vex] > nowCost + ob.cost) {
                     dis[ob.vex] = nowCost + ob.cost;
-                    pQ.offer(new Edge(ob.vex, nowCost + ob.cost));
+                    pQ.offer(new Edge2(ob.vex, nowCost + ob.cost));
                 }
             }
         }
@@ -517,9 +516,9 @@ public class Main {
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         m = kb.nextInt();
-        graph = new ArrayList<ArrayList<Edge>>();
+        graph = new ArrayList<ArrayList<Edge2>>();
         for (int i = 0; i <= n; i++) {
-            graph.add(new ArrayList<Edge>());
+            graph.add(new ArrayList<Edge2>());
         }
         dis=new int[n+1];
         Arrays.fill(dis, Integer.MAX_VALUE);
@@ -527,7 +526,7 @@ public class Main {
             int a = kb.nextInt();
             int b = kb.nextInt();
             int c = kb.nextInt();
-            graph.get(a).add(new Edge(b, c));
+            graph.get(a).add(new Edge2(b, c));
         }
         T.solution(1);
         for (int i = 2; i <= n; i++) {
@@ -626,6 +625,123 @@ public class Main {
         } else {
             System.out.println("NO");
         }
+    }
+}
+```
+
+## 7. 원더랜드(최소스패닝트리 : 크루스칼, Union&Find 활용
+
+### 설명
+원더랜드에 문제가 생겼다. 원더랜드의 각 도로를 유지보수하는 재정이 바닥난 것이다.  
+원더랜드는 모든 도시를 서로 연결하면서 최소의 유지비용이 들도록 도로를 선택하고 나머지  
+도로는 폐쇄하려고 한다.  
+아래의 그림은 그 한 예를 설명하는 그림이다.  
+
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/09_02.png?raw=true)
+
+위의 지도는 각 도시가 1부터 9로 표현되었고, 지도의 오른쪽은 최소비용 196으로 모든 도시  
+를 연결하는 방법을 찾아낸 것이다.
+
+### 입력
+첫째 줄에 도시의 개수 V(1≤V≤100)와 도로의 개수 E(1≤E≤1,000)가 주어진다. 다음 E개의  
+줄에는 각 도로에 대한 정보를 나타내는 세 정수 A, B, C가 주어진다. 이는 A번 도시와 B번  
+도시가 유지비용이 C인 도로로 연결되어 있다는 의미이다.
+
+### 출력
+모든 도시를 연결하면서 드는 최소비용을 출려한다.
+
+
+### 예시 입력 1
+```
+9 12
+1 2 12
+1 9 25
+2 3 10
+2 8 17
+2 9 8
+3 4 18
+3 7 55
+4 5 44
+5 6 60
+5 7 38
+7 8 35
+8 9 15
+```
+### 예시 출력 1
+```
+196
+```
+
+### 풀이
+``` java
+import java.util.*;
+
+class Edge implements Comparable<Edge> {
+    public int v1;
+    public int v2;
+    public int cost;
+
+    public Edge(int v1, int v2, int cost) {
+        this.v1 = v1;
+        this.v2 = v2;
+        this.cost = cost;
+    }
+
+    @Override
+    public int compareTo(Edge ob) {
+        return this.cost - ob.cost;
+    }
+}
+
+public class Main {
+
+    static int[] unf;
+
+    public static int Find(int v) {
+        if (unf[v] == v) {
+            return v;
+        } else {
+            return unf[v] = Find(unf[v]);
+        }
+    }
+
+    public static void Union(int a, int b) {
+        int fa = Find(a);
+        int fb = Find(b);
+        if (fa != fb) {
+            unf[fa] = fb;
+        }
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int m = kb.nextInt();
+        unf = new int[n+1];
+        ArrayList<Edge> arr = new ArrayList<Edge>();
+        for (int i = 1; i < n; i++) {
+            unf[i] = i;
+        }
+        for (int i = 0; i < m; i++) {
+            int a = kb.nextInt();
+            int b = kb.nextInt();
+            int c = kb.nextInt();
+            arr.add(new Edge(a, b, c));
+        }
+        int answer = 0;
+        Collections.sort(arr);
+
+        for (Edge ob : arr) {
+            int fv1 = Find(ob.v1);
+            int fv2 = Find(ob.v2);
+            if (fv1 != fv2) {
+                answer += ob.cost;
+                Union(ob.v1, ob.v2);
+            }
+        }
+
+        System.out.println(answer);
     }
 }
 ```
