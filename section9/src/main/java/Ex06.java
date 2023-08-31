@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class Ex06 {
 
     static int[] unf;
 
@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex06 T = new Ex06();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         int m = kb.nextInt();
