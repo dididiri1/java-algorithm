@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section10/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Ex01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Ex08.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/10_dynamic.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/10_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/study/images/10_02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Ex02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/src/main/java/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/src/main/java/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/section10/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/10_dynamic.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/10_dynamic.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,14 +187,7 @@
       <workItem from="1693305458120" duration="2886000" />
       <workItem from="1693357809957" duration="5848000" />
       <workItem from="1693456714776" duration="3184000" />
-      <workItem from="1693530717931" duration="3026000" />
-    </task>
-    <task id="LOCAL-00046" summary="5. 중복 확인 알고리즘 풀이 추가">
-      <created>1691376667128</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1691376667128</updated>
+      <workItem from="1693530717931" duration="4938000" />
     </task>
     <task id="LOCAL-00047" summary="6. 장난꾸러기 알고리즘 풀이 추가">
       <created>1691388949245</created>
@@ -539,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693531451434</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가">
+      <created>1693542177346</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1693542177346</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +550,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="13. 경로탐색(ArrayList) 알고리즘 풀이 추가" />
     <MESSAGE value="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="1. 합이 같은 부분집합 알고리즘 풀이 추가" />
     <MESSAGE value="2. 바둑이 승차(DFS) 알고리즘 풀이 추가" />
@@ -582,7 +574,8 @@
     <MESSAGE value="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 원더랜드(최소 스패닝 트리 - 크루스칼 : Uion&amp;Find 이용) 알고리즘 풀이 추가" />
     <MESSAGE value="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
