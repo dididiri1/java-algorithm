@@ -15,6 +15,7 @@
         <module name="section2" />
         <module name="section3" />
         <module name="section4" />
+        <module name="section10" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

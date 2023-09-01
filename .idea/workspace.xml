@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="7. 원더랜드(최소 스패닝 트리 - 크루스칼 : Uion&amp;Find 이용) 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section10/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Ex01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/section9/src/main/java/Ex08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/10_dynamic.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/10_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/study/images/10_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section9/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section9/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/09_greedy.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/09_greedy.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,27 +57,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/USER/IdeaProjects/java-algorithm/study/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
@@ -91,7 +100,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Ex05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex05" />
       <module name="section8" />
@@ -106,16 +115,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section8" />
+      <module name="section10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section7" />
+      <module name="section8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Ex05" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -185,14 +194,7 @@
       <workItem from="1693305458120" duration="2886000" />
       <workItem from="1693357809957" duration="5848000" />
       <workItem from="1693456714776" duration="3184000" />
-      <workItem from="1693530717931" duration="669000" />
-    </task>
-    <task id="LOCAL-00045" summary="4. Least Recently Used 알고리즘 풀이 추가">
-      <created>1691375919071</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1691375919071</updated>
+      <workItem from="1693530717931" duration="3026000" />
     </task>
     <task id="LOCAL-00046" summary="5. 중복 확인 알고리즘 풀이 추가">
       <created>1691376667128</created>
@@ -530,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693460474612</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가">
+      <created>1693531451434</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1693531451434</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="12. 경로탐색(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="13. 경로탐색(ArrayList) 알고리즘 풀이 추가" />
     <MESSAGE value="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="1. 합이 같은 부분집합 알고리즘 풀이 추가" />
@@ -573,7 +581,8 @@
     <MESSAGE value="5. 다익스트라  알고리즘 풀이 추가" />
     <MESSAGE value="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 원더랜드(최소 스패닝 트리 - 크루스칼 : Uion&amp;Find 이용) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="7. 원더랜드(최소 스패닝 트리 - 크루스칼 : Uion&amp;Find 이용) 알고리즘 풀이 추가" />
+    <MESSAGE value="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
