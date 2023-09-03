@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="3. 최대 부분 증가 수열 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Ex03.java" afterDir="false" />
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/section10/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study/10_dynamic.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/10_dynamic.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -188,14 +188,8 @@
       <workItem from="1693456714776" duration="3184000" />
       <workItem from="1693530717931" duration="6565000" />
       <workItem from="1693638455719" duration="33000" />
-      <workItem from="1693638496467" duration="429000" />
-    </task>
-    <task id="LOCAL-00048" summary="7. 좌표 정렬 알고리즘 풀이 추가">
-      <created>1691390265265</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1691390265265</updated>
+      <workItem from="1693638496467" duration="455000" />
+      <workItem from="1693697763652" duration="988000" />
     </task>
     <task id="LOCAL-00049" summary="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가">
       <created>1691460127520</created>
@@ -533,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693549892142</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가">
+      <created>1693638942234</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1693638942235</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +552,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1. 합이 같은 부분집합 알고리즘 풀이 추가" />
     <MESSAGE value="2. 바둑이 승차(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="중복순열, 동전교환 알고리즘 풀이 추가" />
@@ -576,7 +576,8 @@
     <MESSAGE value="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가" />
     <MESSAGE value="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가" />
     <MESSAGE value="3. 최대 부분 증가 수열 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="3. 최대 부분 증가 수열 알고리즘 풀이 추가" />
+    <MESSAGE value="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -320,7 +320,7 @@ public class Main {
             answer = Math.min(answer, L);
         } else {
             for (int i = 0; i < n; i++) {
-                DFS(L+1, sum + arr[i], arr);
+                DFS(L + 1, sum + arr[i], arr);
             }
         }
     }

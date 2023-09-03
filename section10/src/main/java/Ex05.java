@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Ex05 {
 
     static int n, m;
 
@@ -20,7 +20,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        Ex05 T = new Ex05();
         Scanner kb = new Scanner(System.in);
         n = kb.nextInt();
         int[] arr = new int[n];
