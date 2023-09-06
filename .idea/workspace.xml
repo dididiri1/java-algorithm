@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. 동전교환(냅색 알고리즘) 알고리즘 풀이 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가">
+      <change afterPath="$PROJECT_DIR$/section10/src/main/java/Ex06.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section10/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section10/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/10_dynamic.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/10_dynamic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/01_spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/01_spring.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/08_dfs_bfs.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/08_dfs_bfs.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +190,8 @@
       <workItem from="1693638455719" duration="33000" />
       <workItem from="1693638496467" duration="455000" />
       <workItem from="1693697763652" duration="1617000" />
-      <workItem from="1693875208630" duration="1899000" />
-    </task>
-    <task id="LOCAL-00050" summary="8. 이분검색 알고리즘 풀이, 이분검색 정리 추가">
-      <created>1691460184321</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1691460184321</updated>
+      <workItem from="1693875208630" duration="2557000" />
+      <workItem from="1693998245516" duration="342000" />
     </task>
     <task id="LOCAL-00051" summary="9. 뮤직비디오(결정알고리즘) 알고리즘 풀이 추가">
       <created>1691463440104</created>
@@ -534,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693700815743</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가">
+      <created>1693884040735</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1693884040735</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +554,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="중복순열, 동전교환 알고리즘 풀이 추가" />
     <MESSAGE value="6. 순열구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 조합수(메모이제이션) 알고리즘 풀이 추가" />
@@ -577,7 +578,8 @@
     <MESSAGE value="3. 최대 부분 증가 수열 알고리즘 풀이 추가" />
     <MESSAGE value="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가" />
     <MESSAGE value="5. 동전교환(냅색 알고리즘) 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="5. 동전교환(냅색 알고리즘) 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
