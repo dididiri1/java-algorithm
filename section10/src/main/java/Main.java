@@ -9,6 +9,7 @@ public class Main {
         int m = kb.nextInt();
         int[] dy = new int[m+1];
 
+
         for (int i = 0; i < n; i++) {
             int ps = kb.nextInt();
             int pt = kb.nextInt();
@@ -16,6 +17,7 @@ public class Main {
                 dy[j] = Math.max(dy[j], dy[j - pt] + ps);
             }
         }
+
         System.out.println(dy[m]);
     }
 }

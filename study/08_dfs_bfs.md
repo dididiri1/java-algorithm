@@ -531,7 +531,7 @@ F는 가장 밑에 줄에 있는 수로 1,000,000 이하이다.
 ```
 3 1 2 4
 ```
-
+  
 ### 문제 분석
 ![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/08_04.png?raw=true)
 
