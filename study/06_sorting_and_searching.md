@@ -252,3 +252,119 @@ public class Main {
     }
 }
 ``` 
+
+## 삽입 정렬(Insert Sort)
+**삽입 정렬**은 가장 간단한 정렬 방식으로 **이미 순서화된 파일에 새로운 하나의 레코드를 순서의 맞게 삽입시켜 정렬**함
+- 두 번째 키와 첫 번째 키를 비교해 순서대로 나열(1회전)하고, 이어서 세 번째 키를 첫 번째,  
+  두 번째 키와 비교해 순서대로 나열(2회전)하고, 계속해서 n번째 키를 앞에 n-1개의 키와 비교하여  
+  알 맞은 순서에 삽입하여 정렬 하는 방식.
+- 평균과 최악 모두 수행 시간 복잡도는 O(n2)이다.
+
+## 3. 삽입 정렬
+### 설명
+
+N개이 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프로그램을 작성하세요.
+
+정렬하는 방법은 삽입정렬입니다.
+
+
+### 입력
+첫 번째 줄에 자연수 N(1<=N<=100)이 주어집니다.
+
+두 번째 줄에 N개의 자연수가 공백을 사이에 두고 입력됩니다. 각 자연수는 정수형 범위 안에 있습니다.
+
+
+### 출력
+오름차순으로 정렬된 수열을 출력합니다.
+
+
+### 예시 입력 1
+``` 
+6
+11 7 5 6 10 9
+``` 
+### 예시 출력 1
+``` 
+5 6 7 9 10 11
+``` 
+
+### 풀이 1
+``` 
+import java.util.Scanner;
+
+public class Main {
+
+    public int[] solution(int n, int[] arr) {
+
+        for (int i = 1; i < n; i++) {
+            int tmp = arr[i];
+            for (int j = i-1; j >= 0; j--) {
+                if (arr[j] > tmp) {
+                    arr[j+1] = arr[j];
+                    arr[j] = tmp;
+                } 
+            }
+        }
+
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        for (int x : T.solution(n, arr)) {
+            System.out.println(x + " ");
+        }
+    }
+}
+``` 
+
+### 풀이 2
+``` 
+import java.util.Scanner;
+
+public class Main {
+
+    public int[] solution(int n, int[] arr) {
+
+        for (int i = 1; i < n; i++) {
+
+            int tmp = arr[i], j;
+            for (j = i-1; j >= 0; j--) {
+                if (arr[j] > tmp) {
+                    arr[j+1] = arr[j];
+   
+                } else {
+                    break;
+                }
+
+            }
+            arr[j+1] = tmp;
+        }
+
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        for (int x : T.solution(n, arr)) {
+            System.out.println(x + " ");
+        }
+    }
+}
+``` 
