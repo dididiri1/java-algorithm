@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="[복습] 1. 문자 찾기 알고리즘 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="[복습] 2. 대소문자 변환 알고리즘 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secction11/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/secction11/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study/01_spring.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/01_spring.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,13 +191,6 @@
       <workItem from="1693697763652" duration="1617000" />
       <workItem from="1693875208630" duration="2557000" />
       <workItem from="1693998245516" duration="923000" />
-    </task>
-    <task id="LOCAL-00054" summary="DFS, BFS 이론 정리 #1">
-      <created>1691543885699</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1691543885699</updated>
     </task>
     <task id="LOCAL-00055" summary="1. 재귀함수(스택프레임) 알고리즘 풀이 추가">
       <created>1691545479956</created>
@@ -534,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697075513811</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="[복습] 2. 대소문자 변환 알고리즘 추가">
+      <created>1697076297333</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1697076297333</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="7. 조합수(메모이제이션) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 조합수(메모이제이션) 문제분석 추가" />
     <MESSAGE value="8. 수열 추측하기 알고리즘 풀이 추가" />
     <MESSAGE value="9. 조합 구하기 알고리즘 풀이 추가" />
@@ -577,7 +577,8 @@
     <MESSAGE value="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="오타 수정 추가" />
     <MESSAGE value="[복습] 1. 문자 찾기 알고리즘 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[복습] 1. 문자 찾기 알고리즘 추가" />
+    <MESSAGE value="[복습] 2. 대소문자 변환 알고리즘 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[복습] 2. 대소문자 변환 알고리즘 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
