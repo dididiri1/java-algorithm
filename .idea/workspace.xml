@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="2. 버블 정렬 알고리즘 풀이 추가">
-      <change afterPath="$PROJECT_DIR$/section7/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/section7/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/section6/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/section6/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study/06_sorting_and_searching.md" beforeDir="false" afterPath="$PROJECT_DIR$/study/06_sorting_and_searching.md" afterDir="false" />
-    </list>
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="오타 수정 추가" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,8 +50,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kangmin/IdeaProjects/java-algorithm/study/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/IdeaProjects/java-algorithm/study/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -75,12 +67,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/study/images" />
       <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
+      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study" />
+      <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\section9\src\main\java" />
+      <recent name="C:\Users\USER\IdeaProjects\java-algorithm\study\images" />
       <recent name="$PROJECT_DIR$/study/images" />
       <recent name="$PROJECT_DIR$/study" />
       <recent name="$PROJECT_DIR$/section1_spring/src/main/java" />
@@ -92,49 +87,49 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
-    <configuration name="Ex01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ex01" />
-      <module name="section5" />
+  <component name="RunManager" selected="Application.Main (2)">
+    <configuration name="Ex05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex05" />
+      <module name="section8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section5" />
+      <module name="section9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section6" />
+      <module name="section10" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="section7" />
+      <module name="section8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main2" />
-      <module name="section5" />
+      <module name="section9" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Ex01" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Ex05" />
       </list>
     </recent_temporary>
   </component>
@@ -167,357 +162,419 @@
       <workItem from="1690170232549" duration="2106000" />
       <workItem from="1690620086777" duration="5642000" />
       <workItem from="1690965898221" duration="2237000" />
-      <workItem from="1691201940280" duration="14519000" />
-      <workItem from="1697073183517" duration="1720000" />
+      <workItem from="1691201940280" duration="9886000" />
+      <workItem from="1691373261169" duration="5963000" />
+      <workItem from="1691455312038" duration="7657000" />
+      <workItem from="1691540011952" duration="10635000" />
+      <workItem from="1691560549930" duration="613000" />
+      <workItem from="1691717557108" duration="8081000" />
+      <workItem from="1692150685805" duration="3081000" />
+      <workItem from="1692170417229" duration="1091000" />
+      <workItem from="1692239057629" duration="3048000" />
+      <workItem from="1692336976734" duration="760000" />
+      <workItem from="1692579792478" duration="10357000" />
+      <workItem from="1692676663361" duration="5868000" />
+      <workItem from="1692763731755" duration="2731000" />
+      <workItem from="1692839874991" duration="8680000" />
+      <workItem from="1693182917577" duration="4473000" />
+      <workItem from="1693273419272" duration="4849000" />
+      <workItem from="1693305458120" duration="2886000" />
+      <workItem from="1693357809957" duration="5848000" />
+      <workItem from="1693456714776" duration="3184000" />
+      <workItem from="1693530717931" duration="6565000" />
+      <workItem from="1693638455719" duration="33000" />
+      <workItem from="1693638496467" duration="455000" />
+      <workItem from="1693697763652" duration="1617000" />
+      <workItem from="1693875208630" duration="2557000" />
+      <workItem from="1693998245516" duration="923000" />
     </task>
-    <task id="LOCAL-00001" summary="1. 문차 찾기 알고리즘 문제 추가">
-      <created>1688971651168</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+    <task id="LOCAL-00052" summary="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가">
+      <created>1691541284615</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1688971651168</updated>
+      <updated>1691541284615</updated>
     </task>
-    <task id="LOCAL-00002" summary="1. Scanner 클래스의 특징, 향상된 for문 &amp; toCharArray, 대소문자 변환 추가">
-      <created>1689043215977</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+    <task id="LOCAL-00053" summary="DFS, BFS 이론 정리">
+      <created>1691543033582</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1689043215977</updated>
+      <updated>1691543033582</updated>
     </task>
-    <task id="LOCAL-00003" summary="대소문자 구분 클래스 학습 추가 2번 문제">
-      <created>1689045452271</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+    <task id="LOCAL-00054" summary="DFS, BFS 이론 정리 #1">
+      <created>1691543885699</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
       <option name="project" value="LOCAL" />
-      <updated>1689045452271</updated>
+      <updated>1691543885699</updated>
     </task>
-    <task id="LOCAL-00004" summary="3. 문장 속 단어(indexOf(), substring()) 문제풀이 추가">
-      <created>1689050169152</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+    <task id="LOCAL-00055" summary="1. 재귀함수(스택프레임) 알고리즘 풀이 추가">
+      <created>1691545479956</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
       <option name="project" value="LOCAL" />
-      <updated>1689050169152</updated>
+      <updated>1691545479956</updated>
     </task>
-    <task id="LOCAL-00005" summary="특정 문자 뒤집기, Character.isAlphabetic() 문제 알고리즘 추가">
-      <created>1689131639891</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+    <task id="LOCAL-00056" summary="2. 이진수 출력(재귀), 3. (팩토리얼) 알고리즘 풀이 추가">
+      <created>1691560288181</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
       <option name="project" value="LOCAL" />
-      <updated>1689131639891</updated>
+      <updated>1691560288181</updated>
     </task>
-    <task id="LOCAL-00006" summary="7. 회문문자열 문제 풀이 추가">
-      <created>1689137976158</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+    <task id="LOCAL-00057" summary="4. 피보나치수열(재귀함수) 알고리즘 풀이 추가">
+      <created>1691719110171</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
       <option name="project" value="LOCAL" />
-      <updated>1689137976158</updated>
+      <updated>1691719110172</updated>
     </task>
-    <task id="LOCAL-00007" summary="8. 팰린드롬(replaceAll 정규식이용) 문제 풀이 추가">
-      <created>1689241285440</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+    <task id="LOCAL-00058" summary="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가">
+      <created>1691726633786</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
       <option name="project" value="LOCAL" />
-      <updated>1689241285440</updated>
+      <updated>1691726633786</updated>
     </task>
-    <task id="LOCAL-00008" summary="9. 숫자만 추출 알고리즘 풀이 추가">
-      <created>1689301492925</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+    <task id="LOCAL-00059" summary="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
+      <created>1691735448721</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
       <option name="project" value="LOCAL" />
-      <updated>1689301492925</updated>
+      <updated>1691735448722</updated>
     </task>
-    <task id="LOCAL-00009" summary="10. 문자거리, 11. 문자열 압축 알고리즘 풀이 추가">
-      <created>1689309934924</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+    <task id="LOCAL-00060" summary="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
+      <created>1692150799458</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
       <option name="project" value="LOCAL" />
-      <updated>1689309934924</updated>
+      <updated>1692150799458</updated>
     </task>
-    <task id="LOCAL-00010" summary="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가">
-      <created>1689320773754</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+    <task id="LOCAL-00061" summary="7. 이진트리 레벨탐색(BFS) 알고리즘 풀이 추가">
+      <created>1692151726433</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
       <option name="project" value="LOCAL" />
-      <updated>1689320773754</updated>
+      <updated>1692151726433</updated>
     </task>
-    <task id="LOCAL-00011" summary="12. 암호(replace(), parseInt(string, 2)) 알고리즘 문제 풀이 추가">
-      <created>1689387948234</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+    <task id="LOCAL-00062" summary="8. 송아지 찾기1(BFS) 알고리즘 풀이 추가">
+      <created>1692152936263</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
       <option name="project" value="LOCAL" />
-      <updated>1689387948234</updated>
+      <updated>1692152936263</updated>
     </task>
-    <task id="LOCAL-00012" summary="1. 큰 수 출력하기 알고리즘 풀이 추가">
-      <created>1689390853183</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+    <task id="LOCAL-00063" summary="9. Tree 가장 짧은경로 DFS 알고리즘 풀이 추가">
+      <created>1692170708310</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
       <option name="project" value="LOCAL" />
-      <updated>1689390853183</updated>
+      <updated>1692170708310</updated>
     </task>
-    <task id="LOCAL-00013" summary="2. 보이는 학생 알고리즘 풀이 추가">
-      <created>1689392622901</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
+    <task id="LOCAL-00064" summary="10. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가">
+      <created>1692171151209</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
       <option name="project" value="LOCAL" />
-      <updated>1689392622901</updated>
+      <updated>1692171151209</updated>
     </task>
-    <task id="LOCAL-00014" summary="3. 가위바위보 알고리즘 풀이 추가">
-      <created>1689393024068</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
+    <task id="LOCAL-00065" summary="그래프의 종류 학습 추가">
+      <created>1692240651679</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
       <option name="project" value="LOCAL" />
-      <updated>1689393024068</updated>
+      <updated>1692240651679</updated>
     </task>
-    <task id="LOCAL-00015" summary="4. 피보나치 수열, 5 에라토스테네스체 알고리즘 풀이 추가">
-      <created>1689560940370</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
+    <task id="LOCAL-00066" summary="11. 그래프와 인접행렬 추가">
+      <created>1692240742828</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
       <option name="project" value="LOCAL" />
-      <updated>1689560940370</updated>
+      <updated>1692240742828</updated>
     </task>
-    <task id="LOCAL-00016" summary="6. 뒤집은 소수 알고리즘 풀이 추가">
-      <created>1689566603942</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
+    <task id="LOCAL-00067" summary="11. Tree 가장 짧은경로 BFS 알고리즘 풀이 추가">
+      <created>1692240987428</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
       <option name="project" value="LOCAL" />
-      <updated>1689566603942</updated>
+      <updated>1692240987428</updated>
     </task>
-    <task id="LOCAL-00017" summary="7. 점수계산 알고리즘 풀이 추가">
-      <created>1689567601961</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
+    <task id="LOCAL-00068" summary="이미지 경로 수정">
+      <created>1692241049290</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1689567601961</updated>
+      <updated>1692241049290</updated>
     </task>
-    <task id="LOCAL-00018" summary="8. 등수구하기 알고리즘 풀이 추가">
-      <created>1689570809783</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
+    <task id="LOCAL-00069" summary="12. 경로탐색(DFS) 알고리즘 풀이 추가">
+      <created>1692255060470</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1689570809783</updated>
+      <updated>1692255060470</updated>
     </task>
-    <task id="LOCAL-00019" summary="문제정리 추가">
-      <created>1689672131027</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
+    <task id="LOCAL-00070" summary="13. 경로탐색(ArrayList) 알고리즘 풀이 추가">
+      <created>1692337574018</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1689672131027</updated>
+      <updated>1692337574018</updated>
     </task>
-    <task id="LOCAL-00020" summary="10. 봉우리 알고리즘 풀이 추가">
-      <created>1689734951587</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
+    <task id="LOCAL-00071" summary="14. 그래프 최단거리(BFS) 알고리즘 풀이 추가">
+      <created>1692580867906</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1689734951587</updated>
+      <updated>1692580867907</updated>
     </task>
-    <task id="LOCAL-00021" summary="11. 임시반장 정하기 알고리즘 풀이 추">
-      <created>1689747086617</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
+    <task id="LOCAL-00072" summary="1. 합이 같은 부분집합 알고리즘 풀이 추가">
+      <created>1692583342457</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1689747086617</updated>
+      <updated>1692583342457</updated>
     </task>
-    <task id="LOCAL-00022" summary="12. 멘토링 알고리즘 풀이 추가">
-      <created>1689752083648</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
+    <task id="LOCAL-00073" summary="2. 바둑이 승차(DFS) 알고리즘 풀이 추가">
+      <created>1692584332236</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1689752083648</updated>
+      <updated>1692584332236</updated>
     </task>
-    <task id="LOCAL-00023" summary="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가">
-      <created>1689819025992</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
+    <task id="LOCAL-00074" summary="3. 최대점수 구하기(DFS) 알고리즘 풀이 추가">
+      <created>1692591642830</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1689819025992</updated>
+      <updated>1692591642830</updated>
     </task>
-    <task id="LOCAL-00024" summary="2. 공통원소구하기 알고리즘 풀이 추가">
-      <created>1689837072066</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
+    <task id="LOCAL-00075" summary="중복순열, 동전교환 알고리즘 풀이 추가">
+      <created>1692598110053</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
       <option name="project" value="LOCAL" />
-      <updated>1689837072066</updated>
+      <updated>1692598110053</updated>
     </task>
-    <task id="LOCAL-00025" summary="3. 최대 매출 알고리즘 풀이 추가">
-      <created>1689839459007</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
+    <task id="LOCAL-00076" summary="6. 순열구하기(DFS) 알고리즘 풀이 추가">
+      <created>1692678268012</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
       <option name="project" value="LOCAL" />
-      <updated>1689839459007</updated>
+      <updated>1692678268012</updated>
     </task>
-    <task id="LOCAL-00026" summary="4. 연속 부분수열 알고리즘 풀이 추가">
-      <created>1689907899370</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
+    <task id="LOCAL-00077" summary="7. 조합수(메모이제이션) 알고리즘 풀이 추가">
+      <created>1692764831101</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1689907899370</updated>
+      <updated>1692764831101</updated>
     </task>
-    <task id="LOCAL-00027" summary="5. 연속된 자연수의 합 알고리즘 풀이 추가">
-      <created>1689908983927</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
+    <task id="LOCAL-00078" summary="7. 조합수(메모이제이션) 문제분석 추가">
+      <created>1692766555791</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1689908983927</updated>
+      <updated>1692766555791</updated>
     </task>
-    <task id="LOCAL-00028" summary="6. 최대 길이 연속부분수열 알고리즘 풀이 추가">
-      <created>1689920576077</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
+    <task id="LOCAL-00079" summary="8. 수열 추측하기 알고리즘 풀이 추가">
+      <created>1692841862195</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
       <option name="project" value="LOCAL" />
-      <updated>1689920576077</updated>
+      <updated>1692841862196</updated>
     </task>
-    <task id="LOCAL-00029" summary="1. 학급 회장(해쉬) 알고리즘 풀이 추가">
-      <created>1689925701052</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
+    <task id="LOCAL-00080" summary="9. 조합 구하기 알고리즘 풀이 추가">
+      <created>1692855678314</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1689925701052</updated>
+      <updated>1692855678314</updated>
     </task>
-    <task id="LOCAL-00030" summary="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가">
-      <created>1690003254020</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
+    <task id="LOCAL-00081" summary="10. 미로탐색(DFS) 알고리즘 풀이 추가">
+      <created>1692858443037</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1690003254020</updated>
+      <updated>1692858443037</updated>
     </task>
-    <task id="LOCAL-00031" summary="5. K번째 큰 수(TreeSet) 풀이 추가">
-      <created>1690012600906</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
+    <task id="LOCAL-00082" summary="10. 미로탐색(BFS) 알고리즘 풀이 추가">
+      <created>1692861107338</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1690012600906</updated>
+      <updated>1692861107338</updated>
     </task>
-    <task id="LOCAL-00032" summary="2. 아나그램(해쉬) 복습 풀이 추가">
-      <created>1690171200213</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
+    <task id="LOCAL-00083" summary="12. 토마토(BFS) 알고리즘 풀이 추가">
+      <created>1693185128715</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
       <option name="project" value="LOCAL" />
-      <updated>1690171200213</updated>
+      <updated>1693185128716</updated>
     </task>
-    <task id="LOCAL-00033" summary="4. 모든 아나그램 찾기 복습 풀이 추가">
-      <created>1690171814651</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
+    <task id="LOCAL-00084" summary="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가">
+      <created>1693185182500</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1690171814651</updated>
+      <updated>1693185182501</updated>
     </task>
-    <task id="LOCAL-00034" summary="1. 올바른 괄호 알고리즘 풀이 추가">
-      <created>1690360432504</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
+    <task id="LOCAL-00085" summary="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가">
+      <created>1693186411877</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
       <option name="project" value="LOCAL" />
-      <updated>1690360432504</updated>
+      <updated>1693186411877</updated>
     </task>
-    <task id="LOCAL-00035" summary="2. 괄호문자제거 알고리즘 풀이 추가">
-      <created>1690431222181</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
+    <task id="LOCAL-00086" summary="15. 피자배달거리(DFS) 알고리즘 풀이 추가">
+      <created>1693187714321</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1690431222181</updated>
+      <updated>1693187714322</updated>
     </task>
-    <task id="LOCAL-00036" summary="4. 후위식 연산(postfix) 알고리즘 풀이 추가">
-      <created>1690534335740</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
+    <task id="LOCAL-00087" summary="1. 씨름선수 알고리즘 풀이 추가">
+      <created>1693275620676</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1690534335740</updated>
+      <updated>1693275620677</updated>
     </task>
-    <task id="LOCAL-00037" summary="5. 쇠막대기 알고리즘 풀이 추가">
-      <created>1690536592660</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
+    <task id="LOCAL-00088" summary="2. 회의실 배정 알고리즘 풀이 추가">
+      <created>1693277059674</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1690536592660</updated>
+      <updated>1693277059674</updated>
     </task>
-    <task id="LOCAL-00038" summary="6. 공주 구하기 알고리즘 풀이 추가">
-      <created>1690623442649</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
+    <task id="LOCAL-00089" summary="3. 결혼식 알고리즘 풀이 추가">
+      <created>1693358053360</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1690623442649</updated>
+      <updated>1693358053360</updated>
     </task>
-    <task id="LOCAL-00039" summary="자료구조 Queue 정리 추가">
-      <created>1690623475357</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
+    <task id="LOCAL-00090" summary="4. 최대 수입 스케쥴(PriorityQueue)  알고리즘 풀이 추가">
+      <created>1693360890053</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1690623475357</updated>
+      <updated>1693360890054</updated>
     </task>
-    <task id="LOCAL-00040" summary="7. 교육과정설계 알고리즘 풀이 추가">
-      <created>1690625683991</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
+    <task id="LOCAL-00091" summary="5. 다익스트라  알고리즘 풀이 추가">
+      <created>1693377324584</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
       <option name="project" value="LOCAL" />
-      <updated>1690625683991</updated>
+      <updated>1693377324584</updated>
     </task>
-    <task id="LOCAL-00041" summary="소스 리베이스 커밋">
-      <created>1691202264510</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
+    <task id="LOCAL-00092" summary="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가">
+      <created>1693457177887</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
       <option name="project" value="LOCAL" />
-      <updated>1691202264510</updated>
+      <updated>1693457177887</updated>
     </task>
-    <task id="LOCAL-00042" summary="선택정렬 정리 추가">
-      <created>1691204060523</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
+    <task id="LOCAL-00093" summary="7. 원더랜드(최소 스패닝 트리 - 크루스칼 : Uion&amp;Find 이용) 알고리즘 풀이 추가">
+      <created>1693460474612</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
       <option name="project" value="LOCAL" />
-      <updated>1691204060523</updated>
+      <updated>1693460474612</updated>
     </task>
-    <task id="LOCAL-00043" summary="1. 선택 정렬 알고리즘 풀이 추가">
-      <created>1691206600962</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
+    <task id="LOCAL-00094" summary="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가">
+      <created>1693531451434</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
       <option name="project" value="LOCAL" />
-      <updated>1691206600962</updated>
+      <updated>1693531451434</updated>
     </task>
-    <task id="LOCAL-00044" summary="버블정렬 정리 추가">
-      <created>1691210715873</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
+    <task id="LOCAL-00095" summary="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가">
+      <created>1693542177346</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
       <option name="project" value="LOCAL" />
-      <updated>1691210715873</updated>
+      <updated>1693542177346</updated>
     </task>
-    <task id="LOCAL-00045" summary="2. 버블 정렬 알고리즘 풀이 추가">
-      <created>1691213451171</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
+    <task id="LOCAL-00096" summary="3. 최대 부분 증가 수열 알고리즘 풀이 추가">
+      <created>1693549892142</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
       <option name="project" value="LOCAL" />
-      <updated>1691213451171</updated>
+      <updated>1693549892142</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00097" summary="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가">
+      <created>1693638942234</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1693638942235</updated>
+    </task>
+    <task id="LOCAL-00098" summary="5. 동전교환(냅색 알고리즘) 알고리즘 풀이 추가">
+      <created>1693700815743</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1693700815743</updated>
+    </task>
+    <task id="LOCAL-00099" summary="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가">
+      <created>1693884040735</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1693884040735</updated>
+    </task>
+    <task id="LOCAL-00100" summary="오타 수정 추가">
+      <created>1693998785417</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1693998785418</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11. 임시반장 정하기 알고리즘 풀이 추" />
-    <MESSAGE value="12. 멘토링 알고리즘 풀이 추가" />
-    <MESSAGE value="1. 두 배열 합치기(two pointers algorithm) 알고리즘 풀이 추가" />
-    <MESSAGE value="2. 공통원소구하기 알고리즘 풀이 추가" />
-    <MESSAGE value="3. 최대 매출 알고리즘 풀이 추가" />
-    <MESSAGE value="4. 연속 부분수열 알고리즘 풀이 추가" />
-    <MESSAGE value="5. 연속된 자연수의 합 알고리즘 풀이 추가" />
-    <MESSAGE value="6. 최대 길이 연속부분수열 알고리즘 풀이 추가" />
-    <MESSAGE value="1. 학급 회장(해쉬) 알고리즘 풀이 추가" />
-    <MESSAGE value="2. 아나그램(해쉬), 4. 모든 아나그램 찾기 풀이 추가" />
-    <MESSAGE value="5. K번째 큰 수(TreeSet) 풀이 추가" />
-    <MESSAGE value="2. 아나그램(해쉬) 복습 풀이 추가" />
-    <MESSAGE value="4. 모든 아나그램 찾기 복습 풀이 추가" />
-    <MESSAGE value="1. 올바른 괄호 알고리즘 풀이 추가" />
-    <MESSAGE value="2. 괄호문자제거 알고리즘 풀이 추가" />
-    <MESSAGE value="4. 후위식 연산(postfix) 알고리즘 풀이 추가" />
-    <MESSAGE value="5. 쇠막대기 알고리즘 풀이 추가" />
-    <MESSAGE value="6. 공주 구하기 알고리즘 풀이 추가" />
-    <MESSAGE value="자료구조 Queue 정리 추가" />
-    <MESSAGE value="7. 교육과정설계 알고리즘 풀이 추가" />
-    <MESSAGE value="소스 리베이스 커밋" />
-    <MESSAGE value="선택정렬 정리 추가" />
-    <MESSAGE value="1. 선택 정렬 알고리즘 풀이 추가" />
-    <MESSAGE value="버블정렬 정리 추가" />
-    <MESSAGE value="2. 버블 정렬 알고리즘 풀이 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="2. 버블 정렬 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 순열구하기(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="7. 조합수(메모이제이션) 알고리즘 풀이 추가" />
+    <MESSAGE value="7. 조합수(메모이제이션) 문제분석 추가" />
+    <MESSAGE value="8. 수열 추측하기 알고리즘 풀이 추가" />
+    <MESSAGE value="9. 조합 구하기 알고리즘 풀이 추가" />
+    <MESSAGE value="10. 미로탐색(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="12. 토마토(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="15. 피자배달거리(DFS) 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 씨름선수 알고리즘 풀이 추가" />
+    <MESSAGE value="2. 회의실 배정 알고리즘 풀이 추가" />
+    <MESSAGE value="3. 결혼식 알고리즘 풀이 추가" />
+    <MESSAGE value="4. 최대 수입 스케쥴(PriorityQueue)  알고리즘 풀이 추가" />
+    <MESSAGE value="5. 다익스트라  알고리즘 풀이 추가" />
+    <MESSAGE value="6. 친구인가(Union&amp;Find) 알고리즘 풀이 추가" />
+    <MESSAGE value="7. 원더랜드(최소 스패닝 트리 - 크루스칼 : Uion&amp;Find 이용) 알고리즘 풀이 추가" />
+    <MESSAGE value="8. 원더랜드(최소 스패닝 트리 - 프림 : PriorityQueue 활용) 알고리즘 풀이 추가" />
+    <MESSAGE value="1. 계단오르기, 2. 돌다리 건너기 알고리즘 풀이 추가" />
+    <MESSAGE value="3. 최대 부분 증가 수열 알고리즘 풀이 추가" />
+    <MESSAGE value="4. 가장 높은 탑 쌓기(LIS 응용) 알고리즘 풀이 추가" />
+    <MESSAGE value="5. 동전교환(냅색 알고리즘) 알고리즘 풀이 추가" />
+    <MESSAGE value="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가" />
+    <MESSAGE value="오타 수정 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="오타 수정 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

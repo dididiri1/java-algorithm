@@ -59,7 +59,7 @@ queue.offer(2);
 - 첫번째 값 제거
 #### 3. clear()
 - 초기화
-```
+``` java
 Queue<Integer> queue = new LinkedList<>();
 
 queue.poll(); 
@@ -71,7 +71,7 @@ queue.clear();
 #### 1. peek()
 - 첫번째 값 반환 비어있으면 null 반환
 - 비어있을 경우 null 반환
-```
+``` java
 Queue<Integer> queue = new LinkedList<>();
 queue.peek(); 
 ```
@@ -161,7 +161,7 @@ EFLM
 ```
 
 ### 풀이
-```
+``` java
 import java.util.*;
 
 public class Main {
@@ -272,7 +272,7 @@ moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크�
 ```
 
 ## 풀이 
-```
+``` java
 import java.util.*;
 
 public class Ex03 {
@@ -530,7 +530,7 @@ N과 K가 주어질 때 공주를 구하러 갈 왕자의 번호를 출력하는
 ```
 
 ### 풀이
-```
+``` java
 import java.util.*;
 
 public class Main {
@@ -611,7 +611,7 @@ YES
 ```
 
 ### 풀이 1
-```
+``` java
 import java.util.*;
 
 public class Main {
@@ -648,7 +648,7 @@ public class Main {
 ```
 
 ### 풀이 2
-```
+``` java
 import java.util.*;
 
 public class Main {
@@ -740,7 +740,7 @@ M번째 환자의 몇 번째로 진료받는지 출력하세요.
 ```
 
 ### 풀이
-```
+``` java
 import java.util.*;
 
 class Person {

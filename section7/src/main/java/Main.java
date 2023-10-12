@@ -1,30 +1,52 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
-/**
- *  자동완성 끄는법
- *  Settings -> Editor -> code completion -> show suggestions as you type 체크 해제
- */
 public class Main {
 
-    public int solution(String str, char c) {
-        int answer = 0;
+    static int n, m, answer = 0;
+    static ArrayList<ArrayList<Integer>> graph;
+    static int[] ch, dis;
 
-        str = str.toLowerCase();
-        c = Character.toLowerCase(c);
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == c) {
-                answer ++;
+    public void BFS(int v) {
+        Queue<Integer> queue = new LinkedList<>();
+        ch[v] = 1;
+        dis[v] = 0;
+        queue.offer(v);
+        while (!queue.isEmpty()) {
+            int cv = queue.poll();
+            for (int nv : graph.get(cv)) {
+                if(ch[nv] == 0) {
+                    ch[nv] = 1;
+                    queue.offer(nv);
+                    dis[nv] = dis[cv] +1;
+                }
             }
         }
-
-        return answer;
     }
 
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String str = kb.next();
-        char c = kb.next().charAt(0);
-        System.out.print(T.solution(str, c));
+        n = kb.nextInt();
+        m = kb.nextInt();
+        graph = new ArrayList<ArrayList<Integer>>();
+        for (int i = 0; i <= n; i++) {
+            graph.add(new ArrayList<Integer>());
+        }
+
+        ch = new int[n+1];
+        dis = new int[n+1];
+        for (int i = 0; i < m; i++) {
+            int a = kb.nextInt();
+            int b= kb.nextInt();;
+            graph.get(a).add(b);
+        }
+        ch[1] = 1;
+        T.BFS(1);
+        for (int i = 2; i <= n; i++) {
+            System.out.println(i+" : "+dis[i]);
+        }
     }
 }

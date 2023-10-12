@@ -1,4 +1,3 @@
-
 # Two pointers, Sliding window
 
 ## 1. 두 배열 합치기(Two pointers)
@@ -225,7 +224,7 @@ class Main {
 
 
 ## 풀이 1 
-```
+``` java
 import java.util.Scanner;
 
 class Main {
@@ -262,7 +261,7 @@ class Main {
 ```
 
 ## 풀이 2
-```
+``` java
 import java.util.Scanner;
 
 class Main {
