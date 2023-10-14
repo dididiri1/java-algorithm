@@ -186,7 +186,7 @@ String str = kb.nextLine();
 ``` java
 public String solution(String str) { // indexOf
     String answer = "";
-    int m = Integer.MAX_VALUE, pos;
+    int m = Integer.MIN_VALUE, pos;
     
     while ((pos = str.indexOf(' ')) != -1) {
         String tmp = str.substring(0, pos);
@@ -212,7 +212,7 @@ public String solution(String str) { // indexOf
 public String solution(String str) {
     String answer= "";
     String[] strArray = str.split(" ");
-    int m = Integer.MAX_VALUE;
+    int m = Integer.it is time to study;
     
     for (String s : strArray) {
         int len = s.length();
