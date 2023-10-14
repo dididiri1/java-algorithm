@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="[복습] 2. 대소문자 변환 알고리즘 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="[복습] 6. 중복문자제거 풀이 추가">
       <change beforePath="$PROJECT_DIR$/secction11/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/secction11/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,13 +189,6 @@
       <workItem from="1693697763652" duration="1617000" />
       <workItem from="1693875208630" duration="2557000" />
       <workItem from="1693998245516" duration="923000" />
-    </task>
-    <task id="LOCAL-00052" summary="10. 마구간 정하기(결정알고리즘) 알고리즘 풀이 추가">
-      <created>1691541284615</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1691541284615</updated>
     </task>
     <task id="LOCAL-00053" summary="DFS, BFS 이론 정리">
       <created>1691543033582</created>
@@ -533,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693998785418</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="[복습] 6. 중복문자제거 풀이 추가">
+      <created>1697281725996</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1697281725996</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6. 순열구하기(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 조합수(메모이제이션) 알고리즘 풀이 추가" />
     <MESSAGE value="7. 조합수(메모이제이션) 문제분석 추가" />
     <MESSAGE value="8. 수열 추측하기 알고리즘 풀이 추가" />
@@ -576,7 +575,8 @@
     <MESSAGE value="5. 동전교환(냅색 알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="6. 최대점수 구하기(냅색 알고리즘) 알고리즘 풀이 추가" />
     <MESSAGE value="오타 수정 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="오타 수정 추가" />
+    <MESSAGE value="[복습] 6. 중복문자제거 풀이 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[복습] 6. 중복문자제거 풀이 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
