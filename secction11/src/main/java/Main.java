@@ -2,24 +2,22 @@ import java.util.Scanner;
 
 public class Main {
 
-    public String solution(String str) {
+    public int solution(String str) {
+
         String answer = "";
-
-        String tmp = new StringBuilder(str).reverse().toString();
-
-        if (str.equalsIgnoreCase(tmp)) {
-            answer = "YES";
-        } else {
-            answer = "NO";
+        for (int i = 0; i < str.length(); i++) {
+            if (Character.isDigit(str.charAt(i))) {
+                answer += str.charAt(i);
+            }
         }
 
-        return answer;
+        return Integer.valueOf(answer);
     }
 
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String str = kb.next();
+        String str = kb.nextLine();
         System.out.println(T.solution(str));
     }
 }
