@@ -2,22 +2,28 @@ import java.util.Scanner;
 
 public class Main {
 
-    public int solution(String str) {
+    public String solution(int n, String s) {
 
         String answer = "";
-        for (int i = 0; i < str.length(); i++) {
-            if (Character.isDigit(str.charAt(i))) {
-                answer += str.charAt(i);
-            }
+
+        for (int i = 0; i < n; i++) {
+            String tmp = s.substring(0, 7).replace('#', '1').replace('*', '0');
+            int num = Integer.parseInt(tmp, 2);
+            char c = (char) num;
+            answer += c;
+            s = s.substring(7);
         }
 
-        return Integer.valueOf(answer);
+
+        return answer;
+
     }
 
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String str = kb.nextLine();
-        System.out.println(T.solution(str));
+        int n = kb.nextInt();
+        String str = kb.next();
+        System.out.println(T.solution(n, str));
     }
 }
