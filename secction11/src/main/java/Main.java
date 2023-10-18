@@ -21,6 +21,7 @@ public class Main {
                 lt ++;
                 rt --;
             }
+
         }
 
         answer = String.valueOf(s);
