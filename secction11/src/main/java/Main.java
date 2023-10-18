@@ -1,20 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
     public String solution(String str) {
         String answer = "";
-        String[] strArray = str.split(" ");
-        int m = Integer.MIN_VALUE;
+        char[] s = str.toCharArray();
+        int lt = 0, rt = str.length()-1;
 
-        for(String s : strArray) {
-            int len = s.length();
-            if (m < len) {
-                m = len;
-                answer = s;
+        while (lt < rt) {
+            if (!Character.isAlphabetic(s[lt])) {
+                lt ++;
+            } else if(!Character.isAlphabetic(s[rt])) {
+                rt --;
+            } else {
+                char tmp = s[lt];
+                s[lt] = s[rt];
+                s[rt] = tmp;
+                lt ++;
+                rt --;
             }
         }
 
+        answer = String.valueOf(s);
 
         return answer;
     }
@@ -22,7 +31,8 @@ public class Main {
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
-        String str = kb.nextLine();
-        System.out.println(T.solution(str));
+        String str = kb.next();
+        System.out.print(T.solution(str));
+
     }
 }
