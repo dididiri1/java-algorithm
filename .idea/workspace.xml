@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="commit">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="4. 피보나치 수열 복습 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secction11/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/secction11/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -190,14 +190,7 @@
       <workItem from="1693697763652" duration="1617000" />
       <workItem from="1693875208630" duration="2557000" />
       <workItem from="1693998245516" duration="923000" />
-      <workItem from="1697625980461" duration="4669000" />
-    </task>
-    <task id="LOCAL-00058" summary="5. 이진트리순회(DFS, 재귀) 알고리즘 풀이 추가">
-      <created>1691726633786</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1691726633786</updated>
+      <workItem from="1697625980461" duration="5860000" />
     </task>
     <task id="LOCAL-00059" summary="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
       <created>1691735448721</created>
@@ -535,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697626009802</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="4. 피보나치 수열 복습 추가">
+      <created>1697799233908</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1697799233908</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. 미로탐색(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="12. 토마토(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
@@ -578,7 +577,8 @@
     <MESSAGE value="[복습] 3. 문장속 단어 알고리즘 추가" />
     <MESSAGE value="ㅊ" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="4. 피보나치 수열 복습 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. 피보나치 수열 복습 추가" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
