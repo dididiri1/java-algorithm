@@ -1,29 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
 
-    public String solution(int n, String s) {
-
-        String answer = "";
-
-        for (int i = 0; i < n; i++) {
-            String tmp = s.substring(0, 7).replace('#', '1').replace('*', '0');
-            int num = Integer.parseInt(tmp, 2);
-            char c = (char) num;
-            answer += c;
-            s = s.substring(7);
+    public int[] solution(int n) {
+        int[] answer = new int[n];
+        answer[0] = 1;
+        answer[1] = 1;
+        for(int i = 2; i < n; i ++) {
+            answer[i] = answer[i-1] + answer[i-2];
         }
 
-
         return answer;
-
     }
 
     public static void main(String[] args) {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
-        String str = kb.next();
-        System.out.println(T.solution(n, str));
+        for(Integer x : T.solution(n)) {
+            System.out.print(x+ " ");
+        }
     }
 }
