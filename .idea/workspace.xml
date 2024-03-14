@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="4. 피보나치 수열 복습 추가">
+    <list default="true" id="bc3a00cf-685a-4963-98b8-71f0ad1058ca" name="Changes" comment="5. 소수(에라토스테네스 체) #2 복습">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/secction11/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/secction11/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -190,14 +190,10 @@
       <workItem from="1693697763652" duration="1617000" />
       <workItem from="1693875208630" duration="2557000" />
       <workItem from="1693998245516" duration="923000" />
-      <workItem from="1697625980461" duration="5860000" />
-    </task>
-    <task id="LOCAL-00059" summary="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
-      <created>1691735448721</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1691735448722</updated>
+      <workItem from="1697625980461" duration="7525000" />
+      <workItem from="1697889244230" duration="15000" />
+      <workItem from="1698489171767" duration="5000" />
+      <workItem from="1710294446404" duration="606000" />
     </task>
     <task id="LOCAL-00060" summary="6. 부분집합 구하기(DFS) 알고리즘 풀이 추가">
       <created>1692150799458</created>
@@ -535,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697799233908</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="5. 소수(에라토스테네스 체) #1 복습">
+      <created>1697800428396</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1697800428396</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +556,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="10. 미로탐색(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="12. 토마토(BFS) 알고리즘 풀이 추가" />
     <MESSAGE value="13. 섬나라 아일랜드(DFS) 알고리즘 풀이 추가" />
     <MESSAGE value="14. 섬나라 아일랜드(BFS) 알고리즘 풀이 추가" />
@@ -578,7 +580,8 @@
     <MESSAGE value="ㅊ" />
     <MESSAGE value="commit" />
     <MESSAGE value="4. 피보나치 수열 복습 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. 피보나치 수열 복습 추가" />
+    <MESSAGE value="5. 소수(에라토스테네스 체) #1 복습" />
+    <option name="LAST_COMMIT_MESSAGE" value="5. 소수(에라토스테네스 체) #1 복습" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
