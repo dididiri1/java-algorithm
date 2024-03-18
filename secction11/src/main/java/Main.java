@@ -4,12 +4,17 @@ import java.util.Scanner;
 
 public class Main {
 
-    public int[] solution(int n) {
-        int[] answer = new int[n];
-        answer[0] = 1;
-        answer[1] = 1;
-        for(int i = 2; i < n; i ++) {
-            answer[i] = answer[i-1] + answer[i-2];
+    public int solution(int n) {
+        int answer = 0;
+        int[] ch = new int[n+1];
+
+        for(int i = 2; i < n; i++) {
+            if (ch[i] == 0) {
+                answer ++;
+                for (int j = i; j < n; j = j + i) {
+                    ch[j] = 1;
+                }
+            }
         }
 
         return answer;
@@ -19,8 +24,6 @@ public class Main {
         Main T = new Main();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
-        for(Integer x : T.solution(n)) {
-            System.out.print(x+ " ");
-        }
+        System.out.print(T.solution(n));
     }
 }
