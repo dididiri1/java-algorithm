@@ -61,7 +61,7 @@ public class Main {
                     idx = j;
                 }
             }
-           int tmp = arr[i];
+            int tmp = arr[i];
             arr[i] = arr[idx];
             arr[idx] = tmp;
         }
@@ -252,7 +252,81 @@ public class Main {
 
     }
 }
+```
+
+## 삽입 정렬
+- 삽입정렬은 이미 정렬된 데이터 범위에 정렬되지 않은 데이터를 적절한 위치에 삽입시켜 정렬하는 방식이다.
+- 평균 시간복잡도는 O(n^2)으로 느리지만, 구현하기 쉽다.
+
+### 예제
+![](https://github.com/dididiri1/java-algorithm/blob/main/study/images/06_06.png?raw=true)
+
+
+
+## 3. 삽입 정렬
+### 설명
+N개이 숫자가 입력되면 오름차순으로 정렬하여 출력하는 프로그램을 작성하세요.
+
+정렬하는 방법은 삽입정렬입니다.
+
+
+### 입력
+첫 번째 줄에 자연수 N(1<=N<=100)이 주어집니다.
+
+두 번째 줄에 N개의 자연수가 공백을 사이에 두고 입력됩니다. 각 자연수는 정수형 범위 안에 있습니다.
+
+
+### 출력
+오름차순으로 정렬된 수열을 출력합니다.
+
+### 예시 입력 1
+```
+6
+11 7 5 6 10 9
+```
+### 예시 출력 1
+```
+5 6 7 9 10 11
 ``` 
+
+### 풀이
+``` java
+import java.util.*;
+
+public class Main {
+
+    public int[] solution(int n, int[] arr) {
+        for(int i = 0; i < n; i++) {
+            int tmp = arr[i], j;
+            for(j = i-1; j >= 0; j--) {
+                if (arr[j] > tmp) {
+                    arr[j+1] = arr[j];
+                } else {
+                    break;
+                }
+            }
+            arr[j+1] = tmp;
+        }
+
+        return arr;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        for(int x : T.solution(n, arr)) {
+            System.out.println(x);
+        }
+    }
+}
+``` 
+
 
 ## 4. LRU(Least Recently Used)
 ### 설명
@@ -294,8 +368,7 @@ LRU 알고리즘은 Least Recently Used 의 약자로 직역하자면 가장 최
 7 5 3 2 6
 ``` 
 
-###
-
+### 풀이
 ``` java
 import java.util.*;
 
@@ -374,7 +447,7 @@ N명이 모두 각자 다른 숫자를 적어냈다면 U(unique)를 출력하는
 D
 ``` 
 
-### 풀이
+### 풀이 1 (Array)
 ``` java
 import java.util.*;
 
@@ -386,6 +459,71 @@ public class Main {
         for (int i = 0; i < n-1; i++) {
             if (arr[i] == arr[i+1]) {
                 return  "D";
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        System.out.println(T.solution(n, arr));
+    }
+}
+``` 
+
+### 풀이 2 (Stack)
+``` java
+public class Main {
+
+    public String solution(int n, int[] arr) {
+        String answer = "U";
+        Stack<Integer> stack = new Stack<>();
+
+        for (int x : arr) {
+            if (stack.contains(x)) {
+                return "D";
+            } else {
+                stack.push(x);
+            }
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        Main T = new Main();
+        Scanner kb = new Scanner(System.in);
+        int n = kb.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = kb.nextInt();
+        }
+
+        System.out.println(T.solution(n, arr));
+    }
+}
+``` 
+
+### 풀이 3 (HashMap)
+``` java
+public class Main {
+
+    public String solution(int n, int[] arr) {
+        String answer = "U";
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for(int x : arr) {
+            map.put(x, map.getOrDefault(x, 0)+1);
+            if (map.get(x) > 1) {
+                return "D";
             }
         }
 

@@ -551,7 +551,7 @@ public class Main {
             queue.poll();
             
             if (queue.size() == 1) {
-                answer = queue.peek();
+                answer = queue.pop();
             }
         }
 

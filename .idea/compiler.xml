@@ -13,14 +13,15 @@
         <module name="section9" />
         <module name="section1" />
         <module name="section2" />
+        <module name="section01" />
         <module name="section3" />
-        <module name="secction11" />
         <module name="section4" />
         <module name="section10" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ex01" target="11" />
+      <module name="secction11" target="11" />
       <module name="secion4" target="11" />
       <module name="section2_array" target="11" />
     </bytecodeTargetLevel>
