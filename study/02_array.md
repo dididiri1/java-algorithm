@@ -635,6 +635,50 @@ N명의 학생의 국어점수가 입력되면 각 학생의 등수를 입력된
 ```
 4 3 2 1 5
 ```
+
+### 오름차순 정렬
+- Arrays.sort()
+``` java
+int[] arr = {87 89 92 100 76};
+Arrays.sort(arr);
+
+```
+```
+[76, 87, 89, 92, 100]
+```
+- Collections.sort(List<T> list)
+``` java
+int[] arr = {87, 89, 92, 100, 76};
+
+List<Integer> sortedArr = Arrays.stream(arr).boxed().collect(Collectors.toList());
+Collections.sort(sortedArr);
+
+```
+```
+[76, 87, 89, 92, 100]
+```
+
+### 내림차순 정렬
+- Arrays.sort(T[] a, Comparator<? super T> c)
+``` java
+int[] arr = {87, 89, 92, 100, 76};
+
+Integer[] sortedArr = Arrays.stream(arr).boxed().toArray(Integer[]::new);
+Arrays.sort(sortedArr, Comparator.reverseOrder());
+```
+```
+[100, 92, 89, 87, 76]
+```
+- Collections.sort(List<T> list, Comparator<? super T> C)
+``` java
+int[] arr = {87, 89, 92, 100, 76};
+
+List<Integer> sortedArr = Arrays.stream(arr).boxed().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+```
+```
+[100, 92, 89, 87, 76]
+```
+
 ### 풀이
 ```java
 import java.util.Scanner;
