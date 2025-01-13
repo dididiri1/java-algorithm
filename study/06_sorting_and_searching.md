@@ -916,9 +916,12 @@ public class Main {
 
     // mid의 값이 말 사이의 거리의 최솟값일때 배치 가능한 말의 수
     public int count(int[] arr, int dist) {
-        int cnt = 1;
-        int ep = arr[0];
+        int cnt = 1;  // 현재 배치된 말의 수
+        int ep = arr[0]; // 가장 최근에 배치된 말의 위치
+
+        // 좌표마다 말이 배치 가능한지 검사
         for (int i = 1; i < arr.length; i++) {
+            // mid값보다 먼 거리에 배치되어있다면 배치하고 카운트 해준 후 최근 값 변경
             if (arr[i] - ep >= dist) {
                 cnt++;
                 ep = arr[i];
