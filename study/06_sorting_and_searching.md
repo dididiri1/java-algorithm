@@ -914,6 +914,7 @@ import java.util.*;
 
 public class Main {
 
+    // mid의 값이 말 사이의 거리의 최솟값일때 배치 가능한 말의 수
     public int count(int[] arr, int dist) {
         int cnt = 1;
         int ep = arr[0];
@@ -927,18 +928,25 @@ public class Main {
         return cnt;
     }
 
+    // 해결방법
+    // 결정 트리 알고리즘
+    // 마굿간의 좌표를 오름차순 정렬 후 가능한 거리의 최소값과 최대값을 설정
+    // 최소값과 최대값의 가운데 값이 말 사이의 거리의 가장 작은 값으로 가능한지 확인
+    // 가능하다면 왼쪽을 날려서 더 큰 값을 찾고
+    // 아니라면 오른쪽을 날려서 가능한 더 작은 값을 찾는다
+    // 두 지점이 교차할 때까지 반복
     public int solution(int n, int c, int[] arr) {
         int answer = 0;
-        Arrays.sort(arr);
-        int lt = 1;
+        Arrays.sort(arr);  // 마굿간의 좌표를 정렬
+        int lt = 1;   // 거리의 최소값은 1, 최대값은 가장 마지막 좌표보다 작음
         int rt = arr[n - 1];
         while (lt <= rt) {
             int mid = (lt + rt) / 2;
-            if (count(arr, mid) >= c) {
+            if (count(arr, mid) >= c) {  // 배치가능한 말의 수가 m보다 많다면 mid는 값의 후보가 될 수 있음
                 answer = mid;
-                lt = mid + 1;
+                lt = mid + 1;  // 더 큰 쪽에서도 가능한 값이 있는지 찾아보자
             } else {
-                rt = mid - 1;
+                rt = mid - 1;  // 아니라면 더 작은 쪽에서 값을 찾아보자
             }
         }
         
@@ -957,4 +965,5 @@ public class Main {
         System.out.println(T.solution(n, c, arr));
     }
 }
-```- [인프런 - 자바(Java) 알고리즘](https://inf.run/SgLm1)
+```
+- [인프런 - 자바(Java) 알고리즘](https://inf.run/SgLm1)
